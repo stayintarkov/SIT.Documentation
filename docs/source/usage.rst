@@ -22,7 +22,8 @@ StayInTarkov Coop Mod Install Guide for Host
      Clearing cache/cookies might not always help, but it's a simple step to attempt. Using a proxy can sometimes bypass download restrictions or errors encountered on specific networks.
 
 - `SIT.Aki-Server-Mod <https://github.com/stayintarkov/SIT.Aki-Server-Mod/releases>`_
-- `SIT.Manager <https://github.com/stayintarkov/SIT.Manager/releases/latest/download/SIT.Manager.zip>`_ - Requires `.Net8 <https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer>`
+- `SIT.Manager <https://github.com/stayintarkov/SIT.Manager/releases/latest/download/SIT.Manager.zip>`_ 
+    - `Requires .Net8 <https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer>`_
 
 **Installation Steps**
 ----------------------
