@@ -77,8 +77,8 @@ StayInTarkov Coop Mod Install Guide for Host
 
 
 
+.. _installation:
 
-===========================================
 StayInTarkov Coop Mod Install Guide for Client
 ===========================================
 
