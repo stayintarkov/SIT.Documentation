@@ -58,9 +58,13 @@ StayInTarkov Coop Mod Install Guide for Host
 .. image:: https://i.imgur.com/hG3ie5j.png
 
 6. Extract the `SIT.Server-Aki-Mod` into `server/user/mods/SITCoop`.
+
 .. image:: https://i.imgur.com/qX7f7FT.png
+
 .. image:: https://i.imgur.com/TlKXT1P.png
+
  - Ensure you run `Aki.Server.exe` once to generate configuration files.
+
   .. image:: https://i.imgur.com/ZV0c9l1.png
 
 7. Extract the `SIT.Manager` into the `launcher` folder.
