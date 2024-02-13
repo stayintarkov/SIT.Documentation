@@ -55,6 +55,7 @@ StayInTarkov Coop Mod Install Guide for Host
 .. image:: https://i.imgur.com/N3CQC0P.png
 
 5. Extract the contents of the chosen SPT AKI version into the `server` folder.
+
 .. image:: https://i.imgur.com/hG3ie5j.png
 
 6. Extract the `SIT.Server-Aki-Mod` into `server/user/mods/SITCoop`.
