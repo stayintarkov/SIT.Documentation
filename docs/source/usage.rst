@@ -22,40 +22,59 @@ StayInTarkov Coop Mod Install Guide for Host
      Clearing cache/cookies might not always help, but it's a simple step to attempt. Using a proxy can sometimes bypass download restrictions or errors encountered on specific networks.
 
 - `SPT Aki 3.7.6 <https://pixeldrain.com/u/jCCfDEsi>`_
-- `SIT.Aki-Server-Mod <https://github.com/stayintarkov/SIT.Aki-Server-Mod/releases>`_
+- `SIT.Aki-Server-Mod <https://github.com/stayintarkov/SIT.Aki-Server-Mod/releases>`_ 
+.. image:: https://i.imgur.com/VK7WfMW.png
 - `SIT.Manager <https://github.com/stayintarkov/SIT.Manager/releases/latest/download/SIT.Manager.zip>`_ 
-    - `Requires .Net8 <https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer>`_
+ - SIT.Manager Requires `.Net8 <https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.0-windows-x64-installer>`_
 
 **Installation Steps**
 ----------------------
 
 1. Ensure Escape from Tarkov is up to date.
 
+.. image:: https://i.imgur.com/FPOhqux.png
+   :alt: Game Up To Date
+
 2. Download the three ZIP files listed in the Downloads section above.
 
-3. Create three folders named `SIT-game`, `server`, `launcher`:
+3. Create three folders named `SIT-Game`, `Server`, `Launcher`:
 
    .. code-block:: none
 
       SIT/
-      ├── server/      # SPT-Aki Server Mod
-      ├── SIT-game/    # EFT Client
-      └── launcher/    # SIT Manager or Classic Launcher
+      ├── Server/      # SPT-Aki Server Mod
+      ├── SIT-Game/    # EFT Client
+      └── Launcher/    # SIT Manager or Classic Launcher
+
+.. image:: https://i.imgur.com/a9flE1v.png
+
 
 4. Copy your live Escape from Tarkov files into the `SIT-game` folder. 
 
    - Downgrade EFT to a supported version using patchers available through a provided link.
+.. image:: https://i.imgur.com/N3CQC0P.png
 
 5. Extract the contents of the chosen SPT AKI version into the `server` folder.
 
-6. Extract the `SIT.Server-Aki-Mod` into `server/user/mods/SITCoop`. Ensure you run `Aki.Server.exe` once to generate configuration files.
+.. image:: https://i.imgur.com/hG3ie5j.png
+
+6. Extract the `SIT.Server-Aki-Mod` into `server/user/mods/SITCoop`.
+
+.. image:: https://i.imgur.com/qX7f7FT.png
+
+.. image:: https://i.imgur.com/TlKXT1P.png
+
+ - Ensure you run `Aki.Server.exe` once to generate configuration files.
+
+  .. image:: https://i.imgur.com/ZV0c9l1.png
 
 7. Extract the `SIT.Manager` into the `launcher` folder.
+
 
 8. **Configure IP Settings:**
 
    - Modify `server/Aki_Data/Server/configs/http.json` with your local or VPN (Hamachi/Radmin) IP address.
-   - Adjust `server/user/mods/SITCoop/config/coopConfig.json` to match your external or VPN IP.
+   - Modify `server/user/mods/SITCoop/config/coopConfig.json` to match your external or VPN IP.
 
 9. **Port Forwarding (If Not Using Hamachi/Radmin):**
 
@@ -69,7 +88,9 @@ StayInTarkov Coop Mod Install Guide for Host
 
 12. Install `SIT` from the tools tab, selecting the most recent release.
 
-13. Enter the server IP and connect to begin hosting.
+13. Enter the server IP and connect.
+
+.. image:: https://i.imgur.com/7qmYo3O.png
 
 .. warning::
 
