@@ -7,7 +7,8 @@ Usage
 StayInTarkov Coop Mod Install Guide for Client
 ===========================================
 
-.. note:: If you are running the server for your friends, follow the guide [HERE](https://discord.com/channels/1175114933713776690/1178076298803949588/1178076379171008632). This guide is for clients only. When in doubt, start over or reach out for support [HERE](https://discord.com/channels/1175114933713776690/1175127842737094656).
+.. note:: If you are running the server for your friends, follow the guide `HERE <https://discord.com/channels/1175114933713776690/1178076298803949588/1178076379171008632>`_. This guide is for clients only. When in doubt, start over or reach out for support `HERE <https://discord.com/channels/1175114933713776690/1175127842737094656>`_.
+
 
 **NOTE:** After copying the Escape From Tarkov files, you should **NOT** touch the live version of EFT again.
 
