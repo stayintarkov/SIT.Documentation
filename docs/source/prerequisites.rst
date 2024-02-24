@@ -21,6 +21,7 @@ Create the following folder structure on the drive of your choice, as long as it
    It is recommended to use the following folder structure for a SIT installation. Note that the rest of the documentation will refer to that structure.
 
 .. code-block:: none
+   
    SIT/
    ├── Game/
    ├── Server/
