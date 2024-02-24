@@ -3,6 +3,7 @@ Welcome to Stay In Tarkov!
 
 .. toctree::
 
+   :hidden:
    Home <self>
    install
 
