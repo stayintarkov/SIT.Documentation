@@ -2,7 +2,7 @@ Welcome to Stay In Tarkov!
 ===================================
 
 **Stay In Tarkov (SIT)** is a Escape From Tarkov mod designed for cooperative play (coop with your friends). SIT uses
-modding frameworks such as BepInEx and Single Player Tarkov (SPT) to achieve its goal.
+modding frameworks such as `BepInEx <https://github.com/BepInEx/BepInEx/>`_ and `Single Player Tarkov (SPT-AKI) <https://www.sp-tarkov.com/>`_ to achieve its goal.
 
 Stay In Tarkov is currently under development by a small team of developers. While SIT is playable, there are many bugs, synchronization and performance issues during gameplay.
 Escape From Tarkov and Single Player Tarkov updates frequently and oftentimes, your progress must be reset.
