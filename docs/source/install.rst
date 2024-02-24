@@ -1,6 +1,8 @@
 Installation
 ============
 
+.. _install:
+
 This section is dedicated for a new installation of Stay In Tarkov. If you're looking to update SIT, click here.
 
 Getting started

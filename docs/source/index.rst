@@ -5,7 +5,7 @@ Welcome to Stay In Tarkov!
    :hidden:
    :maxdepth: 2
    Home <self>
-   /install
+   install
    update
    config
    additionalinfos
