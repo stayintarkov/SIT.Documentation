@@ -3,86 +3,78 @@ Configuration
 
 .. _configure:
 
-This section is dedicated to the configuration of Stay In Tarkov. If you haven't installed Stay In Tarkov, click here.
+This section is dedicated to the configuration of Stay In Tarkov. If you haven't installed Stay In Tarkov yet, click here.
 
+Host configuration
+------------------
 
----------------
-Escape From Tarkov requirements
-~~~~~~~~~~~~~~~~~~
+Follow this section if you're planning to be the coop game host (server). At least one person in your group needs to follow
+this process to be able to play coop together. The person with the best computer and network performance should be the
+host for a better experience.
 
-* You need a legally purchased copy of Escape From Tarkov, `obtainable here <https://www.escapefromtarkov.com/preorder-page>`_.
-* You need to install the game using the official game launcher.
-* You need to run the game at least once using the official game launcher.
+You must choose between port forwarding or virtual private network configuration. Port forwarding is the recommended choice.
+
+**You do not need to do both.**
+
+Port forwarding
+~~~~~~~~~~~~~~~
+
+.. note::
+   Port forwarding is the process of opening a port on your external IP address and redirect the traffic to a specific 
+   device. The process is different for all router models. Therefore, we cannot provide a step-by-step tutorial for 
+   port forwarding.
+
+   If you are unsure how to port forward, google "YOUR_ROUTER_MODEL port forward" or contact your Internet Service Provider.
 
 .. warning::
-   * **DON'T** move your original EFT game folder following the installation.
-   * **DON'T** change any of the files in your original EFT game folder.
-   * **DON'T** install SIT in your original EFT game folder. **YOU HAVE BEEN WARNED!**
-   * **ALWAYS** make sure you are able to run the game using the official game launcher before using SIT.
+   Not all Internet Service Provider allows port forwarding. Sometimes port forwarding is blocked at the provider level or
+   at the router level. In any case, the person able to port forward should be the host, provided their computer and network 
+   is capable.
 
-Preparing the folder structure
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   If you are unable to port forward, you can consider using a VPN such as Hamachi, RAdmin or ZeroTier. Click here to see
+   how to configure a VPN with Stay In Tarkov.
 
-Create the following folder structure on the drive of your choice, as long as it has enough space for Escape From Tarkov.
+* Open "SIT/Server/Aki_Data/Server/configs/http.json" with your preferred text text editor.
+* Locate the "ip" parameter. You should see a default value of "127.0.0.1".
+* Change "127.0.0.1" with your local IP address (ex: 192.168.0.23).
+* Save your changes and close the text editor.
 
-.. code-block:: none
+.. note::
+   To find your local IP address:
+
+   * Open the command prompt (press Win key + R and type cmd).
+   * Type "ipconfig" (without quotes) and press enter.
+   * If your computer is connected to your router using an ethernet cable, locate "Ethernet adapter".
+   * If your computer is connected to your router using Wi-Fi, locate "Wireless LAN adapter Wi-Fi".
+   * Locate the "IPv4 address" under the adapter you found: this is your local IP address.
+   * Enter it in http.json.
+
+Virtual Private Network
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. note::
+   Virtual private network such as Hamachi, Radmin or ZeroTier allows to create an internet-based "local" network. All traffic 
+   will be transmitted through the internet and redirected to a virtual network adapter which acts as a local network. This is 
+   useful for those which are unable to port forward. However, performance is not as good as port forwarding because 
+   traffic must go through a third party service.
+
+.. warning::
+   We do not recommend using VPN to play Stay In Tarkov because they are known to have rate limitations and hinder network
+   performance and stability. SIT is not well optimized and transmit a lot of data to synchronize information between players.
    
-   SIT/
-   ├── Game/
-   ├── Server/
-   └── Launcher/
+   **Use at your own risk.**
+
+* Open "SIT/Server/Aki_Data/Server/configs/http.json" with your preferred text text editor.
+* Locate the "ip" parameter. You should see a default value of "127.0.0.1".
+* Change "127.0.0.1" with your VPN IP address (ex: 20.13.50.233).
+* Save your changes and close the text editor.
 
 .. note::
-   It is recommended to use this folder structure for a SIT installation. Note that the rest of the documentation will refer to 
-   that structure.
+   To find your VPN IP address:
 
-Preparing Escape From Tarkov files
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   * Open your VPN application (Hamachi, Radmin, ZeroTier, etc.)
+   * Your VPN IP address is usually displayed in the main window.
+   * If you cannot find it, google "VPN_NAME get my IP".
 
-* Copy your Escape From Tarkov game files to the "/SIT/Game" folder.
-
-.. warning::
-   * Do not create a subfolder in /SIT/Game (ex: /SIT/Game/EFT).
-   * Do not change any of the files in /SIT/Game folder.
-
-Installing SIT.Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager/releases/>`_.
-* Extract SIT.Manager to the "/SIT/Launcher" folder. 
-
-.. warning::
-   * Do not create a subfolder in /SIT/Launcher (ex: /SIT/Launcher/SIT.Manager).
-
-.. note::
-   The SIT.Manager allows you to install and play SIT. It also provides additional tools such as mods management, downgrade patchers, 
-   server management and much more.
-
-Installing Stay In Tarkov
--------------------------
-
-.. warning:: 
-   Before proceeding with the steps below, make sure you have followed every steps in the "Getting started" section "here". We receive
-   a lot of support requests about SIT not working but most of the time, steps are not followed correctly.
-
-   **Make sure to follow every single steps properly and don't try to take shortcuts.**
-
-Installing using SIT.Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Start /SIT/Launcher/SIT.Manager.exe.
-* Go to "Settings" page.
-* Locate the "EFT Path" setting and click the "Change" button.
-* Browse to your "/SIT/Game" folder and click "Select Folder".
-* Locate the "SPT-AKI Path" setting and click the "Change" button.
-* Browse to your "/SIT/Server" folder and click "Select Folder".
-* Go to "Tools" page.
-* Click "Install SIT".
-* Choose the latest release of Stay In Tarkov. It will be the first one in the list.
-
-Installing manually
-~~~~~~~~~~~~~~~~~~~
-
-It is recommended to use SIT.Manager to install Stay In Tarkov. However, if you wish to do it manually, please follow the steps below.
-
-WIP - Come back later.
+General configuration
+---------------------

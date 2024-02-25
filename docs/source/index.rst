@@ -1,13 +1,6 @@
 Welcome to Stay In Tarkov!
 ==========================
 
-.. toctree::
-
-   :hidden:
-   Home <self>
-   install
-   configure
-
 **Stay In Tarkov (SIT)** is a Escape From Tarkov mod designed for cooperative play. SIT uses
 modding frameworks such as `BepInEx <https://github.com/BepInEx/BepInEx/>`_ and 
 `SPT-AKI <https://www.sp-tarkov.com/>`_ to achieve its goal.
@@ -25,3 +18,10 @@ progression issues will occur and there are no way around it.**
    
    Consequently, no efforts are planned to make SIT into a headless dedicated server, and it is highly unlikely that 
    such efforts will ever be made.
+
+.. toctree::
+
+   :hidden:
+   Home <self>
+   install
+   configure
