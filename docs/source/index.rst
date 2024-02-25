@@ -6,6 +6,7 @@ Welcome to Stay In Tarkov!
    :hidden:
    Home <self>
    install
+   configure
 
 **Stay In Tarkov (SIT)** is a Escape From Tarkov mod designed for cooperative play. SIT uses
 modding frameworks such as `BepInEx <https://github.com/BepInEx/BepInEx/>`_ and 
