@@ -1,20 +1,27 @@
-Welcome to SIT Documentation!
-===================================
+Welcome to Stay In Tarkov!
+==========================
 
-**SIT (Stay In Tarkov)** is a Escape From Tarkov mod designed for "offline" COOP play.
-SIT uses the *SPT-AKI* backend server for networking.
+**Stay In Tarkov (SIT)** is a Escape From Tarkov mod designed for cooperative play. SIT uses
+modding frameworks such as `BepInEx <https://github.com/BepInEx/BepInEx/>`_ and 
+`SPT-AKI <https://www.sp-tarkov.com/>`_ to achieve its goal.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Stay In Tarkov is currently under development by a small team of developers. While SIT is playable, there are many bugs, 
+synchronization and performance issues during gameplay. Escape From Tarkov and SPT-AKI updates frequently and oftentimes, 
+your progress must be reset.
+
+In other words, SIT is not a perfect replacement of the live experience: **always keep in mind that game breaking bugs and 
+progression issues will occur and there are no way around it.**
 
 .. note::
-
-   This project is under active development.
-
-Contents
---------
+   SIT is NOT an attempt to provide an one-to-one alternative to the live experience of Escape From Tarkov. The primary 
+   goal is to enable playing Escape From Tarkov with friends against enemy AI (bots).
+   
+   Consequently, no efforts are planned to make SIT into a headless dedicated server, and it is highly unlikely that 
+   such efforts will ever be made.
 
 .. toctree::
 
-   usage
-   api
+   :hidden:
+   Home <self>
+   install
+   configure
