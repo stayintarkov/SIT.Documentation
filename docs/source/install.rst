@@ -68,17 +68,34 @@ Installing Stay In Tarkov
    **Make sure to follow every single steps properly and don't try to take shortcuts.**
 
 Installing using SIT.Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
-* Start /SIT/Launcher/SIT.Manager.exe.
+* Start the manager from ``/SIT/Launcher/SIT.Manager.exe.``
 * Go to "Settings" page.
-* Locate the "EFT Path" setting and click the "Change" button.
-* Browse to your "/SIT/Game" folder and click "Select Folder".
-* Locate the "SPT-AKI Path" setting and click the "Change" button.
-* Browse to your "/SIT/Server" folder and click "Select Folder".
-* Go to "Tools" page.
-* Click "Install SIT".
-* Choose the latest release of Stay In Tarkov. It will be the first one in the list.
+
+Client
+~~~~~~
+
+#. Locate the "EFT Path" setting and click the "Change" button.
+
+   * Browse to your "/SIT/Game" folder and click "Select Folder".
+
+#. Go to the "Install" page.
+#. Click "Install SIT".
+#. Choose the latest version of Stay In Tarkov. It will be the first one in the list.
+#. Wait for the manager to say "Install Completed"
+
+Server
+~~~~~~
+
+#. Locate the "SPT-AKI Path" setting and click the "Change" button.
+
+   * Browse to your "/SIT/Server" folder and click "Select Folder".
+
+#. Go to the "Install" page.
+#. Click "Install Server + SIT Mod".
+#. Choose the latest version of SPT-AKI. It will be the first one in the list
+#. Wait for the manager to say "Install Completed"
 
 Installing manually
 ~~~~~~~~~~~~~~~~~~~
