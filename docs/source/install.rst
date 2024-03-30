@@ -104,6 +104,15 @@ Server
 Installing manually
 ~~~~~~~~~~~~~~~~~~~
 
-It is recommended to use SIT.Manager to install |SIT|. However, if you wish to do it manually, please follow the steps below.
+.. warning::
+   It is **strongly** recommended to use |SITM| to install |SIT|. However, if you wish to do it manually, please follow the steps below.
 
-WIP - Come back later.
+.. note::
+   The |SITM| will still be needed to connect to servers.
+
+#. Download BepInEx from `here <https://github.com/BepInEx/BepInEx/releases/download/v5.4.22/BepInEx_x64_5.4.22.0.zip>`_.
+#. Extract BepInEx to your ``/SIT/Game/`` folder.
+#. Create a new folder at the path ``/SIT/Game/BepInEx/`` called ``plugins``.
+#. Download the latest |SIT| release from `here <https://github.com/stayintarkov/StayInTarkov.Client/releases/latest>`_.
+#. Extract the ``StayInTarkov.dll`` file to your ``/SIT/Game/BepInEx/plugins`` folder.
+#. Extract the ``Assembly-CSharp.dll`` file to ``/SIT/Game/EscapeFromTarkov_Data/Managed`` and replace the file when prompted.
