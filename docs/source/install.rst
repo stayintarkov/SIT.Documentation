@@ -23,11 +23,12 @@ Getting started
    * **DON'T** change any of the files in your original EFT game folder.
    * **DON'T** install SIT in your original EFT game folder. **YOU HAVE BEEN WARNED!**
    * **ALWAYS** make sure you are able to run the game using the official game launcher before using SIT.
+   * **DON'T** take shortcuts. Follow this step by step. If you haven't, you will be **MOCKED**
 
 Preparing the folder structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create the following folder structure on the drive of your choice, as long as it has enough space for |EFT|.
+Create the following folder structure on the drive of your choice, as long as it has enough space for |EFT|. The drive should have at least ``60GB`` free space.
 
 .. code-block:: none
    
@@ -35,6 +36,18 @@ Create the following folder structure on the drive of your choice, as long as it
    ├── Game/
    ├── Server/
    └── Launcher/
+.. raw:: html
+
+   <details>
+      <summary>Example directory layout</summary>
+
+.. image:: images/DirectoryExample.png
+   :width: 600
+
+.. raw:: html
+
+   </details>
+
 
 .. note::
    It is recommended to use this folder structure for a SIT installation. Note that the rest of the documentation will refer to 
@@ -43,7 +56,7 @@ Create the following folder structure on the drive of your choice, as long as it
 Preparing |EFT| files
 ~~~~~~~~~~~~~~~~~~~~~
 
-* Copy your |EFT| game files to the "/SIT/Game" folder.
+* Copy your |EFT| game files to the ``/SIT/Game`` folder.
 
 .. warning::
    * Do not create a subfolder in /SIT/Game (ex: /SIT/Game/EFT).
