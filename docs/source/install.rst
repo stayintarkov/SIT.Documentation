@@ -48,8 +48,8 @@ Preparing Escape From Tarkov files
 Installing SIT.Manager
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager/releases/>`_.
-* Extract SIT.Manager to the "/SIT/Launcher" folder. 
+* Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/latest>`_.
+* Extract the SIT.Manager zip to the "/SIT/Launcher" folder. 
 
 .. warning::
    * Do not create a subfolder in /SIT/Launcher (ex: /SIT/Launcher/SIT.Manager).
