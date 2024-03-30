@@ -25,7 +25,7 @@ Getting started
    * **ALWAYS** make sure you are able to run the game using the official game launcher before using SIT.
 
 Preparing the folder structure
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Create the following folder structure on the drive of your choice, as long as it has enough space for |EFT|.
 
@@ -50,7 +50,7 @@ Preparing |EFT| files
    * Do not change any of the files in /SIT/Game folder.
 
 Installing |SITM|
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 * Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/latest>`_.
 * Extract the |SITM| zip to the "/SIT/Launcher" folder. 
@@ -72,7 +72,7 @@ Installing |SIT|
    **Make sure to follow every single steps properly and don't try to take shortcuts.**
 
 Installing using |SITM|
-----------------------------
+-----------------------
 
 * Start the manager from ``/SIT/Launcher/SIT.Manager.exe.``
 * Go to "Settings" page.
