@@ -8,7 +8,7 @@ This section is dedicated for a new installation of Stay In Tarkov. If you're lo
 Getting started
 ---------------
 Escape From Tarkov requirements
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * You need a legally purchased copy of Escape From Tarkov, `obtainable here <https://www.escapefromtarkov.com/preorder-page>`_.
 * You need to install the game using the official game launcher.
@@ -21,7 +21,7 @@ Escape From Tarkov requirements
    * **ALWAYS** make sure you are able to run the game using the official game launcher before using SIT.
 
 Preparing the folder structure
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Create the following folder structure on the drive of your choice, as long as it has enough space for Escape From Tarkov.
 
@@ -37,7 +37,7 @@ Create the following folder structure on the drive of your choice, as long as it
    that structure.
 
 Preparing Escape From Tarkov files
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Copy your Escape From Tarkov game files to the "/SIT/Game" folder.
 
@@ -46,7 +46,7 @@ Preparing Escape From Tarkov files
    * Do not change any of the files in /SIT/Game folder.
 
 Installing SIT.Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 * Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager/releases/>`_.
 * Extract SIT.Manager to the "/SIT/Launcher" folder. 
