@@ -52,7 +52,7 @@ Preparing |EFT| files
 Installing |SITM|
 ~~~~~~~~~~~~~~~~~~~~~~
 
-* Download the latest `|SITM| release <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/latest>`_.
+* Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/latest>`_.
 * Extract the |SITM| zip to the "/SIT/Launcher" folder. 
 
 .. warning::
