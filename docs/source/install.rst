@@ -39,20 +39,20 @@ Create the following folder structure on the drive of your choice, as long as it
 Preparing Escape From Tarkov files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Copy your Escape From Tarkov game files to the "/SIT/Game" folder.
+* Copy your Escape From Tarkov game files to the ``/SIT/Game`` folder.
 
 .. warning::
-   * Do not create a subfolder in /SIT/Game (ex: /SIT/Game/EFT).
-   * Do not change any of the files in /SIT/Game folder.
+   * Do not create a subfolder in ``/SIT/Game`` (ex: ``/SIT/Game/EFT``).
+   * Do not change any of the files in ``SIT/Game`` folder.
 
 Installing SIT.Manager
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager/releases/>`_.
-* Extract SIT.Manager to the "/SIT/Launcher" folder. 
+* Extract SIT.Manager to the ``/SIT/Launcher`` folder. 
 
 .. warning::
-   * Do not create a subfolder in /SIT/Launcher (ex: /SIT/Launcher/SIT.Manager).
+   * Do not create a subfolder in ``/SIT/Launcher`` (ex: ``/SIT/Launcher/SIT.Manager``).
 
 .. note::
    The SIT.Manager allows you to install and play SIT. It also provides additional tools such as mods management, downgrade patchers, 
@@ -70,12 +70,12 @@ Installing Stay In Tarkov
 Installing using SIT.Manager
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Start /SIT/Launcher/SIT.Manager.exe.
+* Start ``/SIT/Launcher/SIT.Manager.exe``.
 * Go to "Settings" page.
 * Locate the "EFT Path" setting and click the "Change" button.
-* Browse to your "/SIT/Game" folder and click "Select Folder".
+* Browse to your ``/SIT/Game`` folder and click "Select Folder".
 * Locate the "SPT-AKI Path" setting and click the "Change" button.
-* Browse to your "/SIT/Server" folder and click "Select Folder".
+* Browse to your ``/SIT/Server`` folder and click "Select Folder".
 * Go to "Tools" page.
 * Click "Install SIT".
 * Choose the latest release of Stay In Tarkov. It will be the first one in the list.
@@ -85,4 +85,4 @@ Installing manually
 
 It is recommended to use SIT.Manager to install Stay In Tarkov. However, if you wish to do it manually, please follow the steps below.
 
-WIP - Come back later.
+WIP - Come back later
