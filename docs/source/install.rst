@@ -1,11 +1,8 @@
-.. |SIT| replace:: Stay In Tarkov
-.. |EFT| replace:: Escape From Tarkov
-.. |SITM| replace:: SIT.Manager
+.. include:: global.rst
+.. _install:
 
 Installation
 ============
-
-.. _install:
 
 This section is dedicated for a new installation of |SIT|. If you're looking to update SIT, click here.
 
@@ -25,11 +22,12 @@ Getting started
    * **DON'T** change any of the files in your original EFT game folder.
    * **DON'T** install SIT in your original EFT game folder. **YOU HAVE BEEN WARNED!**
    * **ALWAYS** make sure you are able to run the game using the official game launcher before using SIT.
+   * **DON'T** take shortcuts. Follow this step by step. If you haven't, you will be **MOCKED**
 
 Preparing the folder structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create the following folder structure on the drive of your choice, as long as it has enough space for |EFT|.
+Create the following folder structure on the drive of your choice, as long as it has enough space for |EFT|. The drive should have at least ``60GB`` free space.
 
 .. code-block:: none
    
@@ -37,27 +35,48 @@ Create the following folder structure on the drive of your choice, as long as it
    ├── Game/
    ├── Server/
    └── Launcher/
+.. raw:: html
+
+   <details>
+      <summary>Example directory layout</summary>
+
+.. image:: images/DirectoryExample.png
+   :width: 800
+
+.. raw:: html
+
+   </details>
+
+|brs|
 
 .. note::
    It is recommended to use this folder structure for a SIT installation. Note that the rest of the documentation will refer to 
    that structure.
 
 
-
-* Copy your Escape From Tarkov game files to the ``/SIT/Game`` folder.
-
+* Copy your |EFT| game files to the |GDir| folder.
 
 .. warning::
-   * Do not create a subfolder in ``/SIT/Game`` (ex: ``/SIT/Game/EFT``).
-   * Do not change any of the files in ``SIT/Game`` folder.
+   * Do not create a subfolder in |GDIR| (ex: ``/SIT/Game/EFT``).
+   * Do not change any of the files in |GDir| folder.
 
 
+* Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/latest>`_.
+* Extract the |SITM| zip to the |LDIR| folder. 
 
-* Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager/releases/>`_.
-* Extract SIT.Manager to the ``/SIT/Launcher`` folder. 
+.. raw:: html
 
-.. warning::
-   * Do not create a subfolder in ``/SIT/Launcher`` (ex: ``/SIT/Launcher/SIT.Manager``).
+   <details>
+      <summary>Install Steps</summary>
+
+.. image:: images/InstallLauncher.gif
+   :width: 800
+
+.. raw:: html
+
+   </details>
+
+|brs|
 
 .. note::
    The |SITM| allows you to install and play SIT. It also provides additional tools such as mods management, downgrade patchers, 
@@ -75,23 +94,94 @@ Installing |SIT|
 Installing using |SITM|
 -----------------------
 
-* Start ``/SIT/Launcher/SIT.Manager.exe``.
-* Go to "Settings" page.
-* Locate the "EFT Path" setting and click the "Change" button.
-* Browse to your ``/SIT/Game`` folder and click "Select Folder".
-* Locate the "SPT-AKI Path" setting and click the "Change" button.
-* Browse to your ``/SIT/Server`` folder and click "Select Folder".
-* Go to "Tools" page.
-* Click "Install SIT".
-* Choose the latest release of Stay In Tarkov. It will be the first one in the list.
+* Start the manager from ``/SIT/Launcher/SIT.Manager.exe.``
+* If you want to launch this from desktop create a shortcut as shown below
 
+.. raw:: html
+
+   <details>
+      <summary>Making Shortcut</summary>
+
+.. image:: images/MakingShortcut.gif
+   :width: 800
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
+Client - (Everyone Does This)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Open the "Settings" page
+#. Locate the "EFT Path" setting and click the "Change" button.
+
+   * Browse to your "/SIT/Game" folder and click "Select Folder".
+
+#. Go to the "Install" page.
+#. Click "Install SIT".
+#. Choose the latest version of |SIT|. It will be the first one in the list.
+#. Wait for the manager to say "Install Completed"
+#. Once that is done, head to :ref:`Finishing Up<finishingup>`.
+
+.. raw:: html
+
+   <details>
+      <summary>Configuring Launcher</summary>
+
+.. image:: images/ManagerSetup.apng
+   :width: 800
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
+Server - (Only needed if you want to host server)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Open the Install tab and click "Install Server + SIT Mod"
+
+   * For SPT-AKI Path, set it to |SDIR|
+
+#. Choose the latest version of SPT-AKI. It will be the first one in the list
+#. Wait for the manager to say "Install Completed"
+#. Once you have installed it, you **MUST** run the server once so it can generate it's configs.
+#. Once you see "Server is running, do not close while playing SPT, Happy playing!!", the server has booted and you can now stop
+
+.. raw:: html
+
+   <details>
+      <summary>Installing Server</summary>
+
+.. image:: images/SITServerInstall.gif
+   :width: 800
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
+.. _finishingup:
+
+Finishing Up
+~~~~~~~~~~~~
+
+Once you have completed installation, if you plan to join other players, head :ref:`here<clientinst>`, if you want to host then head :ref:`here<netconfigure>`.
 
 Installing manually
 ~~~~~~~~~~~~~~~~~~~
 
 .. warning::
-   It is **strongly** recommended to use |SITM| to install |SIT|. However, if you wish to do it manually, please follow the steps below.
+   * It is **strongly** recommended to use |SITM| to install |SIT|.
+   * Even if |SIT| is manually installed, you will still need to use the |SITM| to connect to servers so this should only be done as a last resort.
 
-
-WIP - Come back later
-
+#. Download `BepInEx <https://github.com/BepInEx/BepInEx/releases/download/v5.4.22/BepInEx_x64_5.4.22.0.zip>`_.
+#. Extract BepInEx to your ``/SIT/Game/`` folder.
+#. Create a new folder at the path ``/SIT/Game/BepInEx/`` called ``plugins``.
+#. Download the latest `Stay In Tarkov release <https://github.com/stayintarkov/StayInTarkov.Client/releases/latest>`_.
+#. Extract the ``StayInTarkov.dll`` file to your ``/SIT/Game/BepInEx/plugins`` folder.
+#. Extract the ``Assembly-CSharp.dll`` file to ``/SIT/Game/EscapeFromTarkov_Data/Managed`` and replace the file when prompted.

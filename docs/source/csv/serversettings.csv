@@ -1,0 +1,5 @@
+**Config Option**,**Values**,**Default**,**Description**
+runAzureWebAppHelper,true/false,false,**IDK**
+openAllExfils,true/false,false,This setting will enable or disable all Exfils being avalible for use
+showPlayerNameTags,true/false,false,"This will enable the players name tags above their head, will make Friendly Fire Harder (Coward)"
+showPlayerNameTagsOnlyWhenVisible,true/false,false,"Setting this to true will make name tags show up all the time, instead of just when the player is in view"

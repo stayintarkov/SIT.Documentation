@@ -7,7 +7,7 @@ copyright = '2024, Paulov'
 author = 'Paulov'
 
 release = '0.1'
-version = '0.1.0'
+version = '0.4.0'
 
 # -- General configuration
 
@@ -33,3 +33,9 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+## -- Custom CSS Overrides
+html_css_files = ['css/custom.css']
+
+## -- Copy to HTML output
+html_static_path = ['_static']
