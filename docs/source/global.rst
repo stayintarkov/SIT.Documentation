@@ -12,3 +12,6 @@
 .. |GDIR| replace:: ``SIT/Game``
 .. |LDIR| replace:: ``SIT/Launcher``
 .. |SDIR| replace:: ``SIT/Server``
+
+.. role:: strike
+    :class: strike

@@ -27,5 +27,6 @@ progression issues will occur and there are no way around it.**
    Home <self>
    install
    configure
+   playing
    faq
    terminology

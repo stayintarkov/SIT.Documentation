@@ -98,7 +98,6 @@ Installing using |SITM|
 
 * Start the manager from ``/SIT/Launcher/SIT.Manager.exe.``
 * If you want to launch this from desktop create a shortcut as shown below
-* Go to "Settings" page.
 
 .. raw:: html
 
@@ -114,9 +113,10 @@ Installing using |SITM|
 
 |brs|
 
-Client
-~~~~~~
+Client - (Everyone Does This)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+#. Open the "Settings" page
 #. Locate the "EFT Path" setting and click the "Change" button.
 
    * Browse to your "/SIT/Game" folder and click "Select Folder".
@@ -125,6 +125,7 @@ Client
 #. Click "Install SIT".
 #. Choose the latest version of |SIT|. It will be the first one in the list.
 #. Wait for the manager to say "Install Completed"
+#. Once that is done, head to :ref:`Finishing Up<finishingup>`.
 
 .. raw:: html
 
@@ -166,10 +167,12 @@ Server - (Only needed if you want to host server)
 
 |brs|
 
+.. _finishingup:
+
 Finishing Up
 ~~~~~~~~~~~~
 
-Once you have completed installation, if you plan
+Once you have completed installation, if you plan to join other players, head :ref:`here<clientinst>`, if you want to host then head :ref:`here<netconfigure>`.
 
 Installing manually
 ~~~~~~~~~~~~~~~~~~~

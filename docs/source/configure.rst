@@ -1,5 +1,5 @@
 .. include:: global.rst
-.. _configure:
+.. _netconfigure:
 
 Configuration
 =============
@@ -20,8 +20,9 @@ UPnP
 .. note:: 
    UPnP (Universal Plug and Play) is the **preferred** method for server hosting as it supports automagically opening 
    the ports that SIT needs while they are needed. However this only works for competent routers (looking at you USA).
-   If you have issues with this please follow the guide :ref:`below <portforward>` for manually opening the required ports for |SIT|.
+   If you have issues with this please follow the :ref:`Port Forwarding<portforward>` guide below for manually opening the required ports for |SIT|.
 
+   If you are using UPnP, skip to :ref:`HTTP JSON Configuration <httpjson>` to prep the server
 .. _portforward:
 
 Port forwarding
@@ -115,10 +116,13 @@ Virtual Private Network (VPN)
       <summary>Hamachi Configuration</summary>
 
 #. Install hamachi from their offical site here `Hamachi <https://vpn.net/>`_
-#. Click the ppower button, it should ask you to log in, either log in or register an account to continue
-#. Now if you are joining a friend, press "Join an Existing Network" and enter the ID and password, if you are hosting, create a network
+#. Click the power button, it should ask you to log in, either log in or register an account to continue
+#. If you are joining a server, join the hosts Hamachi network by pressing "Join an Existing Network" and enter the ID and Password
+   
+   * If you are hosting the server, press "Create a New Network", then give it a name and password, give this to everyone you are playing with
+
 #. Once you are all in the network, make sure everyones light is green, if not, look up a guide to fix it, we **CANNOT** help with this.
-#. If everyone is connected and with green light, go :ref:`here<httpjson>` to setup the server to use the VPN
+#. If everyone is connected and with green light, go :ref:`HTTP JSON Config<httpjson>` to setup the server to use the VPN
 
 
 .. raw:: html
@@ -132,7 +136,14 @@ Virtual Private Network (VPN)
    <details>
       <summary>Radmin Configuration</summary>
 
-#. PLACEHOLDER
+#. Install Radmin from their offical site here `Radmin <https://www.radmin-vpn.com/>`_
+#. Once installed, make sure the power button icon says "On" and has an IP below your Computer Name. We cannot help with errors on this
+#. If you are joining a server, join the hosts Radmin network by pressing "Join Network" and enter the ID and Password
+   
+   * If you are hosting the server, press "Create Network", then give it a name and password, give this to everyone you are playing with
+
+#. If the bar is green, the connection has been successful and you're ready to continue, if not, then you'll need to look up your issue as we can't help
+#. Once this has been done, head to :ref:`HTTP JSON Config<httpjson>` to setup the server to use the VPN
 
 
 .. raw:: html
@@ -150,6 +161,53 @@ HTTP JSON file configuration
 #. Locate the "ip" parameter. You should see a default value of "127.0.0.1".
 #. Change "127.0.0.1" with ``0.0.0.0``. (Only change from ``0.0.0.0`` if you know what you're doing)
 #. Save your changes and close the text editor.
+#. Once you have done this, head :ref:`here <serverplay>` and follow the Server steps to see how to launch and join the server
 
-General configuration
----------------------
+General Configuration
+----------------------------
+
+Below are steps for configuring both the |SIT| client and the |SIT| Server, this have been split into catagories for your :strike:`pleasure` convience.
+
+.. _clientconf:
+
+Client Side Config
+~~~~~~~~~~~~~~~~~~
+
+.. note:: 
+   The configs for your client are located in ``SIT\Game\BepInEx\config\com.stayintarkov.cfg``. You may want to use a text editor that isn't
+   the built in notepad, something like VSCode, or at least Notepad++
+
+   These settings will only take effect if the person that has modified them is hosting the raid, so settings like ``EnableAISpawnWaveSystem``
+   will only take effect if the person that modified them hosts.
+
+.. warning:: 
+   **DO NOT** edit any of the ``Enabled`` options as they are for debug purposes and **SHOULD NOT** be modified in any way.
+
+.. csv-table:: Client Config Options
+   :file: csv/clientsettings.csv
+
+.. raw:: html
+
+   <details>
+      <summary>Additional Ammo UI Example</summary>
+
+.. image:: images/MoreBulletInfo.png
+   :width: 400
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
+.. _serverconf:
+
+Server Side Config
+~~~~~~~~~~~~~~~~~~
+
+.. note:: 
+   These settings are changed on the Aki server config, so they affect every player on the server, wether they host the raid or are
+   just a client.
+
+.. csv-table:: Server Config Options
+   :file: csv/serversettings.csv
