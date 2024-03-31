@@ -43,24 +43,21 @@ Create the following folder structure on the drive of your choice, as long as it
    that structure.
 
 
-Preparing |EFT| files
-~~~~~~~~~~~~~~~~~~~~~
 
-* Copy your |EFT| game files to the "/SIT/Game" folder.
+* Copy your Escape From Tarkov game files to the ``/SIT/Game`` folder.
+
 
 .. warning::
-   * Do not create a subfolder in /SIT/Game (ex: /SIT/Game/EFT).
-   * Do not change any of the files in /SIT/Game folder.
+   * Do not create a subfolder in ``/SIT/Game`` (ex: ``/SIT/Game/EFT``).
+   * Do not change any of the files in ``SIT/Game`` folder.
 
 
-Installing |SITM|
-~~~~~~~~~~~~~~~~~
 
-* Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/latest>`_.
-* Extract the |SITM| zip to the "/SIT/Launcher" folder. 
+* Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager/releases/>`_.
+* Extract SIT.Manager to the ``/SIT/Launcher`` folder. 
 
 .. warning::
-   * Do not create a subfolder in /SIT/Launcher (ex: /SIT/Launcher/|SITM|).
+   * Do not create a subfolder in ``/SIT/Launcher`` (ex: ``/SIT/Launcher/SIT.Manager``).
 
 .. note::
    The |SITM| allows you to install and play SIT. It also provides additional tools such as mods management, downgrade patchers, 
@@ -78,32 +75,16 @@ Installing |SIT|
 Installing using |SITM|
 -----------------------
 
-* Start the manager from ``/SIT/Launcher/SIT.Manager.exe.``
+* Start ``/SIT/Launcher/SIT.Manager.exe``.
 * Go to "Settings" page.
+* Locate the "EFT Path" setting and click the "Change" button.
+* Browse to your ``/SIT/Game`` folder and click "Select Folder".
+* Locate the "SPT-AKI Path" setting and click the "Change" button.
+* Browse to your ``/SIT/Server`` folder and click "Select Folder".
+* Go to "Tools" page.
+* Click "Install SIT".
+* Choose the latest release of Stay In Tarkov. It will be the first one in the list.
 
-Client
-~~~~~~
-
-#. Locate the "EFT Path" setting and click the "Change" button.
-
-   * Browse to your "/SIT/Game" folder and click "Select Folder".
-
-#. Go to the "Install" page.
-#. Click "Install SIT".
-#. Choose the latest version of |SIT|. It will be the first one in the list.
-#. Wait for the manager to say "Install Completed"
-
-Server
-~~~~~~
-
-#. Locate the "SPT-AKI Path" setting and click the "Change" button.
-
-   * Browse to your "/SIT/Server" folder and click "Select Folder".
-
-#. Go to the "Install" page.
-#. Click "Install Server + SIT Mod".
-#. Choose the latest version of SPT-AKI. It will be the first one in the list
-#. Wait for the manager to say "Install Completed"
 
 Installing manually
 ~~~~~~~~~~~~~~~~~~~
@@ -111,12 +92,6 @@ Installing manually
 .. warning::
    It is **strongly** recommended to use |SITM| to install |SIT|. However, if you wish to do it manually, please follow the steps below.
 
-.. note::
-   The |SITM| will still be needed to connect to servers.
 
-#. Download `BepInEx <https://github.com/BepInEx/BepInEx/releases/download/v5.4.22/BepInEx_x64_5.4.22.0.zip>`_.
-#. Extract BepInEx to your ``/SIT/Game/`` folder.
-#. Create a new folder at the path ``/SIT/Game/BepInEx/`` called ``plugins``.
-#. Download the latest `Stay In Tarkov release <https://github.com/stayintarkov/StayInTarkov.Client/releases/latest>`_.
-#. Extract the ``StayInTarkov.dll`` file to your ``/SIT/Game/BepInEx/plugins`` folder.
-#. Extract the ``Assembly-CSharp.dll`` file to ``/SIT/Game/EscapeFromTarkov_Data/Managed`` and replace the file when prompted.
+WIP - Come back later
+
