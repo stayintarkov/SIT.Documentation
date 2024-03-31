@@ -1,6 +1,4 @@
-.. |SIT| replace:: Stay In Tarkov
-.. |EFT| replace:: Escape From Tarkov
-.. |SITM| replace:: SIT.Manager
+.. include:: global.rst
 
 Installation
 ============
@@ -42,12 +40,13 @@ Create the following folder structure on the drive of your choice, as long as it
       <summary>Example directory layout</summary>
 
 .. image:: images/DirectoryExample.png
-   :width: 600
+   :width: 800
 
 .. raw:: html
 
    </details>
 
+|brs|
 
 .. note::
    It is recommended to use this folder structure for a SIT installation. Note that the rest of the documentation will refer to 
@@ -56,20 +55,31 @@ Create the following folder structure on the drive of your choice, as long as it
 Preparing |EFT| files
 ~~~~~~~~~~~~~~~~~~~~~
 
-* Copy your |EFT| game files to the ``/SIT/Game`` folder.
+* Copy your |EFT| game files to the |GDir| folder.
 
 .. warning::
-   * Do not create a subfolder in /SIT/Game (ex: /SIT/Game/EFT).
-   * Do not change any of the files in /SIT/Game folder.
+   * Do not create a subfolder in |GDIR| (ex: ``/SIT/Game/EFT``).
+   * Do not change any of the files in |GDir| folder.
 
 Installing |SITM|
 ~~~~~~~~~~~~~~~~~
 
 * Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/latest>`_.
-* Extract the |SITM| zip to the "/SIT/Launcher" folder. 
+* Extract the |SITM| zip to the |LDIR| folder. 
 
-.. warning::
-   * Do not create a subfolder in /SIT/Launcher (ex: /SIT/Launcher/|SITM|).
+.. raw:: html
+
+   <details>
+      <summary>Install Steps</summary>
+
+.. image:: images/InstallLauncher.gif
+   :width: 800
+
+.. raw:: html
+
+   </details>
+
+|brs|
 
 .. note::
    The |SITM| allows you to install and play SIT. It also provides additional tools such as mods management, downgrade patchers, 
@@ -88,7 +98,22 @@ Installing using |SITM|
 -----------------------
 
 * Start the manager from ``/SIT/Launcher/SIT.Manager.exe.``
+* If you want to launch this from desktop create a shortcut as shown below
 * Go to "Settings" page.
+
+.. raw:: html
+
+   <details>
+      <summary>Making Shortcut</summary>
+
+.. image:: images/MakingShortcut.gif
+   :width: 800
+
+.. raw:: html
+
+   </details>
+
+|brs|
 
 Client
 ~~~~~~
@@ -102,8 +127,22 @@ Client
 #. Choose the latest version of |SIT|. It will be the first one in the list.
 #. Wait for the manager to say "Install Completed"
 
-Server
-~~~~~~
+.. raw:: html
+
+   <details>
+      <summary>Configuring Launcher</summary>
+
+.. image:: images/ManagerSetup.apng
+   :width: 800
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
+Server - (Only needed if you want to host server)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Locate the "SPT-AKI Path" setting and click the "Change" button.
 
@@ -118,10 +157,8 @@ Installing manually
 ~~~~~~~~~~~~~~~~~~~
 
 .. warning::
-   It is **strongly** recommended to use |SITM| to install |SIT|. However, if you wish to do it manually, please follow the steps below.
-
-.. note::
-   The |SITM| will still be needed to connect to servers.
+   * It is **strongly** recommended to use |SITM| to install |SIT|.
+   * Even if |SIT| is manually installed, you will still need to use the |SITM| to connect to servers so this should only be done as a last resort.
 
 #. Download `BepInEx <https://github.com/BepInEx/BepInEx/releases/download/v5.4.22/BepInEx_x64_5.4.22.0.zip>`_.
 #. Extract BepInEx to your ``/SIT/Game/`` folder.

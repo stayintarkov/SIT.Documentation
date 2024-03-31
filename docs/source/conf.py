@@ -35,4 +35,7 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 
 ## -- Custom CSS Overrides
-html_css_files = ['custom.css']
+html_css_files = ['css/custom.css']
+
+## -- Copy to HTML output
+html_static_path = ['_static']
