@@ -20,8 +20,8 @@ progression issues will occur and there are no way around it.**
    such efforts will ever be made.
 
 .. toctree::
-
    :hidden:
+   
    Home <self>
    install
    configure
