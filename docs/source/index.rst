@@ -1,3 +1,5 @@
+.. include:: global.rst
+
 Welcome to Stay In Tarkov!
 ==========================
 
@@ -25,3 +27,5 @@ progression issues will occur and there are no way around it.**
    Home <self>
    install
    configure
+   faq
+   terminology

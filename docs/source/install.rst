@@ -1,9 +1,8 @@
 .. include:: global.rst
+.. _install:
 
 Installation
 ============
-
-.. _install:
 
 This section is dedicated for a new installation of |SIT|. If you're looking to update SIT, click here.
 
@@ -144,14 +143,33 @@ Client
 Server - (Only needed if you want to host server)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Locate the "SPT-AKI Path" setting and click the "Change" button.
+#. Open the Install tab and click "Install Server + SIT Mod"
 
-   * Browse to your "/SIT/Server" folder and click "Select Folder".
+   * For SPT-AKI Path, set it to |SDIR|
 
-#. Go to the "Install" page.
-#. Click "Install Server + SIT Mod".
 #. Choose the latest version of SPT-AKI. It will be the first one in the list
 #. Wait for the manager to say "Install Completed"
+#. Once you have installed it, you **MUST** run the server once so it can generate it's configs.
+#. Once you see "Server is running, do not close while playing SPT, Happy playing!!", the server has booted and you can now stop
+
+.. raw:: html
+
+   <details>
+      <summary>Installing Server</summary>
+
+.. image:: images/SITServerInstall.gif
+   :width: 800
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
+Finishing Up
+~~~~~~~~~~~~
+
+Once you have completed installation, if you plan
 
 Installing manually
 ~~~~~~~~~~~~~~~~~~~
