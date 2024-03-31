@@ -8,8 +8,10 @@ This section is dedicated for a new installation of |SIT|. If you're looking to 
 
 Getting started
 ---------------
+
 |EFT| requirements
 ~~~~~~~~~~~~~~~~~~
+
 
 * You need a legally purchased copy of |EFT|, `obtainable here <https://www.escapefromtarkov.com/preorder-page>`_.
 * You need to install the game using the official game launcher.
@@ -51,8 +53,6 @@ Create the following folder structure on the drive of your choice, as long as it
    It is recommended to use this folder structure for a SIT installation. Note that the rest of the documentation will refer to 
    that structure.
 
-Preparing |EFT| files
-~~~~~~~~~~~~~~~~~~~~~
 
 * Copy your |EFT| game files to the |GDir| folder.
 
@@ -60,8 +60,6 @@ Preparing |EFT| files
    * Do not create a subfolder in |GDIR| (ex: ``/SIT/Game/EFT``).
    * Do not change any of the files in |GDir| folder.
 
-Installing |SITM|
-~~~~~~~~~~~~~~~~~
 
 * Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/latest>`_.
 * Extract the |SITM| zip to the |LDIR| folder. 
