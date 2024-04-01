@@ -24,6 +24,8 @@ Getting started
    * **ALWAYS** make sure you are able to run the game using the official game launcher before using SIT.
    * **DON'T** take shortcuts. Follow this step by step. If you haven't, you will be **MOCKED**
 
+.. _filestruct:
+
 Preparing the folder structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -53,21 +55,25 @@ Create the following folder structure on the drive of your choice, as long as it
    It is recommended to use this folder structure for a SIT installation. Note that the rest of the documentation will refer to 
    that structure.
 
+   Below is the steps to install the SIT Manager, which as of version ``2.0.8856.37884`` can automagically copy your Live |EFT| folder
+   into a folder of your choice **REMEBER THE** :ref:`FILE STRUCTURE<filestruct>`
 
-* Copy your |EFT| game files to the |GDir| folder.
+Installing |SITM|
+-----------------
 
-.. warning::
-   * Do not create a subfolder in |GDIR| (ex: ``/SIT/Game/EFT``).
-   * Do not change any of the files in |GDir| folder.
+.. note:: 
+   It is **HIGHLY** recommended to use the |SITM| to install |SIT| as it **HIGHLY** simplifies
+   the process and is almost completley automatic. It also provides us with valuble log files, :strike:`they taste great`,
+   they help us solve issues you may encounter as well. Manual intall intructions are provided but should be **AVOIDED**
+   wherever possible
 
-
-* Download the latest `SIT.Manager release <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/latest>`_.
-* Extract the |SITM| zip to the |LDIR| folder. 
+1. Download the latest |SITM| from `Github <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/tag/2.0.8856.37884>`_
+2. Extract the files from the ``.zip`` into |LDIR|
 
 .. raw:: html
 
    <details>
-      <summary>Install Steps</summary>
+      <summary>Manager Installation</summary>
 
 .. image:: images/InstallLauncher.gif
    :width: 800
@@ -78,31 +84,14 @@ Create the following folder structure on the drive of your choice, as long as it
 
 |brs|
 
-.. note::
-   The |SITM| allows you to install and play SIT. It also provides additional tools such as mods management, downgrade patchers, 
-   server management and much more.
-
-Installing |SIT|
-----------------
-
-.. warning:: 
-   Before proceeding with the steps below, make sure you have followed every steps in the "Getting started" section "here". We receive
-   a lot of support requests about SIT not working but most of the time, steps are not followed correctly.
-
-   **Make sure to follow every single steps properly and don't try to take shortcuts.**
-
-Installing using |SITM|
------------------------
-
-* Start the manager from ``/SIT/Launcher/SIT.Manager.exe.``
-* If you want to launch this from desktop create a shortcut as shown below
+3. For sake of convinience, you can make a Shortcut to the manager on your desktop, since you need this **EVERY** time you join a server
 
 .. raw:: html
 
    <details>
       <summary>Making Shortcut</summary>
 
-.. image:: images/MakingShortcut.gif
+.. image:: images/MakingShortcut.apng
    :width: 800
 
 .. raw:: html
@@ -111,26 +100,20 @@ Installing using |SITM|
 
 |brs|
 
-Client - (Everyone Does This)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-#. Open the "Settings" page
-#. Locate the "EFT Path" setting and click the "Change" button.
-
-   * Browse to your "/SIT/Game" folder and click "Select Folder".
-
-#. Go to the "Install" page.
-#. Click "Install SIT".
-#. Choose the latest version of |SIT|. It will be the first one in the list.
-#. Wait for the manager to say "Install Completed"
-#. Once that is done, head to :ref:`Finishing Up<finishingup>`.
+4. Now open the manager and Navigate to "Install" page
+5. Press "Install SIT"
+6. Select the latest version (Should be Auto-Selected)
+7. Press "Change" on EFT Install path, which right now is pointing to your **LIVE** install, and change it to |GDIR|
+8. Press "Start Install"
+9. Wait a bit for the Manager to copy your game files and install the SIT mod
+10. Once this is complete, SIT has been successfully installed to your client. Head to :ref:`Finishing up<finishingup>` to finish the install process, or to :ref:`Server Install<serverinst>` if you plan on hosting a server
 
 .. raw:: html
 
    <details>
-      <summary>Configuring Launcher</summary>
+      <summary>Installing SIT</summary>
 
-.. image:: images/ManagerSetup.apng
+.. image:: images/EFTManagerInstall.apng
    :width: 800
 
 .. raw:: html
@@ -139,22 +122,31 @@ Client - (Everyone Does This)
 
 |brs|
 
-Server - (Only needed if you want to host server)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _serverinst:
 
-#. Open the Install tab and click "Install Server + SIT Mod"
+Installing |SIT| Server
+~~~~~~~~~~~~~~~~~~~~~~~
 
-   * For SPT-AKI Path, set it to |SDIR|
+.. note:: 
+   Make sure the person installing the server, if they are installing it on their local machine, is
+   the one with the most powerful PC and best Network otherwise performance may be Sub-optimal.
 
-#. Choose the latest version of SPT-AKI. It will be the first one in the list
-#. Wait for the manager to say "Install Completed"
-#. Once you have installed it, you **MUST** run the server once so it can generate it's configs.
-#. Once you see "Server is running, do not close while playing SPT, Happy playing!!", the server has booted and you can now stop
+   This applies to both hosting the AKI server, and Hosting the raid, more on that later in the guide.
+
+1. Open the |SITM|
+2. Go to "Install"
+3. Click "Install Server + SIT Mod"
+4. Change the path to your |SDIR| path
+5. Click "Start Install"
+6. Once that completes, Navigate to "Server"
+7. Start the server and wait for the "Server started!" message
+8. Stop the server, this allows it to generate all relevant configs
+9. Once you have done that, head over to :ref:`Finishing Up<finishingup>` to continue
 
 .. raw:: html
 
    <details>
-      <summary>Installing Server</summary>
+      <summary>Installing SIT Server</summary>
 
 .. image:: images/SITServerInstall.gif
    :width: 800
@@ -179,6 +171,7 @@ Installing manually
    * It is **strongly** recommended to use |SITM| to install |SIT|.
    * Even if |SIT| is manually installed, you will still need to use the |SITM| to connect to servers so this should only be done as a last resort.
 
+#. **COPY** your Live |EFT| files into the |GDir| folder
 #. Download `BepInEx <https://github.com/BepInEx/BepInEx/releases/download/v5.4.22/BepInEx_x64_5.4.22.0.zip>`_.
 #. Extract BepInEx to your ``/SIT/Game/`` folder.
 #. Create a new folder at the path ``/SIT/Game/BepInEx/`` called ``plugins``.
