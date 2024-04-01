@@ -9,9 +9,9 @@
 .. |SIT| replace:: Stay In Tarkov
 .. |EFT| replace:: Escape From Tarkov
 .. |SITM| replace:: SIT.Manager
-.. |GDIR| replace:: ``SIT/Game``
-.. |LDIR| replace:: ``SIT/Launcher``
-.. |SDIR| replace:: ``SIT/Server``
+.. |GDIR| replace:: ``SIT\Game``
+.. |LDIR| replace:: ``SIT\Launcher``
+.. |SDIR| replace:: ``SIT\Server``
 
 .. role:: strike
     :class: strike

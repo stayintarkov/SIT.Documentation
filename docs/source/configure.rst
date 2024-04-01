@@ -157,7 +157,7 @@ Virtual Private Network (VPN)
 HTTP JSON file configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Open ``SIT/Server/Aki_Data/Server/configs/http.json`` with your preferred text text editor.
+#. Open ``SIT\Server\Aki_Data\Server\configs\http.json`` with your preferred text text editor.
 #. Locate the "ip" parameter. You should see a default value of "127.0.0.1".
 #. Change "127.0.0.1" with ``0.0.0.0``. (Only change from ``0.0.0.0`` if you know what you're doing)
 #. Save your changes and close the text editor.
