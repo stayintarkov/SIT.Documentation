@@ -7,7 +7,7 @@ copyright = '2024, Paulov'
 author = 'Paulov'
 
 release = '0.1'
-version = '0.4.1'
+version = '0.5.0'
 
 # -- General configuration
 
