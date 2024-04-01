@@ -206,6 +206,9 @@ Server Side Config
 ~~~~~~~~~~~~~~~~~~
 
 .. note:: 
+   The configs for your client are located in ``SIT\Server\user\mods\SITCoop\config\SITConfig.json``. You may want to use a text editor that isn't
+   the built in notepad, something like VSCode, or at least Notepad++
+
    These settings are changed on the Aki server config, so they affect every player on the server, wether they host the raid or are
    just a client.
 
