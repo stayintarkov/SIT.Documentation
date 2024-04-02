@@ -4,7 +4,7 @@
 Installation
 ============
 
-This section is dedicated for a new installation of |SIT|. If you're looking to update SIT, click here.
+This section is dedicated for a new installation of |SIT|. If you're looking to update SIT, click :ref:`here<updatesitm>`.
 
 Getting started
 ---------------
@@ -177,9 +177,9 @@ Updating |SITM|
 .. raw:: html
 
    <details>
-      <summary>Installing SIT Server</summary>
+      <summary>Updating SIT Manager</summary>
 
-.. image:: images/UpdatingManager.apng
+.. image:: images/ManagerUpdate.apng
    :width: 800
 
 .. raw:: html
