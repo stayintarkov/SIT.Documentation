@@ -7,7 +7,7 @@ copyright = '2024, Paulov'
 author = 'Paulov'
 
 release = '0.1'
-version = '0.6.0'
+version = '0.7.0'
 
 # -- General configuration
 
@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinxcontrib.video',
 ]
 
 intersphinx_mapping = {

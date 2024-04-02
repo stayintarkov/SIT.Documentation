@@ -31,6 +31,9 @@ Preparing the folder structure
 
 Create the following folder structure on the drive of your choice, as long as it has enough space for |EFT|. The drive should have at least ``60GB`` free space.
 
+.. warning:: 
+   **DO NOT** install the manager in a protected directory such as ``system32``, ``Program Files``, and ``Program Files (x86)``, If you do I will steal your Hard Drive platters and sell them for Freddos
+
 .. code-block:: none
    
    SIT/
@@ -76,9 +79,9 @@ Installing |SITM|
    <details>
       <summary>Manager Installation</summary>
 
-.. image:: images/InstallLauncher.gif
+.. video:: _static/videos/ManagerInstall.webm
    :width: 800
-
+   :loop:
 .. raw:: html
 
    </details>
@@ -92,8 +95,9 @@ Installing |SITM|
    <details>
       <summary>Making Shortcut</summary>
 
-.. image:: images/MakingShortcut.apng
+.. video:: _static/videos/MakingShortcut.webm
    :width: 800
+   :loop:
 
 .. raw:: html
 
@@ -114,8 +118,9 @@ Installing |SITM|
    <details>
       <summary>Installing SIT</summary>
 
-.. image:: images/EFTManagerInstall.apng
-   :width: 800
+.. video:: _static/videos/SITInstall.webm
+   :width: 700
+   :loop:
 
 .. raw:: html
 
@@ -137,8 +142,9 @@ Updating |SITM|
    <details>
       <summary>Updating SIT Manager</summary>
 
-.. image:: images/ManagerUpdate.apng
-   :width: 800
+.. video:: _static/videos/ManagerUpdate.webm
+   :width: 700
+   :loop:
 
 .. raw:: html
 
@@ -170,6 +176,10 @@ Local Install
 5. Click "Start Install"
 6. Once that completes, Navigate to "Server"
 7. Start the server and wait for the "Server started!" message
+
+   * If you get a pop-up from "Windows Firewall" with the server asking to be allowed through, like **PLACEHOLDER**, then please click "Allow Access"
+     this will allow the server through your local firewall and make our lives a bit easier, a short clip is exampled below the image
+
 8. Stop the server, this allows it to generate all relevant configs
 9. Once you have done that, head over to :ref:`Finishing Up<finishingup>` to continue
 
@@ -178,8 +188,9 @@ Local Install
    <details>
       <summary>Installing SIT Server</summary>
 
-.. image:: images/SITServerInstall.gif
-   :width: 800
+.. video:: _static/videos/ServerInstall.webm
+   :width: 700
+   :loop:
 
 .. raw:: html
 
@@ -195,28 +206,11 @@ Installing Server With Docker
 .. note:: 
    These steps are for if you want to run the server in a docker instance. **IF YOU DON'T KNOW WHAT DOCKER IS THIS ISN'T FOR YOU**
 
-   We provide a pre-made Linux Docker instance of the |SIT| server, found at this `Github Repo <https://github.com/stayintarkov/SIT.Docker>`_
+   We provide a pre-made Linux Docker instance of the |SIT| server, found at this `Docker Hub <https://hub.docker.com/r/stayintarkov/stayintarkov>`_
 
-   Installation steps are as follows: (Install Video will be here soon:tm:) (I also haven't personally used docker so if these steps are inedequte, you can follow the steps on the Github repo)
+   Installation instructions are also found there, we may update here to add them at some point, but for now the Docker hub has all the info you'll need
 
-#. Install `Docker <https://docs.docker.com/engine/install/>`_
-#. Open your terminal and type ``git clone https://github.com/stayintarkov/SIT.Docker``
-#. Then ``cd SIT.Docker``
-#. Build the server with these args ``docker build --no-cache --build-arg SIT=26b9c364963ba49de71d5761bed1135ddad50f77 --build-arg SPT=2dd4d914382657378d9cdec173039d771fe33220 --label SITCoop -t sitcoop .``
-#. Run the image once with this command ``docker run --pull=never -v $PWD/server:/opt/server -p 6969:6969 -p 6970:6970 -p 6971:6971 -p 6972:6972 -it --name sitcoop sitcoop``
-   
-   * If you don't set the -v (volume), you won't be able to do a required step
-   * On linux you can include ``--user $(id -u):$(id -g)`` so that the user executing the container is the owner of it
-   * e.g. ``docker run --pull=never --user $(id -u):$(id -g) -v $PWD/server:/opt/server -p 6969:6969 -p 6970:6970 -it --name sitcoop sitcoop``
-   
-#. Go to your ``./server`` directory, delete ``delete_me``, and add any mods or config changes you want
-   
-   * using ``-p6969:6969``, you expose the pport to ``0.0.0.0`` (This opens it to localhost, LAN, External ips and VPN addresses)
-   * You can specify ``-p 192.168.12.34:6969:6969`` for each port if you don't want it to listen on all interfaces
-
-#. Start your server with ``docker start sitcoop``
-#. Enable auto-restart with ``docker update --restart unless-stopped sitcoop``
-#. Wait a few secs for the server to start, and now you should be able to connect, head over to :ref:`Finishing Up <finishingup>` to see how
+   Install Video will be here soon`:tm:`
 
 .. _finishingup:
 

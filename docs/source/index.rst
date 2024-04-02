@@ -34,4 +34,5 @@ us of any issues you've encountered.
    configure
    playing
    faq
+   issues
    terminology

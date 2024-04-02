@@ -163,6 +163,55 @@ HTTP JSON file configuration
 #. Save your changes and close the text editor.
 #. Once you have done this, head :ref:`here <serverplay>` and follow the Server steps to see how to launch and join the server
 
+Firewall Configuration
+----------------------
+
+.. note:: 
+   This section is about configuring your Windows firewall to allow the clients to connect to the server through your PC, although you have forwarded the ports
+   your PC itself my still reject the connections because it hasn't been configured to allow them, the below section will detail how to do that if
+   the server hasn't already asked to be allowed through
+
+.. raw:: html
+
+   <details>
+      <summary>Windows Firewall Guide</summary>
+
+.. image:: images/FirewallMessage.png
+   :width: 800
+
+.. video:: _static/videos/FirewallMessage.webm
+   :width: 700
+   :loop:
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
+#. Open windows search and type "Allow an app", this should show you the "Allow an app through Windows Firewall", click it
+#. Click "Change Settings"
+#. Click "Allow Antother App"
+#. Click "Browse" and navigate to where your ``Aki.Server.exe`` is
+#. Select it and click "Add"
+#. That should be Aki allowed through your windows firewall, and your server set-up should now be finished
+
+.. raw:: html
+
+   <details>
+      <summary>Allowing an App Through the Firewall</summary>
+
+.. video:: _static/videos/AllowFirewall.webm
+   :width: 700
+   :loop:
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
+
 General Configuration
 ----------------------------
 
