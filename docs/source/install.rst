@@ -204,12 +204,16 @@ Installing Server With Docker
 #. Then ``cd SIT.Docker``
 #. Build the server with these args ``docker build --no-cache --build-arg SIT=26b9c364963ba49de71d5761bed1135ddad50f77 --build-arg SPT=2dd4d914382657378d9cdec173039d771fe33220 --label SITCoop -t sitcoop .``
 #. Run the image once with this command ``docker run --pull=never -v $PWD/server:/opt/server -p 6969:6969 -p 6970:6970 -p 6971:6971 -p 6972:6972 -it --name sitcoop sitcoop``
+   
    * If you don't set the -v (volume), you won't be able to do a required step
    * On linux you can include ``--user $(id -u):$(id -g)`` so that the user executing the container is the owner of it
    * e.g. ``docker run --pull=never --user $(id -u):$(id -g) -v $PWD/server:/opt/server -p 6969:6969 -p 6970:6970 -it --name sitcoop sitcoop``
+   
 #. Go to your ``./server`` directory, delete ``delete_me``, and add any mods or config changes you want
+   
    * using ``-p6969:6969``, you expose the pport to ``0.0.0.0`` (This opens it to localhost, LAN, External ips and VPN addresses)
    * You can specify ``-p 192.168.12.34:6969:6969`` for each port if you don't want it to listen on all interfaces
+
 #. Start your server with ``docker start sitcoop``
 #. Enable auto-restart with ``docker update --restart unless-stopped sitcoop``
 #. Wait a few secs for the server to start, and now you should be able to connect, head over to :ref:`Finishing Up <finishingup>` to see how
