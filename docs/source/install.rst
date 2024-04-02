@@ -123,12 +123,41 @@ Installing |SITM|
 
 |brs|
 
+.. _updateSITM:
+
+Updating |SITM|
+~~~~~~~~~~~~~~~
+
+.. note::  
+   The |SITM| handles updating for you, all you need to do is press "Update" at the top of the manager when you boot it. It will automatically check for a new version
+   on boot and offer to update if it is out of date. A small example can be found below
+
+.. raw:: html
+
+   <details>
+      <summary>Updating SIT Manager</summary>
+
+.. image:: images/ManagerUpdate.apng
+   :width: 800
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
 .. _serverinst:
 
 Installing |SIT| Server
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
+
+Local Install
+~~~~~~~~~~~~~
 
 .. note:: 
+   The steps outlined below are for installing the server locally on your PC. If you would like to install this as a Docker instance
+   follow the steps outlined in :ref:`Installing Server With Docker <dockerinstall>`
+   
    Make sure the person installing the server, if they are installing it on their local machine, is
    the one with the most powerful PC and best Network otherwise performance may be Sub-optimal.
 
@@ -158,35 +187,39 @@ Installing |SIT| Server
 
 |brs|
 
+.. _dockerinstall:
+
+Installing Server With Docker
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. note:: 
+   These steps are for if you want to run the server in a docker instance. **IF YOU DON'T KNOW WHAT DOCKER IS THIS ISN'T FOR YOU**
+
+   We provide a pre-made Linux Docker instance of the |SIT| server, found at this `Github Repo <https://github.com/stayintarkov/SIT.Docker>`_
+
+   Installation steps are as follows: (Install Video will be here soon:tm:) (I also haven't personally used docker so if these steps are inedequte, you can follow the steps on the Github repo)
+
+#. Install `Docker <https://docs.docker.com/engine/install/>`_
+#. Open your terminal and type ``git clone https://github.com/stayintarkov/SIT.Docker``
+#. Then ``cd SIT.Docker``
+#. Build the server with these args ``docker build --no-cache --build-arg SIT=26b9c364963ba49de71d5761bed1135ddad50f77 --build-arg SPT=2dd4d914382657378d9cdec173039d771fe33220 --label SITCoop -t sitcoop .``
+#. Run the image once with this command ``docker run --pull=never -v $PWD/server:/opt/server -p 6969:6969 -p 6970:6970 -p 6971:6971 -p 6972:6972 -it --name sitcoop sitcoop``
+   * If you don't set the -v (volume), you won't be able to do a required step
+   * On linux you can include ``--user $(id -u):$(id -g)`` so that the user executing the container is the owner of it
+   * e.g. ``docker run --pull=never --user $(id -u):$(id -g) -v $PWD/server:/opt/server -p 6969:6969 -p 6970:6970 -it --name sitcoop sitcoop``
+#. Go to your ``./server`` directory, delete ``delete_me``, and add any mods or config changes you want
+   * using ``-p6969:6969``, you expose the pport to ``0.0.0.0`` (This opens it to localhost, LAN, External ips and VPN addresses)
+   * You can specify ``-p 192.168.12.34:6969:6969`` for each port if you don't want it to listen on all interfaces
+#. Start your server with ``docker start sitcoop``
+#. Enable auto-restart with ``docker update --restart unless-stopped sitcoop``
+#. Wait a few secs for the server to start, and now you should be able to connect, head over to :ref:`Finishing Up <finishingup>` to see how
+
 .. _finishingup:
 
 Finishing Up
-~~~~~~~~~~~~
+------------
 
 Once you have completed installation, if you plan to join other players, head :ref:`here<clientinst>`, if you want to host then head :ref:`here<netconfigure>`.
-
-.. _updateSITM:
-
-Updating |SITM|
----------------
-
-.. note::  
-   The |SITM| handles updating for you, all you need to do is press "Update" at the top of the manager when you boot it. It will automatically check for a new version
-   on boot and offer to update if it is out of date. A small example can be found below
-
-.. raw:: html
-
-   <details>
-      <summary>Updating SIT Manager</summary>
-
-.. image:: images/ManagerUpdate.apng
-   :width: 800
-
-.. raw:: html
-
-   </details>
-
-|brs|
 
 Installing manually
 -------------------
