@@ -37,6 +37,7 @@ Create the following folder structure on the drive of your choice, as long as it
    ├── Game/
    ├── Server/
    └── Launcher/
+
 .. raw:: html
 
    <details>
@@ -164,8 +165,31 @@ Finishing Up
 
 Once you have completed installation, if you plan to join other players, head :ref:`here<clientinst>`, if you want to host then head :ref:`here<netconfigure>`.
 
+.. _updateSITM:
+
+Updating |SITM|
+---------------
+
+.. note::  
+   The |SITM| handles updating for you, all you need to do is press "Update" at the top of the manager when you boot it. It will automatically check for a new version
+   on boot and offer to update if it is out of date. A small example can be found below
+
+.. raw:: html
+
+   <details>
+      <summary>Installing SIT Server</summary>
+
+.. image:: images/UpdatingManager.apng
+   :width: 800
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
 Installing manually
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 .. warning::
    * It is **strongly** recommended to use |SITM| to install |SIT|.
