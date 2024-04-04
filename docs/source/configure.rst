@@ -157,11 +157,60 @@ Virtual Private Network (VPN)
 HTTP JSON file configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Open ``SIT/Server/Aki_Data/Server/configs/http.json`` with your preferred text text editor.
+#. Open ``SIT\Server\Aki_Data\Server\configs\http.json`` with your preferred text text editor.
 #. Locate the "ip" parameter. You should see a default value of "127.0.0.1".
 #. Change "127.0.0.1" with ``0.0.0.0``. (Only change from ``0.0.0.0`` if you know what you're doing)
 #. Save your changes and close the text editor.
 #. Once you have done this, head :ref:`here <serverplay>` and follow the Server steps to see how to launch and join the server
+
+Firewall Configuration
+----------------------
+
+.. note:: 
+   This section is about configuring your Windows firewall to allow the clients to connect to the server through your PC, although you have forwarded the ports
+   your PC itself my still reject the connections because it hasn't been configured to allow them, the below section will detail how to do that if
+   the server hasn't already asked to be allowed through
+
+.. raw:: html
+
+   <details>
+      <summary>Windows Firewall Guide</summary>
+
+.. image:: images/FirewallMessage.png
+   :width: 800
+
+.. video:: _static/videos/FirewallMessage.webm
+   :width: 700
+   :loop:
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
+#. Open windows search and type "Allow an app", this should show you the "Allow an app through Windows Firewall", click it
+#. Click "Change Settings"
+#. Click "Allow Antother App"
+#. Click "Browse" and navigate to where your ``Aki.Server.exe`` is
+#. Select it and click "Add"
+#. That should be Aki allowed through your windows firewall, and your server set-up should now be finished
+
+.. raw:: html
+
+   <details>
+      <summary>Allowing an App Through the Firewall</summary>
+
+.. video:: _static/videos/AllowFirewall.webm
+   :width: 700
+   :loop:
+
+.. raw:: html
+
+   </details>
+
+|brs|
+
 
 General Configuration
 ----------------------------
@@ -206,6 +255,9 @@ Server Side Config
 ~~~~~~~~~~~~~~~~~~
 
 .. note:: 
+   The configs for your client are located in ``SIT\Server\user\mods\SITCoop\config\SITConfig.json``. You may want to use a text editor that isn't
+   the built in notepad, something like VSCode, or at least Notepad++
+
    These settings are changed on the Aki server config, so they affect every player on the server, wether they host the raid or are
    just a client.
 

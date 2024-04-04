@@ -42,8 +42,9 @@ you their VPN's IPv4. Once you have that follow the below steps to connect:
    <details>
       <summary>Joining Server</summary>
 
-.. image:: images/ConnectingToServer.apng
-   :width: 800
+.. video:: _static/videos/JoiningServer.webm
+   :width: 700
+   :loop:
 
 .. raw:: html
 
@@ -74,8 +75,9 @@ Server
    <details>
       <summary>Launching and Connecting</summary>
 
-.. image:: images/ServerFinalise.apng
-   :width: 800
+.. video:: _static/videos/StartServerAndJoin.webm
+   :width: 700
+   :loop:
 
 .. raw:: html
 
