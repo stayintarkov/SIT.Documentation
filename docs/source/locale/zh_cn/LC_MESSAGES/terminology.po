@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Paulov
+# This file is distributed under the same license as the Stay In Tarkov
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Stay In Tarkov 0.7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-05 19:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_cn\n"
+"Language-Team: zh_cn <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../source/terminology.rst:6
+msgid "Terminology"
+msgstr ""
+
+#: ../../source/terminology.rst:8
+msgid ""
+"This page contains all the common Terminology used to describe this "
+"project, please familiarise yourself with these."
+msgstr ""
+
+#: ../../source/terminology.rst:11
+msgid "Acronyms"
+msgstr ""
+
+#: ../../source/terminology.rst:14
+msgid "SIT - |SIT|"
+msgstr ""
+
+#: ../../source/terminology.rst:18
+msgid "EFT - |EFT|"
+msgstr ""
+
+#: ../../source/terminology.rst:22
+msgid "SPT - Single Player Tarkov, can also be refered to as AKI"
+msgstr ""
+
+#: ../../source/terminology.rst:26
+msgid "VPN - Virtual Private Network"
+msgstr ""
+
+#: ../../source/terminology.rst:29
+msgid "Terms"
+msgstr ""
+
+#: ../../source/terminology.rst:30
+msgid ""
+"AKI - This is the **SERVER** that SIT connects to, this may also be "
+"refered to just as Server"
+msgstr ""
+
+#: ../../source/terminology.rst:32 ../../source/terminology.rst:36
+msgid "|brs|"
+msgstr ""
+
+#: ../../source/terminology.rst:34
+msgid ""
+"Host - This means the person that has **STARTED** the raid, all the AI "
+"and game processing will occour on their PC, so they should be the one "
+"with the best PC and Network."
+msgstr ""
+
+#: ../../source/terminology.rst:38
+msgid ""
+"Client - This can mean the people connected to the **SERVER**, but when "
+"discussing raid issues, this will mean everyone in the raid **EXCEPT** "
+"the host."
+msgstr ""
+

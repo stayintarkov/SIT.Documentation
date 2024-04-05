@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Paulov
+# This file is distributed under the same license as the Stay In Tarkov
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Stay In Tarkov 0.7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-05 19:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_cn\n"
+"Language-Team: zh_cn <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../source/install.rst:5
+msgid "Installation"
+msgstr ""
+
+#: ../../source/install.rst:7
+msgid ""
+"This section is dedicated for a new installation of |SIT|. If you're "
+"looking to update SIT, click :ref:`here<updatesitm>`."
+msgstr ""
+
+#: ../../source/install.rst:10
+msgid "Getting started"
+msgstr ""
+
+#: ../../source/install.rst:13
+msgid "|EFT| requirements"
+msgstr ""
+
+#: ../../source/install.rst:16
+msgid ""
+"You need a legally purchased copy of |EFT|, `obtainable here "
+"<https://www.escapefromtarkov.com/preorder-page>`_."
+msgstr ""
+
+#: ../../source/install.rst:17
+msgid "You need to install the game using the official game launcher."
+msgstr ""
+
+#: ../../source/install.rst:18
+msgid "You need to run the game at least once using the official game launcher."
+msgstr ""
+
+#: ../../source/install.rst:21
+msgid "**DON'T** move your original EFT game folder following the installation."
+msgstr ""
+
+#: ../../source/install.rst:22
+msgid "**DON'T** change any of the files in your original EFT game folder."
+msgstr ""
+
+#: ../../source/install.rst:23
+msgid ""
+"**DON'T** install SIT in your original EFT game folder. **YOU HAVE BEEN "
+"WARNED!**"
+msgstr ""
+
+#: ../../source/install.rst:24
+msgid ""
+"**ALWAYS** make sure you are able to run the game using the official game"
+" launcher before using SIT."
+msgstr ""
+
+#: ../../source/install.rst:25
+msgid ""
+"**DON'T** take shortcuts. Follow this step by step. If you haven't, you "
+"will be **MOCKED**"
+msgstr ""
+
+#: ../../source/install.rst:30
+msgid "Preparing the folder structure"
+msgstr ""
+
+#: ../../source/install.rst:32
+msgid ""
+"Create the following folder structure on the drive of your choice, as "
+"long as it has enough space for |EFT|. The drive should have at least "
+"``60GB`` free space."
+msgstr ""
+
+#: ../../source/install.rst:35
+msgid ""
+"**DO NOT** install the manager in a protected directory such as "
+"``system32``, ``Program Files``, and ``Program Files (x86)``, If you do I"
+" will steal your Hard Drive platters and sell them for Freddos"
+msgstr ""
+
+#: ../../source/install.rst:56 ../../source/install.rst:89
+#: ../../source/install.rst:106 ../../source/install.rst:129
+#: ../../source/install.rst:153 ../../source/install.rst:199
+msgid "|brs|"
+msgstr ""
+
+#: ../../source/install.rst:59
+msgid ""
+"It is recommended to use this folder structure for a SIT installation. "
+"Note that the rest of the documentation will refer to that structure."
+msgstr ""
+
+#: ../../source/install.rst:62
+msgid ""
+"Below is the steps to install the SIT Manager, which as of version "
+"``2.0.8856.37884`` can automagically copy your Live |EFT| folder into a "
+"folder of your choice **REMEBER THE** :ref:`FILE STRUCTURE<filestruct>`"
+msgstr ""
+
+#: ../../source/install.rst:66
+msgid "Installing |SITM|"
+msgstr ""
+
+#: ../../source/install.rst:69
+msgid ""
+"It is **HIGHLY** recommended to use the |SITM| to install |SIT| as it "
+"**HIGHLY** simplifies the process and is almost completley automatic. It "
+"also provides us with valuble log files, :strike:`they taste great`, they"
+" help us solve issues you may encounter as well. Manual intall "
+"intructions are provided but should be **AVOIDED** wherever possible"
+msgstr ""
+
+#: ../../source/install.rst:74
+msgid ""
+"Download the latest |SITM| from `Github "
+"<https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/tag/2.0.8856.37884>`_"
+msgstr ""
+
+#: ../../source/install.rst:75
+msgid "Extract the files from the ``.zip`` into |LDIR|"
+msgstr ""
+
+#: ../../source/install.rst:91
+msgid ""
+"For sake of convinience, you can make a Shortcut to the manager on your "
+"desktop, since you need this **EVERY** time you join a server"
+msgstr ""
+
+#: ../../source/install.rst:108
+msgid "Now open the manager and Navigate to \"Install\" page"
+msgstr ""
+
+#: ../../source/install.rst:109
+msgid "Press \"Install SIT\""
+msgstr ""
+
+#: ../../source/install.rst:110
+msgid "Select the latest version (Should be Auto-Selected)"
+msgstr ""
+
+#: ../../source/install.rst:111
+msgid ""
+"Press \"Change\" on EFT Install path, which right now is pointing to your"
+" **LIVE** install, and change it to |GDIR|"
+msgstr ""
+
+#: ../../source/install.rst:112
+msgid "Press \"Start Install\""
+msgstr ""
+
+#: ../../source/install.rst:113
+msgid "Wait a bit for the Manager to copy your game files and install the SIT mod"
+msgstr ""
+
+#: ../../source/install.rst:114
+msgid ""
+"Once this is complete, SIT has been successfully installed to your "
+"client. Head to :ref:`Finishing up<finishingup>` to finish the install "
+"process, or to :ref:`Server Install<serverinst>` if you plan on hosting a"
+" server"
+msgstr ""
+
+#: ../../source/install.rst:134
+msgid "Updating |SITM|"
+msgstr ""
+
+#: ../../source/install.rst:137
+msgid ""
+"The |SITM| handles updating for you, all you need to do is press "
+"\"Update\" at the top of the manager when you boot it. It will "
+"automatically check for a new version on boot and offer to update if it "
+"is out of date. A small example can be found below"
+msgstr ""
+
+#: ../../source/install.rst:158
+msgid "Installing |SIT| Server"
+msgstr ""
+
+#: ../../source/install.rst:161
+msgid "Local Install"
+msgstr ""
+
+#: ../../source/install.rst:164
+msgid ""
+"The steps outlined below are for installing the server locally on your "
+"PC. If you would like to install this as a Docker instance follow the "
+"steps outlined in :ref:`Installing Server With Docker <dockerinstall>`"
+msgstr ""
+
+#: ../../source/install.rst:167
+msgid ""
+"Make sure the person installing the server, if they are installing it on "
+"their local machine, is the one with the most powerful PC and best "
+"Network otherwise performance may be Sub-optimal."
+msgstr ""
+
+#: ../../source/install.rst:170
+msgid ""
+"This applies to both hosting the AKI server, and Hosting the raid, more "
+"on that later in the guide."
+msgstr ""
+
+#: ../../source/install.rst:172
+msgid "Open the |SITM|"
+msgstr ""
+
+#: ../../source/install.rst:173
+msgid "Go to \"Install\""
+msgstr ""
+
+#: ../../source/install.rst:174
+msgid "Click \"Install Server + SIT Mod\""
+msgstr ""
+
+#: ../../source/install.rst:175
+msgid "Change the path to your |SDIR| path"
+msgstr ""
+
+#: ../../source/install.rst:176
+msgid "Click \"Start Install\""
+msgstr ""
+
+#: ../../source/install.rst:177
+msgid "Once that completes, Navigate to \"Server\""
+msgstr ""
+
+#: ../../source/install.rst:178
+msgid "Start the server and wait for the \"Server started!\" message"
+msgstr ""
+
+#: ../../source/install.rst:180
+msgid ""
+"If you get a pop-up from \"Windows Firewall\" with the server asking to "
+"be allowed through, like **PLACEHOLDER**, then please click \"Allow "
+"Access\" this will allow the server through your local firewall and make "
+"our lives a bit easier, a short clip is exampled below the image"
+msgstr ""
+
+#: ../../source/install.rst:183
+msgid "Stop the server, this allows it to generate all relevant configs"
+msgstr ""
+
+#: ../../source/install.rst:184
+msgid ""
+"Once you have done that, head over to :ref:`Finishing Up<finishingup>` to"
+" continue"
+msgstr ""
+
+#: ../../source/install.rst:204
+msgid "Installing Server With Docker"
+msgstr ""
+
+#: ../../source/install.rst:207
+msgid ""
+"These steps are for if you want to run the server in a docker instance. "
+"**IF YOU DON'T KNOW WHAT DOCKER IS THIS ISN'T FOR YOU**"
+msgstr ""
+
+#: ../../source/install.rst:209
+msgid ""
+"We provide a pre-made Linux Docker instance of the |SIT| server, found at"
+" this `Docker Hub <https://hub.docker.com/r/stayintarkov/stayintarkov>`_"
+msgstr ""
+
+#: ../../source/install.rst:211
+msgid ""
+"Installation instructions are also found there, we may update here to add"
+" them at some point, but for now the Docker hub has all the info you'll "
+"need"
+msgstr ""
+
+#: ../../source/install.rst:213
+msgid "Install Video will be here soon`:tm:`"
+msgstr ""
+
+#: ../../source/install.rst:218
+msgid "Finishing Up"
+msgstr ""
+
+#: ../../source/install.rst:220
+msgid ""
+"Once you have completed installation, if you plan to join other players, "
+"head :ref:`here<clientinst>`, if you want to host then head "
+":ref:`here<netconfigure>`."
+msgstr ""
+
+#: ../../source/install.rst:223
+msgid "Installing manually"
+msgstr ""
+
+#: ../../source/install.rst:226
+msgid "It is **strongly** recommended to use |SITM| to install |SIT|."
+msgstr ""
+
+#: ../../source/install.rst:227
+msgid ""
+"Even if |SIT| is manually installed, you will still need to use the "
+"|SITM| to connect to servers so this should only be done as a last "
+"resort."
+msgstr ""
+
+#: ../../source/install.rst:229
+msgid "**COPY** your Live |EFT| files into the |GDir| folder"
+msgstr ""
+
+#: ../../source/install.rst:230
+msgid ""
+"Download `BepInEx "
+"<https://github.com/BepInEx/BepInEx/releases/download/v5.4.22/BepInEx_x64_5.4.22.0.zip>`_."
+msgstr ""
+
+#: ../../source/install.rst:231
+msgid "Extract BepInEx to your ``\\SIT\\Game\\`` folder."
+msgstr ""
+
+#: ../../source/install.rst:232
+msgid ""
+"Create a new folder at the path ``\\SIT\\Game\\BepInEx\\`` called "
+"``plugins``."
+msgstr ""
+
+#: ../../source/install.rst:233
+msgid ""
+"Download the latest `Stay In Tarkov release "
+"<https://github.com/stayintarkov/StayInTarkov.Client/releases/latest>`_."
+msgstr ""
+
+#: ../../source/install.rst:234
+msgid ""
+"Extract the ``StayInTarkov.dll`` file to your "
+"``\\SIT\\Game\\BepInEx/plugins`` folder."
+msgstr ""
+
+#: ../../source/install.rst:235
+msgid ""
+"Extract the ``Assembly-CSharp.dll`` file to "
+"``\\SIT\\Game\\EscapeFromTarkov_Data\\Managed`` and replace the file when"
+" prompted."
+msgstr ""
+
