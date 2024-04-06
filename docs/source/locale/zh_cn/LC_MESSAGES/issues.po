@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Paulov
+# This file is distributed under the same license as the Stay In Tarkov
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Stay In Tarkov 0.7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-05 19:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_cn\n"
+"Language-Team: zh_cn <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../source/issues.rst:5
+msgid "Common Issues"
+msgstr ""
+
+#: ../../source/issues.rst:10
+msgid "My Flea market doesn't have new offeres or trades?"
+msgstr ""
+
+#: ../../source/issues.rst:13
+msgid ""
+"This issue can be caused by a misconfigured ``coopConfig.json`` file. It "
+"stops the flea market requests from coming through correctly which stops "
+"new offeres and trades from appearing. Here are the steps to fix it."
+msgstr ""
+
+#: ../../source/issues.rst:16
+msgid "Stop the AKI Server"
+msgstr ""
+
+#: ../../source/issues.rst:17
+msgid ""
+"Open the ``coopConfig.json`` located in "
+"``SIT\\Server\\user\\mods\\SITCoop\\config\\``"
+msgstr ""
+
+#: ../../source/issues.rst:18
+msgid ""
+"Change \"messageWSUrlOverride:\" to your local IP with the ``:6969`` port"
+" at the end (Your Local IP should go 192.168.X.X)"
+msgstr ""
+
+#: ../../source/issues.rst:19
+msgid ""
+"Change \"useMessageWSUrlOverride:\" to \"true\" **MAKE SURE TRUE IS "
+"LOWERCASE**"
+msgstr ""
+
+#: ../../source/issues.rst:20
+msgid "Save the file and reboot the server and make sure it's working"
+msgstr ""
+
+#: ../../source/issues.rst:23
+msgid ""
+"I'm getting an ``ERROR: listen EADDRNOTAVAIL: address not avalible`` "
+"error."
+msgstr ""
+
+#: ../../source/issues.rst:26
+msgid ""
+"This happens because there is already a process running that is taking up"
+" the target port, and multiple apps can't access the same port below is a"
+" quick command line method to find what is currently holding the port and"
+" close it"
+msgstr ""
+
+#: ../../source/issues.rst:29
+msgid "Press ``Win + R`` and enter \"cmd\""
+msgstr ""
+
+#: ../../source/issues.rst:30
+msgid ""
+"Press ``CTRL + Shift + Enter`` to open cmd as an admin, click \"Yes\" to "
+"allow"
+msgstr ""
+
+#: ../../source/issues.rst:31
+msgid "Type ``netstat -ano | findstr : 6969``"
+msgstr ""
+
+#: ../../source/issues.rst:32
+msgid "There should be a set of numbers at the end of the process, like ``17720``"
+msgstr ""
+
+#: ../../source/issues.rst:33
+msgid ""
+"Type ``taskkill /PID (NUMBER) /F``, replace (NUMBER) with the number you "
+"got from above and hit enter"
+msgstr ""
+
+#: ../../source/issues.rst:34
+msgid "Try booting your server again"
+msgstr ""
+
+#: ../../source/issues.rst:37
+msgid "Infinite loading screen"
+msgstr ""
+
+#: ../../source/issues.rst:40
+msgid ""
+"If you are getting an infinite loading screen, this is usually caused by "
+"mods that aren't compatible with the current version of |SIT|, try "
+"remvoing all your mods and launching the game and server again."
+msgstr ""
+
+#: ../../source/issues.rst:44
+msgid "SIT Manager \"A task was cancelled\""
+msgstr ""
+
+#: ../../source/issues.rst:47
+msgid ""
+"This is most often caused by a firewall issue, however it can also be "
+"caused by an incorrect IP address"
+msgstr ""
+
+#: ../../source/issues.rst:49
+msgid ""
+"Make sure you have entered the hosts IPv4 address correctly, and if using"
+" a VPN that there isn't any connection issues between you and the host."
+msgstr ""
+
+#: ../../source/issues.rst:52
+msgid "Aki.Server.exe Has Deleted itself"
+msgstr ""
+
+#: ../../source/issues.rst:55
+msgid ""
+"For some reason windows defender is dectecting the Aki server as malware,"
+" this is a false postive, Aki have requested it not be flagged as "
+"malware, however this process can take more than a month to resolve, so "
+"in the meantime, add the server directory as an exeption to Windows "
+"Defender, like below:"
+msgstr ""
+
+#: ../../source/issues.rst:58
+msgid "(You will read Click 10 times, and you **WILL** enjoy it)"
+msgstr ""
+
+#: ../../source/issues.rst:60
+msgid "Open windows settings"
+msgstr ""
+
+#: ../../source/issues.rst:61
+msgid "Click \"Update and Security\""
+msgstr ""
+
+#: ../../source/issues.rst:62
+msgid "Click \"Windows Security\""
+msgstr ""
+
+#: ../../source/issues.rst:63
+msgid "Click \"Open Windows Security\""
+msgstr ""
+
+#: ../../source/issues.rst:64
+msgid "Click \"Virus and Threat Protection\""
+msgstr ""
+
+#: ../../source/issues.rst:65
+msgid "Under \"Virus & Threat protection settings\" click \"Manage Settings\""
+msgstr ""
+
+#: ../../source/issues.rst:66
+msgid "Scroll down to \"Exclusions\" and click \"Add or Remove exclusions\""
+msgstr ""
+
+#: ../../source/issues.rst:67
+msgid "Click \"Add an Exclusion\" and click \"Folder\""
+msgstr ""
+
+#: ../../source/issues.rst:68
+msgid "Navigate to your |SDIR| and click \"Select Folder\""
+msgstr ""
+
+#: ../../source/issues.rst:83
+msgid "|brs|"
+msgstr ""
+

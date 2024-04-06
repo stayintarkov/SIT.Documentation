@@ -40,3 +40,9 @@ html_css_files = ['css/custom.css']
 
 ## -- Copy to HTML output
 html_static_path = ['_static']
+
+## -- Set localisation path (Should make localising not a pain)
+locale_dirs = ['locale/']   
+
+## -- Recomended setting but unsure exactly what it does, because, ironically, the docs are half baked
+gettext_compact = False
