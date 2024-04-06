@@ -177,7 +177,7 @@ Local Install
 6. Once that completes, Navigate to "Server"
 7. Start the server and wait for the "Server started!" message
 
-   * If you get a pop-up from "Windows Firewall" with the server asking to be allowed through, like **PLACEHOLDER**, then please click "Allow Access"
+   * If you get a pop-up from "Windows Firewall" with the server asking to be allowed through, like :ref:`this <firewall>`, then please click "Allow Access"
      this will allow the server through your local firewall and make our lives a bit easier, a short clip is exampled below the image
 
 8. Stop the server, this allows it to generate all relevant configs
