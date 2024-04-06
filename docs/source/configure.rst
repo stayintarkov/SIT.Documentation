@@ -163,6 +163,8 @@ HTTP JSON file configuration
 #. Save your changes and close the text editor.
 #. Once you have done this, head :ref:`here <serverplay>` and follow the Server steps to see how to launch and join the server
 
+.. _firewall:
+
 Firewall Configuration
 ----------------------
 
@@ -194,6 +196,7 @@ Firewall Configuration
 #. Click "Allow Antother App"
 #. Click "Browse" and navigate to where your ``Aki.Server.exe`` is
 #. Select it and click "Add"
+#. Make sure both public and private are ticked
 #. That should be Aki allowed through your windows firewall, and your server set-up should now be finished
 
 .. raw:: html
