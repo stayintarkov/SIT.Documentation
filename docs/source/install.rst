@@ -60,7 +60,7 @@ Create the following folder structure on the drive of your choice, as long as it
    that structure.
 
    Below is the steps to install the SIT Manager, which as of version ``2.0.8856.37884`` can automagically copy your Live |EFT| folder
-   into a folder of your choice **REMEBER THE** :ref:`FILE STRUCTURE<filestruct>`
+   into a folder of your choice **REMEMBER THE** :ref:`FILE STRUCTURE<filestruct>`
 
 Installing |SITM|
 -----------------
