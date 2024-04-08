@@ -6,21 +6,9 @@ Common Issues
 
 .. _fleaissue:
 
-My Flea Market Doesn't Have New Offers or Trades
-================================================
+My Flea market doesn't have new offeres or trades?
+--------------------------------------------------
 
-Problem
--------
-
-Your flea market might not be displaying new offers or trades.
-
-Cause
------
-
-This issue can often arise due to a misconfigured ``coopConfig.json`` file, which prevents flea market requests from being processed correctly, thereby stopping new offers and trades from appearing.
-
-Solution
---------
 
 Follow these steps to correct the issue:
 
@@ -39,8 +27,6 @@ Follow these steps to correct the issue:
 .. note::
    If you're running the AKI Server on Docker or a Virtual Private Server (VPS), you'll need to set the ``messageWSUrlOverride`` to your VPS's external IP address.
 
-For Docker Users
-----------------
 
 If you're using Docker, follow these commands to update your IP configuration:
 
