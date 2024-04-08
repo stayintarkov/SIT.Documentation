@@ -6,18 +6,82 @@ Common Issues
 
 .. _fleaissue:
 
-My Flea market doesn't have new offeres or trades?
---------------------------------------------------
+My Flea Market Doesn't Have New Offers or Trades
+================================================
 
-.. note:: 
-   This issue can be caused by a misconfigured ``coopConfig.json`` file. It stops the flea market requests from coming through correctly
-   which stops new offeres and trades from appearing. Here are the steps to fix it.
+Problem
+-------
 
-#. Stop the AKI Server
-#. Open the ``coopConfig.json`` located in ``SIT\Server\user\mods\SITCoop\config\``
-#. Change "messageWSUrlOverride:" to your local IP with the ``:6969`` port at the end (Your Local IP should go 192.168.X.X)
-#. Change "useMessageWSUrlOverride:" to "true" **MAKE SURE TRUE IS LOWERCASE**
-#. Save the file and reboot the server and make sure it's working
+Your flea market might not be displaying new offers or trades.
+
+Cause
+-----
+
+This issue can often arise due to a misconfigured ``coopConfig.json`` file, which prevents flea market requests from being processed correctly, thereby stopping new offers and trades from appearing.
+
+Solution
+--------
+
+Follow these steps to correct the issue:
+
+1. **Stop the AKI Server**.
+
+2. Navigate to the ``coopConfig.json`` file located in ``SIT\Server\user\mods\SITCoop\config\``.
+
+3. Modify the ``messageWSUrlOverride`` field to include your local IP with the port ``:6969`` appended at the end (e.g., ``192.168.X.X:6969``).
+
+4. Change ``useMessageWSUrlOverride`` to ``true``. Ensure the value ``true`` is in lowercase.
+
+5. Save the changes to the ``coopConfig.json`` file.
+
+6. Reboot the server and verify that it is functioning correctly.
+
+.. note::
+   If you're running the AKI Server on Docker or a Virtual Private Server (VPS), you'll need to set the ``messageWSUrlOverride`` to your VPS's external IP address.
+
+For Docker Users
+----------------
+
+If you're using Docker, follow these commands to update your IP configuration:
+
+1. Stop the SITCoop container:
+
+   .. code-block:: bash
+
+      docker stop sitcoop
+
+2. Retrieve your external IP address:
+
+   .. code-block:: bash
+
+      curl -4 icanhazip.com
+
+3. Edit the ``coopConfig.json`` file:
+
+   .. code-block:: bash
+
+      nano server/user/mods/SITCoop/config/coopConfig.json
+
+   Update the file with the following configuration, replacing ``IP YOU GET FROM icanhazip.com`` with the IP address you obtained from the previous step:
+
+   .. code-block:: json
+
+      {
+          "webSocketPort": 6970,
+          "natHelperPort": 6971,
+          "useUPNP": false,
+          "useMessageWSUrlOverride": true, <--- SET THIS TO TRUE
+          "messageWSUrlOverride": "IP you get from icanhazip.com:6969"
+      }
+
+4. Start the SITCoop container:
+
+   .. code-block:: bash
+
+      docker start sitcoop
+
+By following these steps, you should be able to resolve the issue with the flea market not displaying new offers or trades in your AKI Server environment.
+
 
 I'm getting an ``ERROR: listen EADDRNOTAVAIL: address not avalible`` error.
 ---------------------------------------------------------------------------
