@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Cyrogon
+# This file is distributed under the same license as the TestLocale package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TestLocale 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-10 00:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../source/index.rst:29
+msgid "Home"
+msgstr "Home away from sanity"
+
+#: ../../source/index.rst:4
+msgid "Welcome to Stay In Tarkov!"
+msgstr "Welcome to Stay In Tarkov! - But in Chinese"
+
+#: ../../source/index.rst:6
+msgid ""
+"**Stay In Tarkov (SIT)** is a Escape From Tarkov mod designed for "
+"cooperative play. SIT uses modding frameworks such as `BepInEx "
+"<https://github.com/BepInEx/BepInEx/>`_ and `SPT-AKI <https://www.sp-"
+"tarkov.com/>`_ to achieve its goal."
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid ""
+"Stay In Tarkov is currently under development by a small team of "
+"developers. While SIT is playable, there are many bugs, synchronization "
+"and performance issues during gameplay. Escape From Tarkov and SPT-AKI "
+"updates frequently and oftentimes, your progress must be reset."
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid ""
+"In other words, SIT is not a perfect replacement of the live experience: "
+"**always keep in mind that game breaking bugs and progression issues will"
+" occur and there are no way around it.**"
+msgstr ""
+
+#: ../../source/index.rst:19
+msgid ""
+"Our Discord Server is located `here <https://discord.gg/f4CN4n3nP2>`_ "
+"which you can use to talk about the mod in general or advise us of any "
+"issues you've encountered."
+msgstr ""
+
+#: ../../source/index.rst:23
+msgid ""
+"SIT is NOT an attempt to provide an one-to-one alternative to the live "
+"experience of Escape From Tarkov. The primary goal is to enable playing "
+"Escape From Tarkov with friends against enemy AI (bots)."
+msgstr ""
+
+#: ../../source/index.rst:26
+msgid ""
+"Consequently, no efforts are planned to make SIT into a headless "
+"dedicated server, and it is highly unlikely that such efforts will ever "
+"be made."
+msgstr ""
+
