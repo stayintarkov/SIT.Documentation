@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TestLocale 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-10 00:52+0100\n"
+"POT-Creation-Date: 2024-04-13 00:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -61,34 +61,40 @@ msgstr ""
 
 #: ../../source/install.rst:23
 msgid ""
+"**YOU MUST** run **LIVE** Tarkov at least once. If you don't, you forfeit"
+" all of you're mortal possessions to my dog."
+msgstr ""
+
+#: ../../source/install.rst:24
+msgid ""
 "**DON'T** install SIT in your original EFT game folder. **YOU HAVE BEEN "
 "WARNED!**"
 msgstr ""
 
-#: ../../source/install.rst:24
+#: ../../source/install.rst:25
 msgid ""
 "**ALWAYS** make sure you are able to run the game using the official game"
 " launcher before using SIT."
 msgstr ""
 
-#: ../../source/install.rst:25
+#: ../../source/install.rst:26
 msgid ""
 "**DON'T** take shortcuts. Follow this step by step. If you haven't, you "
 "will be **MOCKED**"
 msgstr ""
 
-#: ../../source/install.rst:30
+#: ../../source/install.rst:31
 msgid "Preparing the folder structure"
 msgstr ""
 
-#: ../../source/install.rst:32
+#: ../../source/install.rst:33
 msgid ""
 "Create the following folder structure on the drive of your choice, as "
 "long as it has enough space for |EFT|. The drive should have at least "
 "``60GB`` free space."
 msgstr ""
 
-#: ../../source/install.rst:35
+#: ../../source/install.rst:36
 msgid ""
 "**DO NOT** install the manager in a protected directory such as "
 "``system32``, ``Program Files``, and ``Program Files (x86)``, If you do I"
