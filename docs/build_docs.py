@@ -14,7 +14,7 @@ def build_doc(version, language):
     subprocess.run("make html", shell=True)
 
 os.environ["build_all_docs"] = str(True)
-os.environ["pages_root"] = "https://cyrogon.github.io/TestLocaleSIT"
+os.environ["pages_root"] = "https://docs.stayintarkov.com/"
 
 # Create a shorthand for making and moving a directory
 def move_dir(src, dst):
