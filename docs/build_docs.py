@@ -32,13 +32,17 @@ for i in langs:
 # Move the index.html to the root pages directory so it redirects to the en docs
 subprocess.run("mv ./templates/index.html ../pages/index.html", shell=True)
 
-# Open the versions files to see what versions to build and what langs they supported
+# Open the versions files to see what versions to build and what langs they supported, currently commented out as we don't have alternate versions yet#
+"""
 with open("versions.yaml", "r") as yaml_file:
   docs = yaml.safe_load(yaml_file)
+"""
 
-# Loop over all the values and build the versions with their respective language
+# Loop over all the values and build the versions with their respective language, currently commented out as we don't have alternate versions yet
+"""
 for version, details in docs.items():
   tag = details.get('tag', '')
   for language in details.get('languages', []): 
     build_doc(version, language)
     move_dir("./build/html/", "../pages/"+version+'/'+language+'/')
+"""
