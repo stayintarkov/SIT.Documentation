@@ -1,0 +1,686 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Cyrogon
+# This file is distributed under the same license as the TestLocale package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TestLocale 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-10 00:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../source/configure.rst:5
+msgid "Configuration"
+msgstr ""
+
+#: ../../source/configure.rst:8
+msgid ""
+"This section is dedicated to the configuration of Stay In Tarkov. If you "
+"haven't installed Stay In Tarkov yet, click :ref:`here <install>`."
+msgstr ""
+
+#: ../../source/configure.rst:11
+msgid "Network Configuration"
+msgstr ""
+
+#: ../../source/configure.rst:13
+msgid ""
+"Follow this section if you're planning to be the coop game host (server)."
+" At least one person in your group needs to follow this process to be "
+"able to play coop together. The person with the best computer and network"
+" performance should be the host for a better experience. Don't let the "
+"lad with 10kbps internet host please."
+msgstr ""
+
+#: ../../source/configure.rst:18
+msgid "UPnP"
+msgstr ""
+
+#: ../../source/configure.rst:21
+msgid ""
+"UPnP (Universal Plug and Play) is the **preferred** method for server "
+"hosting as it supports automagically opening the ports that SIT needs "
+"while they are needed. However this only works for competent routers "
+"(looking at you USA). If you have issues with this please follow the "
+":ref:`Port Forwarding<portforward>` guide below for manually opening the "
+"required ports for |SIT|."
+msgstr ""
+
+#: ../../source/configure.rst:25
+msgid ""
+"If you are using UPnP, skip to :ref:`HTTP JSON Configuration <httpjson>` "
+"to prep the server"
+msgstr ""
+
+#: ../../source/configure.rst:29
+msgid "Port forwarding"
+msgstr ""
+
+#: ../../source/configure.rst:32
+msgid ""
+"Port forwarding is the process of opening a port on your external IP "
+"address and redirect the traffic to a specific device. The process is "
+"different for all router models. Therefore, we cannot provide a step-by-"
+"step tutorial for port forwarding."
+msgstr ""
+
+#: ../../source/configure.rst:36
+msgid ""
+"If you are unsure how to port forward, google \"YOUR_ROUTER_MODEL port "
+"forward\" or contact your Internet Service Provider."
+msgstr ""
+
+#: ../../source/configure.rst:38
+msgid ""
+"**An example has been provided below but we cannot support you on this "
+"because every router is wildly different so please try to find "
+"instructions for your specific router.**"
+msgstr ""
+
+#: ../../source/configure.rst:41
+msgid ""
+"Here is a quick example on how to port forward with a Virgin Media "
+"Superhub 3 (UK)"
+msgstr ""
+
+#: ../../source/configure.rst:43
+msgid "Open ``cmd`` and type ``ipconfig``"
+msgstr ""
+
+#: ../../source/configure.rst:44
+msgid ""
+"Find ``Default Gateway:`` it should have an IP similar to "
+"``192.168.0.1``. Also note down your local IP ``IPv4 Address``"
+msgstr ""
+
+#: ../../source/configure.rst:45
+msgid ""
+"Open your web browser and type the ``Default Gateway`` IP into the URL "
+"bar (Not the search bar)"
+msgstr ""
+
+#: ../../source/configure.rst:46
+msgid ""
+"There may be a login page there, put in the login details so you can get "
+"to the main dashboard"
+msgstr ""
+
+#: ../../source/configure.rst:47
+msgid ""
+"You will need to look for a tab called \"Port Forwarding\". It may be "
+"under some advanced settings or security tab"
+msgstr ""
+
+#: ../../source/configure.rst:61 ../../source/configure.rst:81
+#: ../../source/configure.rst:132 ../../source/configure.rst:153
+#: ../../source/configure.rst:192 ../../source/configure.rst:215
+#: ../../source/configure.rst:253
+msgid "|brs|"
+msgstr ""
+
+#: ../../source/configure.rst:63
+msgid ""
+"Once in there you should be able to open certain ports to certain IPs. "
+"This is where the ``IPv4 Address`` comes in"
+msgstr ""
+
+#: ../../source/configure.rst:64
+msgid ""
+"Open ports 6969 to 6972, making sure to include those two as well, so 4 "
+"total ports. Some routers can port a range, if you can't you'll have to "
+"do them 1 by 1"
+msgstr ""
+
+#: ../../source/configure.rst:83
+msgid ""
+"Make sure to use the \"Both\" option for Protocal if you can, otherwise "
+"you will need to do it twice, for both UDP and TCP"
+msgstr ""
+
+#: ../../source/configure.rst:84
+msgid ""
+"Once you save that those ports should now be open, and pointing traffic "
+"to your PC"
+msgstr ""
+
+#: ../../source/configure.rst:85
+msgid ""
+"Once you have completed these steps go :ref:`here <httpjson>` to "
+"configure the server to use these ports"
+msgstr ""
+
+#: ../../source/configure.rst:88
+msgid ""
+"Not all Internet Service Provider allows port forwarding. Sometimes port "
+"forwarding is blocked at the provider level or at the router level. In "
+"any case, the person able to port forward should be the host, provided "
+"their computer and network is capable."
+msgstr ""
+
+#: ../../source/configure.rst:92
+msgid ""
+"If that is the case, you may have to use a VPN (Virtual Private Network) "
+"like Hamachi, Radmin or ZeroTier to allow people to connect however these"
+" may come with performance hits to players ping due to how they work. "
+"Port fowarding is the prefered method."
+msgstr ""
+
+#: ../../source/configure.rst:97
+msgid "Virtual Private Network (VPN)"
+msgstr ""
+
+#: ../../source/configure.rst:100
+msgid ""
+"Virtual private network such as Hamachi, Radmin or ZeroTier allows to "
+"create an internet-based \"local\" network. All traffic will be "
+"transmitted through the internet and redirected to a virtual network "
+"adapter which acts as a local network. This is useful for those which are"
+" unable to port forward. However, performance is not as good as port "
+"forwarding because traffic must go through a third party service."
+msgstr ""
+
+#: ../../source/configure.rst:105
+msgid ""
+"If you need help setting these up a basic guide will be provided however "
+"we cannot help with issues coming from using these, so it may be best to "
+"look up a guide on how to use them beforehand."
+msgstr ""
+
+#: ../../source/configure.rst:109
+msgid ""
+"We do not recommend using VPN to play Stay In Tarkov because they are "
+"known to have rate limitations and hinder network performance and "
+"stability. SIT is not well optimized and transmit a lot of data to "
+"synchronize information between players."
+msgstr ""
+
+#: ../../source/configure.rst:112
+msgid "**Use at your own risk.**"
+msgstr ""
+
+#: ../../source/configure.rst:118
+msgid "Install hamachi from their offical site here `Hamachi <https://vpn.net/>`_"
+msgstr ""
+
+#: ../../source/configure.rst:119
+msgid ""
+"Click the power button, it should ask you to log in, either log in or "
+"register an account to continue"
+msgstr ""
+
+#: ../../source/configure.rst:120
+msgid ""
+"If you are joining a server, join the hosts Hamachi network by pressing "
+"\"Join an Existing Network\" and enter the ID and Password"
+msgstr ""
+
+#: ../../source/configure.rst:122
+msgid ""
+"If you are hosting the server, press \"Create a New Network\", then give "
+"it a name and password, give this to everyone you are playing with"
+msgstr ""
+
+#: ../../source/configure.rst:124
+msgid ""
+"Once you are all in the network, make sure everyones light is green, if "
+"not, look up a guide to fix it, we **CANNOT** help with this."
+msgstr ""
+
+#: ../../source/configure.rst:125
+msgid ""
+"If everyone is connected and with green light, go :ref:`HTTP JSON "
+"Config<httpjson>` to setup the server to use the VPN"
+msgstr ""
+
+#: ../../source/configure.rst:139
+msgid ""
+"Install Radmin from their offical site here `Radmin <https://www.radmin-"
+"vpn.com/>`_"
+msgstr ""
+
+#: ../../source/configure.rst:140
+msgid ""
+"Once installed, make sure the power button icon says \"On\" and has an IP"
+" below your Computer Name. We cannot help with errors on this"
+msgstr ""
+
+#: ../../source/configure.rst:141
+msgid ""
+"If you are joining a server, join the hosts Radmin network by pressing "
+"\"Join Network\" and enter the ID and Password"
+msgstr ""
+
+#: ../../source/configure.rst:143
+msgid ""
+"If you are hosting the server, press \"Create Network\", then give it a "
+"name and password, give this to everyone you are playing with"
+msgstr ""
+
+#: ../../source/configure.rst:145
+msgid ""
+"If the bar is green, the connection has been successful and you're ready "
+"to continue, if not, then you'll need to look up your issue as we can't "
+"help"
+msgstr ""
+
+#: ../../source/configure.rst:146
+msgid ""
+"Once this has been done, head to :ref:`HTTP JSON Config<httpjson>` to "
+"setup the server to use the VPN"
+msgstr ""
+
+#: ../../source/configure.rst:158
+msgid "HTTP JSON file configuration"
+msgstr ""
+
+#: ../../source/configure.rst:160
+msgid ""
+"Open ``SIT\\Server\\Aki_Data\\Server\\configs\\http.json`` with your "
+"preferred text text editor."
+msgstr ""
+
+#: ../../source/configure.rst:161
+msgid ""
+"Locate the \"ip\" parameter. You should see a default value of "
+"\"127.0.0.1\"."
+msgstr ""
+
+#: ../../source/configure.rst:162
+msgid ""
+"Change \"127.0.0.1\" with ``0.0.0.0``. (Only change from ``0.0.0.0`` if "
+"you know what you're doing)"
+msgstr ""
+
+#: ../../source/configure.rst:163
+msgid "Save your changes and close the text editor."
+msgstr ""
+
+#: ../../source/configure.rst:164
+msgid ""
+"Once you have done this, head :ref:`here <serverplay>` and follow the "
+"Server steps to see how to launch and join the server"
+msgstr ""
+
+#: ../../source/configure.rst:169
+msgid "Firewall Configuration"
+msgstr ""
+
+#: ../../source/configure.rst:172
+msgid ""
+"This section is about configuring your Windows firewall to allow the "
+"clients to connect to the server through your PC, although you have "
+"forwarded the ports your PC itself my still reject the connections "
+"because it hasn't been configured to allow them, the below section will "
+"detail how to do that if the server hasn't already asked to be allowed "
+"through"
+msgstr ""
+
+#: ../../source/configure.rst:194
+msgid ""
+"Open windows search and type \"Allow an app\", this should show you the "
+"\"Allow an app through Windows Firewall\", click it"
+msgstr ""
+
+#: ../../source/configure.rst:195
+msgid "Click \"Change Settings\""
+msgstr ""
+
+#: ../../source/configure.rst:196
+msgid "Click \"Allow Antother App\""
+msgstr ""
+
+#: ../../source/configure.rst:197
+msgid "Click \"Browse\" and navigate to where your ``Aki.Server.exe`` is"
+msgstr ""
+
+#: ../../source/configure.rst:198
+msgid "Select it and click \"Add\""
+msgstr ""
+
+#: ../../source/configure.rst:199
+msgid "Make sure both public and private are ticked"
+msgstr ""
+
+#: ../../source/configure.rst:200
+msgid ""
+"That should be Aki allowed through your windows firewall, and your server"
+" set-up should now be finished"
+msgstr ""
+
+#: ../../source/configure.rst:219
+msgid "General Configuration"
+msgstr ""
+
+#: ../../source/configure.rst:221
+msgid ""
+"Below are steps for configuring both the |SIT| client and the |SIT| "
+"Server, this have been split into catagories for your :strike:`pleasure` "
+"convience."
+msgstr ""
+
+#: ../../source/configure.rst:226
+msgid "Client Side Config"
+msgstr ""
+
+#: ../../source/configure.rst:229
+msgid ""
+"The configs for your client are located in "
+"``SIT\\Game\\BepInEx\\config\\com.stayintarkov.cfg``. You may want to use"
+" a text editor that isn't the built in notepad, something like VSCode, or"
+" at least Notepad++"
+msgstr ""
+
+#: ../../source/configure.rst:232
+msgid ""
+"These settings will only take effect if the person that has modified them"
+" is hosting the raid, so settings like ``EnableAISpawnWaveSystem`` will "
+"only take effect if the person that modified them hosts."
+msgstr ""
+
+#: ../../source/configure.rst:236
+msgid ""
+"**DO NOT** edit any of the ``Enabled`` options as they are for debug "
+"purposes and **SHOULD NOT** be modified in any way."
+msgstr ""
+
+#: ../../source/configure.rst:238
+msgid "Client Config Options"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
+msgid "**Config Option**"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
+msgid "**Values**"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
+msgid "**Default**"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "*(Description**"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "PlayerStateTickRateInMS"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
+msgid "true/false"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "333"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid ""
+"For setting the client drones to spawn on the server, for **debugging** "
+"use *only*"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "ShowDronesOnServer"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "150-666"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
+msgid "false"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid ""
+"TCP Only: The rate at which Player States will attempt to be "
+"synchronized. **ONLY MODIFY IF YOU KNOW WHAT YOU ARE DOING**"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "HeadshotsAlwaysKill"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "Enable to make headshots actually work, no more tanking definite kills!"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "ShowFeed"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "true"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid ""
+"Enable the feed on the bottom right of the screen which shows player/bot "
+"spawns, kills, etc. **DOES NOT WORK RIGHT NOW, WAS CAUSING ISSUES**"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "AllPlayersSpawnTogether"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "Will decide if all players spawn at the same spawn point or not"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "ArenaMode"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "Currently a **DEBUG** option. **DO NOT TOUCH**"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "EnableAISpawnWaveSystem"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid ""
+"Toggles the AI spawn wave system, if false, no AI will spawn, useful for "
+"testing PvP aspects"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "ForceHighPingMode"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid ""
+"Forces the High Ping Mode which allows some actions to not round-trip. "
+"This may be useful if you have large input lag **ONLY MODIFY IF YOU KNOW "
+"WHAT YOU ARE DOING**"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "WaitingTimeBeforeStart"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "0-600"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "120"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "Time in seconds to wait for players before starting the game automatically"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "ShowSITStatistics"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid ""
+"Enable the SIT statistics on the top left of the screen which shows ping,"
+" player count, etc."
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "ShowPing"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "Enables the ping display in the top left"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "ShowPlayerList"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "Enable to show player list - **For Debugging**"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "SITPort"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "0-65535"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "6970"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "SIT TCP/Websocket Port **ONLY MODIFY IF YOU KNOW WHAT YOU ARE DOING**"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "SITNatHelperPort"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "6971"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "SIT Nat Helper Port **ONLY MODIFY IF YOU KNOW WHAT YOU ARE DOING**"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "Language"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "Language Option"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "English"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "Changes SIT Localisation languages"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "EnableSITVersionLabel"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid ""
+"Enables the SIT version in the bottom right, please leave this on, makes "
+"our life 10x Easier"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "EnableHealthPatches"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "Not completley surem of the purpose for this one, do not touch please"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid "EnableAdditionalAmmoUIDescriptions"
+msgstr ""
+
+#: ../../source/csv/clientsettings.csv:1
+msgid ""
+"Enables the extra info about ammo in the information tab, only disable if"
+" you **enjoy** spreadsheets."
+msgstr ""
+
+#: ../../source/configure.rst:258
+msgid "Server Side Config"
+msgstr ""
+
+#: ../../source/configure.rst:261
+msgid ""
+"The configs for your client are located in "
+"``SIT\\Server\\user\\mods\\SITCoop\\config\\SITConfig.json``. You may "
+"want to use a text editor that isn't the built in notepad, something like"
+" VSCode, or at least Notepad++"
+msgstr ""
+
+#: ../../source/configure.rst:264
+msgid ""
+"These settings are changed on the Aki server config, so they affect every"
+" player on the server, wether they host the raid or are just a client."
+msgstr ""
+
+#: ../../source/configure.rst:267
+msgid "Server Config Options"
+msgstr ""
+
+#: ../../source/csv/serversettings.csv:1
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/csv/serversettings.csv:1
+msgid "runAzureWebAppHelper"
+msgstr ""
+
+#: ../../source/csv/serversettings.csv:1
+msgid "**IDK**"
+msgstr ""
+
+#: ../../source/csv/serversettings.csv:1
+msgid "openAllExfils"
+msgstr ""
+
+#: ../../source/csv/serversettings.csv:1
+msgid "This setting will enable or disable all Exfils being avalible for use"
+msgstr ""
+
+#: ../../source/csv/serversettings.csv:1
+msgid "showPlayerNameTags"
+msgstr ""
+
+#: ../../source/csv/serversettings.csv:1
+msgid ""
+"This will enable the players name tags above their head, will make "
+"Friendly Fire Harder (Coward)"
+msgstr ""
+
+#: ../../source/csv/serversettings.csv:1
+msgid "showPlayerNameTagsOnlyWhenVisible"
+msgstr ""
+
+#: ../../source/csv/serversettings.csv:1
+msgid ""
+"Setting this to true will make name tags show up all the time, instead of"
+" just when the player is in view"
+msgstr ""
+

@@ -1,0 +1,8 @@
+.rst-content code.literal {
+    color: #0d00ff !important;
+    background-color: #fbfbfb !important;
+}
+
+.strike {
+    text-decoration: line-through;
+  }

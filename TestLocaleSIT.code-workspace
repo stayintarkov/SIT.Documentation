@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"emeraldwalk.runonsave": {
+			"commands": [
+				{
+					"match": ".rst",
+					"isAsync": false,
+					"cmd": "docs\\make.bat clean && docs\\make.bat html"
+				}
+			]
+		}
+	}
+}
