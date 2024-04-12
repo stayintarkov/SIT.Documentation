@@ -19,7 +19,7 @@ author = 'Stay In Tarkov Team'
 extensions = ['sphinxcontrib.video']
 templates_path = ['../templates']
 exclude_patterns = []
-
+html_css_files = ['css/custom.css']
 
 
 # -- Options for HTML output -------------------------------------------------
