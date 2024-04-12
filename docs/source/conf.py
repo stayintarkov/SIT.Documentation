@@ -58,11 +58,13 @@ if (current_version == 'latest'):
 html_context['versions'].append(['latest', "{}/{}".format(pages_root, current_language)])
 
 
-# Open the versions.yaml to see what versions to build and what langs they supported
+# Open the versions.yaml to see what versions to build and what langs they supported, commented out as currently unused
+"""
 with open("../versions.yaml", "r") as yaml_file:
   docs = yaml.safe_load(yaml_file)
 
 # if the current version isn't latest, append the version to the redirect string of the page, so that it links to the correct locale
+
 if (current_version != 'latest'):
   for language in docs[current_version].get('languages', []):
     html_context['languages'].append([language, "{}/{}/{}".format(pages_root, current_version, language)])
@@ -71,3 +73,4 @@ if (current_version != 'latest'):
 
 for version, details in docs.items():
   html_context['versions'].append([version, "{}/{}/{}".format(pages_root, version, current_language)])
+"""
