@@ -131,3 +131,13 @@ Aki.Server.exe Has Deleted itself
    </details>
 
 |brs|
+
+.. _naughty:
+
+I'm getting "Illegal Game Found"
+--------------------------------
+
+.. note::
+   In order to fix this issue you **MUST** follow every install step, properly, without skipping **anything**. I mean it, **ANYTHING**.
+
+   If you are still getting the error, go `here. <https://www.escapefromtarkov.com/preorder-page>`_
