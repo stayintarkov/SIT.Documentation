@@ -9,9 +9,9 @@
 import os
 import yaml
 
-project = 'TestLocale'
-copyright = '2024, Cyrogon'
-author = 'Cyrogon'
+project = 'SIT.Documentation'
+copyright = '2024, Stay In Tarkov Team'
+author = 'Stay In Tarkov Team'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
