@@ -1,1 +1,0 @@
-https://stayintarkov.readthedocs.io
