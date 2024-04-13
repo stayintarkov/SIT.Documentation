@@ -20,6 +20,7 @@ Getting started
 .. warning::
    * **DON'T** move your original EFT game folder following the installation.
    * **DON'T** change any of the files in your original EFT game folder.
+   * **YOU MUST** run **LIVE** Tarkov at least once. If you don't, you forfeit all of you're mortal possessions to my dog.
    * **DON'T** install SIT in your original EFT game folder. **YOU HAVE BEEN WARNED!**
    * **ALWAYS** make sure you are able to run the game using the official game launcher before using SIT.
    * **DON'T** take shortcuts. Follow this step by step. If you haven't, you will be **MOCKED**
