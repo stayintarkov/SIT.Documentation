@@ -1,19 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2024, Cyrogon
-# This file is distributed under the same license as the TestLocale package.
+# Copyright (C) 2024, Stay In Tarkov Team
+# This file is distributed under the same license as the SIT.Documentation
+# package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: TestLocale 2.0\n"
+"Project-Id-Version: SIT.Documentation \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-14 00:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: uk_UA\n"
+"Language-Team: uk_UA <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -251,29 +253,4 @@ msgid ""
 "If you are still getting the error, go `here. "
 "<https://www.escapefromtarkov.com/preorder-page>`_"
 msgstr ""
-
-#~ msgid "My Flea market doesn't have new offeres or trades?"
-#~ msgstr ""
-
-#~ msgid "Stop the SITCoop container:"
-#~ msgstr ""
-
-#~ msgid "Retrieve your external IP address:"
-#~ msgstr ""
-
-#~ msgid "Edit the ``coopConfig.json`` file:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Update the file with the following "
-#~ "configuration, replacing ``IP YOU GET "
-#~ "FROM icanhazip.com`` with the IP address"
-#~ " you obtained from the previous step:"
-#~ msgstr ""
-
-#~ msgid "Start the SITCoop container:"
-#~ msgstr ""
-
-#~ msgid "(You will read Click 10 times, and you **WILL** enjoy it)"
-#~ msgstr ""
 
