@@ -6,7 +6,7 @@ Common Issues
 
 .. _fleaissue:
 
-My Flea market doesn't have new offeres or trades?
+Flea market Issues
 --------------------------------------------------
 
 
