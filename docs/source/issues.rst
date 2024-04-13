@@ -18,6 +18,8 @@ Follow these steps to correct the issue:
 
 3. Modify the ``messageWSUrlOverride`` field to include your local IP with the port ``:6969`` appended at the end (e.g., ``192.168.X.X:6969``).
 
+   * You can get your Local IP by opening ``cmd`` and typing ``ipconfig``
+
 4. Change ``useMessageWSUrlOverride`` to ``true``. Ensure the value ``true`` is in lowercase.
 
 5. Save the changes to the ``coopConfig.json`` file.
@@ -30,25 +32,13 @@ Follow these steps to correct the issue:
 
 If you're using Docker, follow these commands to update your IP configuration:
 
-1. Stop the SITCoop container:
+1. Stop the SITCoop container using ``docker stop sitcoop``   
 
-   .. code-block:: bash
+2. Retrieve your external IP address using ``curl -4 icanhazip.com``
 
-      docker stop sitcoop
+3. Edit the ``coopConfig.json`` file, using the command ``nano server/user/mods/SITCoop/config/coopConfig.json``
 
-2. Retrieve your external IP address:
-
-   .. code-block:: bash
-
-      curl -4 icanhazip.com
-
-3. Edit the ``coopConfig.json`` file:
-
-   .. code-block:: bash
-
-      nano server/user/mods/SITCoop/config/coopConfig.json
-
-   Update the file with the following configuration, replacing ``IP YOU GET FROM icanhazip.com`` with the IP address you obtained from the previous step:
+   Update the file with the following configuration, replacing ``messageWSUrlOverride`` with the IP you got from Step 2, and set ``useMessageWSUrlOverride`` to **TRUE**
 
    .. code-block:: json
 
@@ -57,14 +47,10 @@ If you're using Docker, follow these commands to update your IP configuration:
           "natHelperPort": 6971,
           "useUPNP": false,
           "useMessageWSUrlOverride": true, <--- SET THIS TO TRUE
-          "messageWSUrlOverride": "IP you get from icanhazip.com:6969"
+          "messageWSUrlOverride": "IP:6969"
       }
 
-4. Start the SITCoop container:
-
-   .. code-block:: bash
-
-      docker start sitcoop
+4. Start the SITCoop container using ``docker start sitcoop``
 
 By following these steps, you should be able to resolve the issue with the flea market not displaying new offers or trades in your AKI Server environment.
 
@@ -105,7 +91,7 @@ Aki.Server.exe Has Deleted itself
    For some reason windows defender is dectecting the Aki server as malware, this is a false postive, Aki have requested it not be flagged as malware, however this
    process can take more than a month to resolve, so in the meantime, add the server directory as an exeption to Windows Defender, like below:
 
-   (You will read Click 10 times, and you **WILL** enjoy it)
+   (You will read Click 9 times, and you **WILL** enjoy it)
 
 #. Open windows settings
 #. Click "Update and Security"
