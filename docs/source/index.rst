@@ -36,3 +36,4 @@ us of any issues you've encountered.
    faq
    issues
    terminology
+   plans
