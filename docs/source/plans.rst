@@ -4,5 +4,12 @@
 Future Plans / Roadmap
 ======================
 
-.. note::
-    We're working on it, check back later, or don't, it's not like I care or anything....
+- Upgrade to 14.5 (and its features)
+- BTR
+- Lightkeeper
+- Headless Server Host
+- Spectate Teammates/Players via their cameras
+- Replace "F8" with UI
+- Replace Health Controller with BSG Serialized/Sync model
+- Different game modes (we have so many ideas!)
+- Arena like Kill Feed
