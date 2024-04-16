@@ -2,13 +2,23 @@
  
 This is the Stay In Tarkov documentation Repo, if you're looking for the docs, go here: https://docs.stayintarkov.com/
 
-# Contributing
+# Compiling 
 
-If you wish to contribute, the easier way is by using Visual Studio Code, and the extension "Run on Save" by emeraldwalk, found [here.](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) And open the workspace file, doing so will have the clear and build command run every time you save, making changes much easier and quicker to see.
-
-# Without Extension
-
-If you don't use VSCode or don't want an external extension, you can run the make.bat with the args `clean` and `html` to clear the build folder then build the docs again.
+- Install Visual Studio Code
+- Install Python
+- Clone this project to a local folder
+- Open workspace file SITDocs.code-workspace
+- Open Terminal 
+- `pip install -U sphinx`
+- `pip install pyyaml`
+- `pip install sphinxcontrib-video`
+- `pip install sphinx_rtd_theme`
+- Install VSCode Extension `Run on Save` by emeraldwalk
+- Restart VSCode
+- Open workspace file SITDocs.code-workspace
+- Open Terminal
+- `cd docs`
+- `.\make.bat html`
 
 # Localisation
 
