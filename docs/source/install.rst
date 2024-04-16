@@ -71,7 +71,7 @@ Installing |SITM|
    they help us solve issues you may encounter as well. Manual intall intructions are provided but should be **AVOIDED**
    wherever possible
 
-1. Download the latest |SITM| from `Github <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/tag/2.0.8856.37884>`_
+1. Download the latest |SITM| from `Github <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/latest/>`_
 2. Extract the files from the ``.zip`` into |LDIR|
 
 .. raw:: html
