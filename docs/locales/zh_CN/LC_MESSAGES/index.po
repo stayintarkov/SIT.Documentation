@@ -24,8 +24,8 @@ msgid "主页"
 msgstr "远离理智的主页."
 
 #: ../../source/index.rst:4
-msgid "欢迎留在塔科夫!"
-msgstr "欢迎留在塔科夫! - 但是中文本地化"
+msgid "欢迎来到 Stay In Tarkov！"
+msgstr "欢迎来到 Stay In Tarkov！ - 但是中文本地化"
 
 #: ../../source/index.rst:6
 msgid ""
