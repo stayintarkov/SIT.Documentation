@@ -20,22 +20,22 @@ msgstr ""
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../source/configure.rst:5
-msgid "Configuration"
+msgid "设置"
 msgstr ""
 
 #: ../../source/configure.rst:8
 msgid ""
-"This section is dedicated to the configuration of Stay In Tarkov. If you "
-"haven't installed Stay In Tarkov yet, click :ref:`here <install>`."
+"本节专门介绍SIT的配置。 "
+"还没有安装Stay In Tarkov :ref:`点击这里下载 <install>`."
 msgstr ""
 
 #: ../../source/configure.rst:11
-msgid "Network Configuration"
+msgid "网络配置"
 msgstr ""
 
 #: ../../source/configure.rst:13
 msgid ""
-"Follow this section if you're planning to be the coop game host (server)."
+"如果您计划成为合作游戏主机(服务端)，请遵循此部分。"
 " At least one person in your group needs to follow this process to be "
 "able to play coop together. The person with the best computer and network"
 " performance should be the host for a better experience. Don't let the "
