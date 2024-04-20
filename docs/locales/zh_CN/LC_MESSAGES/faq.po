@@ -20,167 +20,148 @@ msgstr ""
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../source/faq.rst:6
-msgid "Frequently Asked Questions (FAQ)"
+msgid "常见问题"
 msgstr ""
 
 #: ../../source/faq.rst:8
 msgid ""
-"This page contains common questions we get all the time, if their answer "
-"is simple enough it will appear here."
+"这个页面包含了我们经常遇到的常见问题，如果答案足够简单，它就会出现在这里。"
 msgstr ""
 
 #: ../../source/faq.rst:11
-msgid "My |SIT| isn't working."
+msgid "我的 |SIT| 无法正常使用"
 msgstr ""
 
 #: ../../source/faq.rst:13
 #, python-format
 msgid ""
-"For support, you can join our :ref:`Discord <discord>` however, if your "
-"issue is because you haven't read this guide, the **ENTIRE** support team"
-" will steal 47% of your Socks"
+"您可以加入我们的 :ref:`Discord <discord>` 以寻求帮助"
+"但是，如果您的问题是因为您没有阅读本指南，那么**整个**支持团队将窃取您47%的袜子。"
 msgstr ""
 
 #: ../../source/faq.rst:17
-msgid "How do I turn on Nametags."
+msgid "如何启动名称标识功能."
 msgstr ""
 
 #: ../../source/faq.rst:19
 msgid ""
-"See :ref:`Server Configuration <serverconf>` in the Configuration page "
-"for details on that."
+"在 :ref:`服务端配置 <serverconf>` 页面中了解细节"
 msgstr ""
 
 #: ../../source/faq.rst:24
-msgid "What is the Difference between Relay and a Peer-To-Peer connection?"
+msgid "中继与P2P游戏连接设置的区别是什么?"
 msgstr ""
 
 #: ../../source/faq.rst:26
 msgid ""
-"These are both connection options that the Host can pick, and each have "
-"some advantages and disadvantages"
+"这些都是主机可以选择的连接选项，每个都有一些优点和缺点"
 msgstr ""
 
 #: ../../source/faq.rst:29
-msgid "Relay"
+msgid "中继"
 msgstr ""
 
 #: ../../source/faq.rst:31
 msgid ""
-"Relay is the system |SIT| swapped to using for connections since the "
-"change over from HTTP to WebSockets. It is a TCP based system that has "
-"the User send data to the Aki Server, then the Server sends that to the "
-"other Users:"
+"中继是系统 |SIT| 在从HTTP转换到WebSockets后交换到使用的连接。"
+"它是一个基于TCP的系统，用户向Aki服务器发送数据，然后服务器将其发送给“其他用户”:"
 msgstr ""
 
 #: ../../source/faq.rst:34
-msgid "User ------> Server ------> All Users"
+msgid "用户 ------> 服务器 ------> 所有用户"
 msgstr ""
 
 #: ../../source/faq.rst:36
 msgid ""
-"Using this method alows users with Restricted NAT types to still be able "
-"to connect to the server, since they are communicating with the server "
-"instead of the clients, however, in some sitations this can lead to "
-"higher latency as the packets have to go to from the user, to the server,"
-" back to the users."
+"使用这种方法允许限制NAT类型的用户仍然能够连接到服务器，因为他们与服务器而不是客户端通信，"
+"然而，在某些情况下，这可能导致更高的延迟，因为数据包必须从用户到服务器，再到用户。"
 msgstr ""
 
 #: ../../source/faq.rst:41
-msgid "Peer-To-Peer"
+msgid "Peer-To-Peer（P2P）"
 msgstr ""
 
 #: ../../source/faq.rst:43
 msgid ""
-"Peer-To-Peer is a new method added in the 0.14 update, it uses UDP and "
-"instead of communicating with the server, the clients all just cross "
-"communicate instead, this does mean all clients will need to be able to "
-"connect directly to each other:"
+"P2P是0.14更新中添加的新方法，它使用UDP，而不是与服务器通信，"
+"所有的客户端都只是交叉通信，这意味着所有的客户端都需要能够直接相互连接："
 msgstr ""
 
 #: ../../source/faq.rst:46
-msgid "User ------> Raid Host ------> User"
+msgid "用户 ------> 战局发起者 ------> 用户"
 msgstr ""
 
 #: ../../source/faq.rst:48
 msgid ""
-"This will allow for a theoretically lower latency if everyone has a NAT "
-"type that allows this, however if handled incorrectly it can cause "
-"packets to \"Go Missing\" which will result in Latency Spikes and Massive"
-" De-sync. (So the True Live Tarkov Experience). But when handled "
-"correctly, this method will allow for lower ping and faster responses "
-"from Clients to raid events."
+"如果每个人都有允许这种情况的NAT类型，这将允许理论上较低的延迟，"
+"但是如果处理不当，它可能导致数据包“丢失”，这将导致延迟峰值和大规模去同步。"
+"(这就是真实的塔科夫在线体验)。但如果处理得当，这种方法将允许更低的ping和更快的客户端对战局事件的响应"
 msgstr ""
 
 #: ../../source/faq.rst:53
-msgid "So what should I use?"
+msgid "所以我应该用哪个？"
 msgstr ""
 
 #: ../../source/faq.rst:55
 msgid ""
-"You can use either method outlined above, however if you have a Strict "
-"NAT type, you may need to use Relay, and if you have issues with one "
-"method, give the other a shot."
+"你可以使用上面列出的任何一种方法，但是如果你有一个严格的NAT类型，"
+"你可能需要使用中继，如果你用其中一种方法有问题，请尝试另一种方法。"
 msgstr ""
 
 #: ../../source/faq.rst:59
-msgid "How do I submit a Bug Report?"
+msgid "我应该如何提交问题报告?"
 msgstr ""
 
 #: ../../source/faq.rst:62
 msgid ""
-"Submiting a proper bug report is crutial to us helping you, if it is not "
-"submited properly it may cause :strike:`our souls to exit our bodies` us "
-"to not be able to properly help you."
+"提交一个正确的问题报告对我们帮助你是至关重要的，如果它没有被正确提交，"
+"它可能会导致 :strike:` “我们的灵魂离开我们的身体” `，导致我们不能正确地帮助你。"
 msgstr ""
 
 #: ../../source/faq.rst:65
 msgid ""
-"There are 2 kinds of bug report, a Standard Bug Report, which will be any"
-" issues while playing SIT."
+"有两种类型的问题报告，标准的问题报告，用来提交在游玩SIT时出现的任何问题"
 msgstr ""
 
 #: ../../source/faq.rst:67
-msgid "And a |SITM| Bug Report, for issues involving the |SIT| Manager Program."
+msgid "和 |SITM| 问题报告, 用来提交与 |SIT| 管理器有关的问题."
 msgstr ""
 
 #: ../../source/faq.rst:72
-msgid "Standard Bug Report"
+msgid "标准Bug提交"
 msgstr ""
 
 #: ../../source/faq.rst:74
-msgid "Go to the |SIT| :ref:`Discord<discord>`"
+msgid "访问 |SIT| :ref:`Discord<discord>`"
 msgstr ""
 
 #: ../../source/faq.rst:75
 msgid ""
-"Scroll to the bottom of the channels to find the \"bug-reports\" fourm, "
-"click on that"
+"滚动到频道底部找到“bug-report”频道，点击它"
 msgstr ""
 
 #: ../../source/faq.rst:76
-msgid "Click \"New Post\" and give it a Title related to your"
+msgid "点击 \"新帖\" 然后编辑一个能描述你遇到的问题的标题"
 msgstr ""
 
 #: ../../source/faq.rst:77
-msgid "Select the relevant tags for the post"
+msgid "为帖子选择相关的标签"
 msgstr ""
 
 #: ../../source/faq.rst:78
 msgid ""
-"The message should contain a description of your issue and steps we can "
+"帖子应包含您的问题的描述和步骤，我们可以遵循你的描述步骤来复现它**这非常重要**"
 "use to replicate it **THIS IS VERY IMPORTANT**"
 msgstr ""
 
 #: ../../source/faq.rst:79
 msgid ""
-"Attach any relevant images that may help, or the ``diagnostics.zip`` if "
-"it's a manager issue, or if we request it, see :ref:`here<manbug>` for "
-"steps on how to obtain it"
+"附上任何可能有帮助的相关图片，如果是启动器问题或者我们需要的话，"
+"请参阅 :ref:`这里<manbug> ，附上 ``diagnostics.zip``"
 msgstr ""
 
 #: ../../source/faq.rst:80
-msgid "Create the post, and you're done"
+msgid "全部编辑好后，请发帖"
 msgstr ""
 
 #: ../../source/faq.rst:94 ../../source/faq.rst:124
@@ -188,42 +169,40 @@ msgid "|brs|"
 msgstr ""
 
 #: ../../source/faq.rst:99
-msgid "|SITM| Bug Report"
+msgid "|SITM| 问题报告"
 msgstr ""
 
 #: ../../source/faq.rst:102
 msgid ""
-"When creating an SIT Manager bug report, please follow these steps to get"
+"当创建SIT管理器错误报告时，请按照以下步骤获取 ``diagnostics.zip`` 文件，"
 " the ``diagnostics.zip`` file, and then do the steps outlines "
-":ref:`here<standbug>` to submit the bug report on our Discord"
+"然后遵循:ref:`这里<standbug>`的步骤在我们的Discord频道上提交错误报告。"
 msgstr ""
 
 #: ../../source/faq.rst:105
-msgid "Go to the \"Tools\" tab of the manager"
+msgid "来到SIT管理器的 \"工具\" 界面"
 msgstr ""
 
 #: ../../source/faq.rst:106
-msgid "Click Generate logs"
+msgid "点击生成日志"
 msgstr ""
 
 #: ../../source/faq.rst:107
-msgid "Make sure everything is ticked, unless you've been told otherwise"
+msgid "确保每种日志都打勾，除非你被告知不打勾"
 msgstr ""
 
 #: ../../source/faq.rst:108
-msgid "Click \"Generate Log Bundle\""
+msgid "点击 \"生成日志捆绑包\""
 msgstr ""
 
 #: ../../source/faq.rst:109
 msgid ""
-"Chose a location to save the ``diagnostics.zip``, somewhere you can "
-"access later"
+"选择一个你一会能够访问位置来保存 ``diagnostics.zip``"
 msgstr ""
 
 #: ../../source/faq.rst:110
 msgid ""
-"Follow the steps outlined :ref:`here<standbug>` to create a bug report on"
-" our discord. **MAKE SURE TO SELECT THE SIT MANAGER TAG AND INCLUDE "
-"YOUR** ``diagnostics.zip``"
+"按照 :ref:`这里<standbug>` 列出的步骤，在我们的Discord上发帖报告。`"
+"**确保选择SIT Manager标签，包括你的** ``diagnostics.zip`"
 msgstr ""
 
