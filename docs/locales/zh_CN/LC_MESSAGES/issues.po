@@ -20,100 +20,95 @@ msgstr ""
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../source/issues.rst:5
-msgid "Common Issues"
+msgid "常见问题"
 msgstr ""
 
 #: ../../source/issues.rst:10
-msgid "Flea Market Issue"
+msgid "跳蚤市场问题"
 msgstr ""
 
 #: ../../source/issues.rst:13
-msgid "Follow these steps to correct the issue:"
+msgid "按照以下步骤纠正问题:"
 msgstr ""
 
 #: ../../source/issues.rst:15
-msgid "**Stop the AKI Server**."
+msgid "**关闭AKI服务端**."
 msgstr ""
 
 #: ../../source/issues.rst:17
 msgid ""
-"Navigate to the ``coopConfig.json`` file located in "
-"``SIT\\Server\\user\\mods\\SITCoop\\config\\``."
+"打开位于``SIT\\Server\\user\\mods\\SITCoop\\config\\``的``coopConfig.json``文件"
+""
 msgstr ""
 
 #: ../../source/issues.rst:19
 msgid ""
-"Modify the ``messageWSUrlOverride`` field to include your local IP with "
-"the port ``:6969`` appended at the end (e.g., ``192.168.X.X:6969``)."
+"将 ``messageWSUrlOverride`` 后的IP为你的本地IP"
+" 并在后面加上 ``:6969`` (举例, ``192.168.X.X:6969``)"
 msgstr ""
 
 #: ../../source/issues.rst:21
-msgid "You can get your Local IP by opening ``cmd`` and typing ``ipconfig``"
+msgid "你可以通过打开“cmd”并输入“ipconfig”来获取本地IP地址。"
 msgstr ""
 
 #: ../../source/issues.rst:23
 msgid ""
-"Change ``useMessageWSUrlOverride`` to ``true``. Ensure the value ``true``"
-" is in lowercase."
+"将 ``useMessageWSUrlOverride`` 的值更改为``true``。确保 ``true`` 是小写
 msgstr ""
 
 #: ../../source/issues.rst:25
-msgid "Save the changes to the ``coopConfig.json`` file."
+msgid "保存对于``coopConfig.json`` 文件的更改"
 msgstr ""
 
 #: ../../source/issues.rst:27
-msgid "Reboot the server and verify that it is functioning correctly."
+msgid "重新启动服务端并验证其是否正常工作"
 msgstr ""
 
 #: ../../source/issues.rst:30
 msgid ""
-"If you're running the AKI Server on Docker or a Virtual Private Server "
-"(VPS), you'll need to set the ``messageWSUrlOverride`` to your VPS's "
-"external IP address."
+"如果您在Docker或虚拟专用服务器上运行AKI服务器 (VPS)"
+"你需要设置 ``messageWSUrlOverride`` 后的IP为你VPS的公网IP"
 msgstr ""
 
 #: ../../source/issues.rst:33
 msgid ""
-"If you're using Docker, follow these commands to update your IP "
-"configuration:"
+"如果您正在使用Docker，请遵循这些指令来更新您的IP"
+"指令:"
 msgstr ""
 
 #: ../../source/issues.rst:35
-msgid "Stop the SITCoop container using ``docker stop sitcoop``"
+msgid "使用 ``docker stop sitcoop`` 来关闭服务端"
 msgstr ""
 
 #: ../../source/issues.rst:37
-msgid "Retrieve your external IP address using ``curl -4 icanhazip.com``"
+msgid "用 ``curl -4 icanhazip.com`` 来检索您的外部IP地址"
 msgstr ""
 
 #: ../../source/issues.rst:39
 msgid ""
-"Edit the ``coopConfig.json`` file, using the command ``nano "
-"server/user/mods/SITCoop/config/coopConfig.json``"
+"使用``nano server/user/mods/SITCoop/config/coopConfig.json``"
+"来编辑 ``coopConfig.json`` 文件"
 msgstr ""
 
 #: ../../source/issues.rst:41
 msgid ""
-"Update the file with the following configuration, replacing "
-"``messageWSUrlOverride`` with the IP you got from Step 2, and set "
-"``useMessageWSUrlOverride`` to **TRUE**"
+"使用以下配置更新文件"
+"替换 ``messageWSUrlOverride`` 中的IP为从第二步得到的IP"
+"并设置``useMessageWSUrlOverride`` 为 **true**"
 msgstr ""
 
 #: ../../source/issues.rst:53
-msgid "Start the SITCoop container using ``docker start sitcoop``"
+msgid "使用 ``docker start sitcoop`` 打开SITCoop容器"
 msgstr ""
 
 #: ../../source/issues.rst:55
 msgid ""
-"By following these steps, you should be able to resolve the issue with "
-"the flea market not displaying new offers or trades in your AKI Server "
-"environment."
+"通过这些步骤 你应该可以解决跳蚤市场不显示新交易的问题"
 msgstr ""
 
 #: ../../source/issues.rst:59
 msgid ""
-"I'm getting an ``ERROR: listen EADDRNOTAVAIL: address not avalible`` "
-"error."
+"我遇到了错误 ``ERROR: listen EADDRNOTAVAIL: address not avalible`` "
 msgstr ""
 
 #: ../../source/issues.rst:62
