@@ -21,14 +21,15 @@ msgstr ""
 
 #: ../../source/configure.rst:5
 msgid "Configuration"
-msgstr ""
+msgstr "设置"
 
 #: ../../source/configure.rst:8
 msgid ""
 "This section is dedicated to the configuration of Stay In Tarkov. If you "
 "haven't installed Stay In Tarkov yet, click :ref:`here <install>`."
 msgstr ""
-
+"本节专门介绍SIT的配置。"
+"还没有安装Stay In Tarkov :ref:`点击这里下载 <install>`."
 #: ../../source/configure.rst:11
 msgid "Network Configuration"
 msgstr ""
