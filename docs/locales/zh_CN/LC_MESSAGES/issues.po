@@ -108,123 +108,115 @@ msgstr ""
 
 #: ../../source/issues.rst:59
 msgid ""
-"我遇到了错误 ``ERROR: listen EADDRNOTAVAIL: address not avalible`` "
+"我遇到了报错 ``ERROR: listen EADDRNOTAVAIL: address not avalible`` "
 msgstr ""
 
 #: ../../source/issues.rst:62
 msgid ""
-"This happens because there is already a process running that is taking up"
-" the target port, and multiple apps can't access the same port below is a"
-" quick command line method to find what is currently holding the port and"
-" close it"
+"这是因为已经有一个正在运行的进程占用了目标端口，多个应用程序无法访问相同的端口。"
+"下面是一种快速的命令行方法，可以找到当前正在使用该端口并关闭它。"
 msgstr ""
 
 #: ../../source/issues.rst:65
-msgid "Press ``Win + R`` and enter \"cmd\""
+msgid "按下``Win + R`` 然后键入 \"cmd\""
 msgstr ""
 
 #: ../../source/issues.rst:66
 msgid ""
-"Press ``CTRL + Shift + Enter`` to open cmd as an admin, click \"Yes\" to "
-"allow"
+"按下 ``CTRL + Shift + Enter`` 以管理员身份打开CMD, 点击 \"Yes\" 同意 "
 msgstr ""
 
 #: ../../source/issues.rst:67
-msgid "Type ``netstat -ano | findstr : 6969``"
+msgid "键入 ``netstat -ano | findstr : 6969``"
 msgstr ""
 
 #: ../../source/issues.rst:68
-msgid "There should be a set of numbers at the end of the process, like ``17720``"
+msgid "在流程结束时应该有一组数字, 像是 ``17720``"
 msgstr ""
 
 #: ../../source/issues.rst:69
 msgid ""
-"Type ``taskkill /PID (NUMBER) /F``, replace (NUMBER) with the number you "
-"got from above and hit enter"
+"键入 ``taskkill /PID (得到的数字) /F``"
+"替换 (得到的数字) 为上面流程结束时得到的数字"
 msgstr ""
 
 #: ../../source/issues.rst:70
-msgid "Try booting your server again"
+msgid "尝试重启你的服务端"
 msgstr ""
 
 #: ../../source/issues.rst:73
-msgid "Infinite loading screen"
+msgid "卡在加载页面"
 msgstr ""
 
 #: ../../source/issues.rst:76
 msgid ""
-"If you are getting an infinite loading screen, this is usually caused by "
-"mods that aren't compatible with the current version of |SIT|, try "
-"remvoing all your mods and launching the game and server again."
+"如果你卡在了加载屏幕，这通常是由于mod与当前版本的 |SIT| 不兼容"
+"试着删除你所有的mod，并重新启动游戏和服务端"
 msgstr ""
 
 #: ../../source/issues.rst:80
-msgid "SIT Manager \"A task was cancelled\""
+msgid "SIT管理器报错 \"A task was cancelled\""
 msgstr ""
 
 #: ../../source/issues.rst:83
 msgid ""
-"This is most often caused by a firewall issue, however it can also be "
-"caused by an incorrect IP address"
+"这通常是由防火墙问题引起的，但也可能是键入了不正确的IP地址引起"
 msgstr ""
 
 #: ../../source/issues.rst:85
 msgid ""
-"Make sure you have entered the hosts IPv4 address correctly, and if using"
-" a VPN that there isn't any connection issues between you and the host."
+"确保您已正确输入主机的IPv4地址，如果使用VPN，则您和主机之间没有任何连接问题。"
 msgstr ""
 
 #: ../../source/issues.rst:88
-msgid "Aki.Server.exe Has Deleted itself"
+msgid "Aki.Server.exe 把自己删除了"
 msgstr ""
 
 #: ../../source/issues.rst:91
 msgid ""
-"For some reason windows defender is dectecting the Aki server as malware,"
-" this is a false postive, Aki have requested it not be flagged as "
-"malware, however this process can take more than a month to resolve, so "
-"in the meantime, add the server directory as an exeption to Windows "
-"Defender, like below:"
+"出于某种原因，windows 安全中心将Aki服务器检测为恶意软件，"
+"这是一个误报，Aki已要求不将其标记为恶意软件，然而这个过程可能需要一个多月的时间来解决，"
+"因此在此期间，将服务器目录作为例外添加到windows防御器，如下所示:"
 msgstr ""
 
 #: ../../source/issues.rst:94
-msgid "(You will read Click 9 times, and you **WILL** enjoy it)"
+msgid "(你会读到点击九遍, 阅读体验 **拉满了** )"
 msgstr ""
 
 #: ../../source/issues.rst:96
-msgid "Open windows settings"
+msgid "打开Windows设置"
 msgstr ""
 
 #: ../../source/issues.rst:97
-msgid "Click \"Update and Security\""
+msgid "点击 \"更新和安全\""
 msgstr ""
 
 #: ../../source/issues.rst:98
-msgid "Click \"Windows Security\""
+msgid "Click \"Windows安全中心\""
 msgstr ""
 
 #: ../../source/issues.rst:99
-msgid "Click \"Open Windows Security\""
+msgid "点击 \"打开Windows安全中心\""
 msgstr ""
 
 #: ../../source/issues.rst:100
-msgid "Click \"Virus and Threat Protection\""
+msgid "点击 \"病毒和威胁防护\""
 msgstr ""
 
 #: ../../source/issues.rst:101
-msgid "Under \"Virus & Threat protection settings\" click \"Manage Settings\""
+msgid "在 \"病毒和威胁防护设置下\" 点击 \"管理设置\""
 msgstr ""
 
 #: ../../source/issues.rst:102
-msgid "Scroll down to \"Exclusions\" and click \"Add or Remove exclusions\""
+msgid "向下滚动到 \"排除项\" 然后点击 \"添加或删除排除项\""
 msgstr ""
 
 #: ../../source/issues.rst:103
-msgid "Click \"Add an Exclusion\" and click \"Folder\""
+msgid "点击 \"增加排除项\" 然后点击 \"文件夹\""
 msgstr ""
 
 #: ../../source/issues.rst:104
-msgid "Navigate to your |SDIR| and click \"Select Folder\""
+msgid "进入到你的|服务端文件夹|并点击 \"选择文件夹\""
 msgstr ""
 
 #: ../../source/issues.rst:119
@@ -232,19 +224,18 @@ msgid "|brs|"
 msgstr ""
 
 #: ../../source/issues.rst:124
-msgid "I'm getting \"Illegal Game Found\""
+msgid "我得到了报错 \"Illegal Game Found\""
 msgstr ""
 
 #: ../../source/issues.rst:127
 msgid ""
-"In order to fix this issue you **MUST** follow every install step, "
-"properly, without skipping **anything**. I mean it, **ANYTHING**."
+"为了解决这个问题，你 **必须** 准确的遵循每一个安装步骤，"
+"不要跳过 **任何步骤**. 认真的, **每一步**."
 msgstr ""
 
 #: ../../source/issues.rst:129
 msgid ""
-"If you are still getting the error, go `here. "
-"<https://www.escapefromtarkov.com/preorder-page>`_"
+"如果还是报错, 点击 `这里.<https://www.escapefromtarkov.com/preorder-page>`_"
 msgstr ""
 
 #~ msgid "My Flea market doesn't have new offeres or trades?"
