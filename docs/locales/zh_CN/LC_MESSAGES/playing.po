@@ -20,87 +20,83 @@ msgstr ""
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../source/playing.rst:5
-msgid "Playing"
+msgid "游玩"
 msgstr ""
 
 #: ../../source/playing.rst:8
 msgid ""
-"So, you've made it here, **IF** you have followed the installation steps,"
-" this should be the last part you need to read before you can play."
+"所以，你已经做到了，**如果** 你遵循了安装步骤，这应该是你在玩之前需要阅读的最后一部分。"
 msgstr ""
 
 #: ../../source/playing.rst:13
-msgid "Client"
+msgid "客户端"
 msgstr ""
 
 #: ../../source/playing.rst:15
 msgid ""
-"Once your host has followed all the set-up steps, the server should be "
-"ready for you to join, in order to join then the host will need to give "
-"you their public IP, or if you are using a VPN, you'll need to be in "
-"their network and they need to give you their VPN's IPv4. Once you have "
-"that follow the below steps to connect:"
+"一旦您的主机完成了所有必要的设置程序，服务器也准备好供您加入"
+"连接服务器时，主机需要提供他们的公共IP地址。"
+"或者，如果您正在使用VPN，则需要在他们的网络内，并且他们必须与您分享其VPN的IPv4地址。"
+"获得这些信息后，请按照以下步骤建立连接："
 msgstr ""
 
 #: ../../source/playing.rst:22
-msgid "**DO NOT USE YOUR LIVE TARKOV USERNAME AND PASSWORD. PLEASE**"
+msgid "**求 求 了 别 把 你 线 上 的 用 户 名 密 码 输 进 去**"
 msgstr ""
 
 #: ../../source/playing.rst:24
 msgid ""
-"The password should not be something you use for any accounts, this is "
-"stored on the hosts machine and your machine in plain text, so please use"
-" a simple password you will only use for |SIT|"
+"SIT中使用的密码不应该是你在任何其他账户上使用的密码"
+"他们以明文形式储存在主机和您的机器上"
+"所以请使用一个简单的 您只会在 |SIT| 上使用的密码"
 msgstr ""
 
 #: ../../source/playing.rst:27
-msgid "**PLEASE**"
+msgid "**真 别 用 常 用 密 码 啊 祖 宗**"
 msgstr ""
 
 #: ../../source/playing.rst:29
 msgid ""
-"Once again, **DO NOT USE YOUR LIVE PASSWORD** or I will personally raid "
-"your Pantry"
+"再说一遍, **不要在这里使用常用密码** 否则我会偷吃你的小面包 "
 msgstr ""
 
 #: ../../source/playing.rst:31 ../../source/playing.rst:60
-msgid "Open the |SITM|"
+msgid "打开 |SIT管理器|"
 msgstr ""
 
 #: ../../source/playing.rst:32
 msgid ""
-"In the Address box, put the hosts IP in like this "
+"在地址栏中 这样输入IP： "
 "``http://XXX.XXX.XX.XXX:6969``"
 msgstr ""
 
 #: ../../source/playing.rst:33
-msgid "Give yourself a Username, can be whatever you want"
+msgid "随便想一个用户名"
 msgstr ""
 
 #: ../../source/playing.rst:34
-msgid "Set-up a password **DO NOT USE ANY PASSWORD YOU NORMALLY USE.**"
+msgid "设置一个密码 **别在这里使用你的任何常用密码**"
 msgstr ""
 
 #: ../../source/playing.rst:35 ../../source/playing.rst:66
-msgid "Tick Remeber me if you don't want to type all that in every time"
+msgid "如果你不想每次打开就把这些重输一遍，勾选记住我"
 msgstr ""
 
 #: ../../source/playing.rst:36 ../../source/playing.rst:67
 msgid ""
-"Press \"Connect\", this should now ask you if you want to make a new "
-"account if this is your first time joining, click \"Yes\""
+"点击 \"连接\", 在您第一次进入时会询问你是否要创建一个新的账户 "
+"点击 \"是\""
 msgstr ""
 
 #: ../../source/playing.rst:37 ../../source/playing.rst:68
 msgid ""
-"It will now ask what Edition of Tarkov you want, select one and press "
-"\"Create\""
+"现在会询问你要创建哪个版本的塔科夫账号, 选择一个并点击\"创建\""
 msgstr ""
 
 #: ../../source/playing.rst:38
 msgid ""
-"If all the steps have been followed correctly by both you and the host, "
-"congrats, you should now be able to play |SIT|"
+"如果你和主机的每一步操作都正确了的话"
+"恭喜, 你现在可以游玩 |SIT| 了"
 msgstr ""
 
 #: ../../source/playing.rst:53 ../../source/playing.rst:86
