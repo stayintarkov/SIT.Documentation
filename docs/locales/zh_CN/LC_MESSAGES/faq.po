@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Cyrogon
+# This file is distributed under the same license as the TestLocale package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TestLocale 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-10 00:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../source/faq.rst:6
+msgid "常见问题"
+msgstr ""
+
+#: ../../source/faq.rst:8
+msgid ""
+"这个页面包含了我们经常遇到的常见问题，如果答案足够简单，它就会出现在这里。"
+msgstr ""
+
+#: ../../source/faq.rst:11
+msgid "我的 |SIT| 无法正常使用"
+msgstr ""
+
+#: ../../source/faq.rst:13
+#, python-format
+msgid ""
+"您可以加入我们的 :ref:`Discord <discord>` 以寻求帮助"
+"但是，如果您的问题是因为您没有阅读本指南，那么**整个**支持团队将窃取您47%的袜子。"
+msgstr ""
+
+#: ../../source/faq.rst:17
+msgid "如何启动名称标识功能."
+msgstr ""
+
+#: ../../source/faq.rst:19
+msgid ""
+"在 :ref:`服务端配置 <serverconf>` 页面中了解细节"
+msgstr ""
+
+#: ../../source/faq.rst:24
+msgid "中继与P2P游戏连接设置的区别是什么?"
+msgstr ""
+
+#: ../../source/faq.rst:26
+msgid ""
+"这些都是主机可以选择的连接选项，每个都有一些优点和缺点"
+msgstr ""
+
+#: ../../source/faq.rst:29
+msgid "中继"
+msgstr ""
+
+#: ../../source/faq.rst:31
+msgid ""
+"中继是系统 |SIT| 在从HTTP转换到WebSockets后交换到使用的连接。"
+"它是一个基于TCP的系统，用户向Aki服务器发送数据，然后服务器将其发送给“其他用户”:"
+msgstr ""
+
+#: ../../source/faq.rst:34
+msgid "用户 ------> 服务器 ------> 所有用户"
+msgstr ""
+
+#: ../../source/faq.rst:36
+msgid ""
+"使用这种方法允许限制NAT类型的用户仍然能够连接到服务器，因为他们与服务器而不是客户端通信，"
+"然而，在某些情况下，这可能导致更高的延迟，因为数据包必须从用户到服务器，再到用户。"
+msgstr ""
+
+#: ../../source/faq.rst:41
+msgid "Peer-To-Peer（P2P）"
+msgstr ""
+
+#: ../../source/faq.rst:43
+msgid ""
+"P2P是0.14更新中添加的新方法，它使用UDP，而不是与服务器通信，"
+"所有的客户端都只是交叉通信，这意味着所有的客户端都需要能够直接相互连接："
+msgstr ""
+
+#: ../../source/faq.rst:46
+msgid "用户 ------> 战局发起者 ------> 用户"
+msgstr ""
+
+#: ../../source/faq.rst:48
+msgid ""
+"如果每个人都有允许这种情况的NAT类型，这将允许理论上较低的延迟，"
+"但是如果处理不当，它可能导致数据包“丢失”，这将导致延迟峰值和大规模去同步。"
+"(这就是真实的塔科夫在线体验)。但如果处理得当，这种方法将允许更低的ping和更快的客户端对战局事件的响应"
+msgstr ""
+
+#: ../../source/faq.rst:53
+msgid "所以我应该用哪个？"
+msgstr ""
+
+#: ../../source/faq.rst:55
+msgid ""
+"你可以使用上面列出的任何一种方法，但是如果你有一个严格的NAT类型，"
+"你可能需要使用中继，如果你用其中一种方法有问题，请尝试另一种方法。"
+msgstr ""
+
+#: ../../source/faq.rst:59
+msgid "我应该如何提交问题报告?"
+msgstr ""
+
+#: ../../source/faq.rst:62
+msgid ""
+"提交一个正确的问题报告对我们帮助你是至关重要的，如果它没有被正确提交，"
+"它可能会导致 :strike:` “我们的灵魂离开我们的身体” `，导致我们不能正确地帮助你。"
+msgstr ""
+
+#: ../../source/faq.rst:65
+msgid ""
+"有两种类型的问题报告，标准的问题报告，用来提交在游玩SIT时出现的任何问题"
+msgstr ""
+
+#: ../../source/faq.rst:67
+msgid "和 |SITM| 问题报告, 用来提交与 |SIT| 管理器有关的问题."
+msgstr ""
+
+#: ../../source/faq.rst:72
+msgid "标准Bug提交"
+msgstr ""
+
+#: ../../source/faq.rst:74
+msgid "访问 |SIT| :ref:`Discord<discord>`"
+msgstr ""
+
+#: ../../source/faq.rst:75
+msgid ""
+"滚动到频道底部找到“bug-report”频道，点击它"
+msgstr ""
+
+#: ../../source/faq.rst:76
+msgid "点击 \"新帖\" 然后编辑一个能描述你遇到的问题的标题"
+msgstr ""
+
+#: ../../source/faq.rst:77
+msgid "为帖子选择相关的标签"
+msgstr ""
+
+#: ../../source/faq.rst:78
+msgid ""
+"帖子应包含您的问题的描述和步骤，我们可以遵循你的描述步骤来复现它**这非常重要**"
+"use to replicate it **THIS IS VERY IMPORTANT**"
+msgstr ""
+
+#: ../../source/faq.rst:79
+msgid ""
+"附上任何可能有帮助的相关图片，如果是启动器问题或者我们需要的话，"
+"请参阅 :ref:`这里<manbug> ，附上 ``diagnostics.zip``"
+msgstr ""
+
+#: ../../source/faq.rst:80
+msgid "全部编辑好后，请发帖"
+msgstr ""
+
+#: ../../source/faq.rst:94 ../../source/faq.rst:124
+msgid "|brs|"
+msgstr ""
+
+#: ../../source/faq.rst:99
+msgid "|SITM| 问题报告"
+msgstr ""
+
+#: ../../source/faq.rst:102
+msgid ""
+"当创建SIT管理器错误报告时，请按照以下步骤获取 ``diagnostics.zip`` 文件，"
+" the ``diagnostics.zip`` file, and then do the steps outlines "
+"然后遵循:ref:`这里<standbug>`的步骤在我们的Discord频道上提交错误报告。"
+msgstr ""
+
+#: ../../source/faq.rst:105
+msgid "来到SIT管理器的 \"工具\" 界面"
+msgstr ""
+
+#: ../../source/faq.rst:106
+msgid "点击生成日志"
+msgstr ""
+
+#: ../../source/faq.rst:107
+msgid "确保每种日志都打勾，除非你被告知不打勾"
+msgstr ""
+
+#: ../../source/faq.rst:108
+msgid "点击 \"生成日志捆绑包\""
+msgstr ""
+
+#: ../../source/faq.rst:109
+msgid ""
+"选择一个你一会能够访问位置来保存 ``diagnostics.zip``"
+msgstr ""
+
+#: ../../source/faq.rst:110
+msgid ""
+"按照 :ref:`这里<standbug>` 列出的步骤，在我们的Discord上发帖报告。`"
+"**确保选择SIT Manager标签，包括你的** ``diagnostics.zip`"
+msgstr ""
+

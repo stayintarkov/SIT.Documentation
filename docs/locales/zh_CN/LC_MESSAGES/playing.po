@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Cyrogon
+# This file is distributed under the same license as the TestLocale package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TestLocale 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-10 00:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../source/playing.rst:5
+msgid "游玩"
+msgstr ""
+
+#: ../../source/playing.rst:8
+msgid ""
+"所以，你已经做到了，**如果** 你遵循了安装步骤，这应该是你在玩之前需要阅读的最后一部分。"
+msgstr ""
+
+#: ../../source/playing.rst:13
+msgid "客户端"
+msgstr ""
+
+#: ../../source/playing.rst:15
+msgid ""
+"一旦您的主机完成了所有必要的设置程序，服务器也准备好供您加入"
+"连接服务器时，主机需要提供他们的公共IP地址。"
+"或者，如果您正在使用VPN，则需要在他们的网络内，并且他们必须与您分享其VPN的IPv4地址。"
+"获得这些信息后，请按照以下步骤建立连接："
+msgstr ""
+
+#: ../../source/playing.rst:22
+msgid "**求 求 了 别 把 你 线 上 的 用 户 名 密 码 输 进 去**"
+msgstr ""
+
+#: ../../source/playing.rst:24
+msgid ""
+"SIT中使用的密码不应该是你在任何其他账户上使用的密码"
+"他们以明文形式储存在主机和您的机器上"
+"所以请使用一个简单的 您只会在 |SIT| 上使用的密码"
+msgstr ""
+
+#: ../../source/playing.rst:27
+msgid "**真 别 用 常 用 密 码 啊 祖 宗**"
+msgstr ""
+
+#: ../../source/playing.rst:29
+msgid ""
+"再说一遍, **不要在这里使用常用密码** 否则我会偷吃你的小面包 "
+msgstr ""
+
+#: ../../source/playing.rst:31 ../../source/playing.rst:60
+msgid "打开 |SIT管理器|"
+msgstr ""
+
+#: ../../source/playing.rst:32
+msgid ""
+"在地址栏中 这样输入IP： "
+"``http://XXX.XXX.XX.XXX:6969``"
+msgstr ""
+
+#: ../../source/playing.rst:33
+msgid "随便想一个用户名"
+msgstr ""
+
+#: ../../source/playing.rst:34
+msgid "设置一个密码 **别在这里使用你的任何常用密码**"
+msgstr ""
+
+#: ../../source/playing.rst:35 ../../source/playing.rst:66
+msgid "如果你不想每次打开就把这些重输一遍，勾选记住我"
+msgstr ""
+
+#: ../../source/playing.rst:36 ../../source/playing.rst:67
+msgid ""
+"点击 \"连接\", 在您第一次进入时会询问你是否要创建一个新的账户 "
+"点击 \"是\""
+msgstr ""
+
+#: ../../source/playing.rst:37 ../../source/playing.rst:68
+msgid ""
+"现在会询问你要创建哪个版本的塔科夫账号, 选择一个并点击\"创建\""
+msgstr ""
+
+#: ../../source/playing.rst:38
+msgid ""
+"如果你和主机的每一步操作都正确了的话"
+"恭喜, 你现在可以游玩 |SIT| 了"
+msgstr ""
+
+#: ../../source/playing.rst:53 ../../source/playing.rst:86
+msgid "|brs|"
+msgstr ""
+
+#: ../../source/playing.rst:58
+msgid "Server"
+msgstr ""
+
+#: ../../source/playing.rst:61
+msgid "Go to the \"Server\" tab"
+msgstr ""
+
+#: ../../source/playing.rst:62
+msgid ""
+"Click \"Start Server\" and wait for the \"Server started!\" message, once"
+" you see that the server is up and running"
+msgstr ""
+
+#: ../../source/playing.rst:63
+msgid ""
+"Go back to the \"Play\" tab now, for Address, if you are hosting the "
+"server on the same PC you will be playing on, you can enter ``127.0.0.1``"
+msgstr ""
+
+#: ../../source/playing.rst:64
+msgid "Pick a Username for yourself"
+msgstr ""
+
+#: ../../source/playing.rst:65
+msgid ""
+"Set-up a password **DO NOT USE ANY PASSWORD YOU NORMALLY USE.** Refer to "
+":ref:`this warning<plebpasswordwarn>`"
+msgstr ""
+
+#: ../../source/playing.rst:69
+msgid ""
+"If all the steps have been followed correctly by both you and the client,"
+" congrats, you should now be able to play |SIT|."
+msgstr ""
+
+#: ../../source/playing.rst:71
+msgid ""
+"If you are the host, I assume you have the most powerful PC, make sure "
+"you are also Hosting the Raid as well, see :ref:`In Game<ingame>`"
+msgstr ""
+
+#: ../../source/playing.rst:91
+msgid "In Game"
+msgstr ""
+
+#: ../../source/playing.rst:94
+msgid ""
+"Once you are in game, and have set up your character, you may be "
+"wondering how to start a raid. Well, thanks for reading this far. This "
+"will contain a very brief outline of starting a raid, for more info on "
+"specific parts, see the relevant Docs page for more details."
+msgstr ""
+
+#: ../../source/playing.rst:97
+msgid ""
+"First pick the Raid map you want to do, when you pick one, it will ask "
+"for the time slot, the times can sometimes desync between clients so make"
+" sure you pick the same slot number, eg. Slot 1 or 2"
+msgstr ""
+
+#: ../../source/playing.rst:98
+msgid ""
+"If you wanted to play Solo you can click \"Play Singleplayer\" (Obvs). "
+"Otherwise, the player that presses \"Host Raid\" should be the one with "
+"the best PC and Network"
+msgstr ""
+
+#: ../../source/playing.rst:99
+msgid ""
+"Pick how many players you want, make sure this matches how many people "
+"will join, this **INCLUDES** you, the game will not start until everyone "
+"has joined"
+msgstr ""
+
+#: ../../source/playing.rst:100
+msgid ""
+"Don't worry about password unless you are playing on a larger server "
+"hosted publically"
+msgstr ""
+
+#: ../../source/playing.rst:101
+msgid ""
+"Pick how many bots, and how difficult you want them, and decide if you "
+"want the chance for Bosses to spawn"
+msgstr ""
+
+#: ../../source/playing.rst:102
+msgid ""
+"For protocal select either Relay or Peer-To-Peer, if you would like to "
+"see the differences see :ref:`FAQ <p2pr>`"
+msgstr ""
+
+#: ../../source/playing.rst:103
+msgid ""
+"Hit start, your clients should now be able to see it in the server "
+"browser, if they picked the same map and time slot"
+msgstr ""
+
+#: ../../source/playing.rst:104
+msgid ""
+"Once everyone has joined, the Raid should now start, have fun, and "
+"remeber, nothing is more Friendly than Friendly Fire"
+msgstr ""
+
