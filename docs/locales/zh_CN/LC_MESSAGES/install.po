@@ -20,7 +20,7 @@ msgstr ""
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../source/install.rst:5
-msgid "Installation"
+msgid "安装"
 msgstr ""
 
 #: ../../source/install.rst:7
