@@ -25,7 +25,7 @@ msgstr "主页"
 
 #: ../../source/index.rst:4
 msgid "Welcome to Stay In Tarkov!"
-msgstr "欢迎来到 Stay In Tarkov! —— 但是中文"
+msgstr "欢迎来到 Stay In Tarkov! —— 但是中文版"
 
 #: ../../source/index.rst:6
 msgid ""
@@ -56,7 +56,7 @@ msgstr ""
 #: ../../source/index.rst:23
 msgid ""
 "SIT 不是针对《逃离塔科夫》在线体验的完美替代方案。 "
-"该模组的主要目的是为玩家提供在《逃离塔科夫》中与好友一起打AI的体验。 "
+"该模组的主要目的是为玩家提供在《逃离塔科夫》中与好友一起打 AI 的体验。 "
 msgstr ""
 
 #: ../../source/index.rst:26

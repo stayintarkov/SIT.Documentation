@@ -21,17 +21,16 @@ msgstr ""
 
 #: ../../source/terminology.rst:6
 msgid "Terminology"
-msgstr ""
+msgstr "术语"
 
 #: ../../source/terminology.rst:8
 msgid ""
-"This page contains all the common Terminology used to describe this "
-"project, please familiarise yourself with these."
+"此页面包含一些用来描述该项目的常见术语，请了解这些的含义。"
 msgstr ""
 
 #: ../../source/terminology.rst:11
 msgid "Acronyms"
-msgstr ""
+msgstr "缩写"
 
 #: ../../source/terminology.rst:14
 msgid "SIT - |SIT|"
@@ -39,24 +38,23 @@ msgstr ""
 
 #: ../../source/terminology.rst:18
 msgid "EFT - |EFT|"
-msgstr ""
+msgstr "EFT - 逃离塔科夫"
 
 #: ../../source/terminology.rst:22
 msgid "SPT - Single Player Tarkov, can also be refered to as AKI"
-msgstr ""
+msgstr "SPT - 离线版塔科夫，或 AKI"
 
 #: ../../source/terminology.rst:26
 msgid "VPN - Virtual Private Network"
-msgstr ""
+msgstr "VPN - 虚拟专用网络"
 
 #: ../../source/terminology.rst:29
 msgid "Terms"
-msgstr ""
+msgstr "词汇"
 
 #: ../../source/terminology.rst:30
 msgid ""
-"AKI - This is the **SERVER** that SIT connects to, this may also be "
-"refered to just as Server"
+"AKI - SIT 需要连接到的**服务器**，也可以称为服务端。"
 msgstr ""
 
 #: ../../source/terminology.rst:32 ../../source/terminology.rst:36
@@ -65,15 +63,11 @@ msgstr ""
 
 #: ../../source/terminology.rst:34
 msgid ""
-"Host - This means the person that has **STARTED** the raid, all the AI "
-"and game processing will occour on their PC, so they should be the one "
-"with the best PC and Network."
+"主机 - **创建**战局的玩家, 所有AI和游戏进程都在他们的电脑上运行，因此应该由拥有更好配置和网络的人来充当。"
 msgstr ""
 
 #: ../../source/terminology.rst:38
 msgid ""
-"Client - This can mean the people connected to the **SERVER**, but when "
-"discussing raid issues, this will mean everyone in the raid **EXCEPT** "
-"the host."
+"客机 - 连接到**服务器**的玩家, 一般指战局中所有**除了**主机外的人。"
 msgstr ""
 
