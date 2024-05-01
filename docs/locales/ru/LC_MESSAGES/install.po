@@ -23,71 +23,79 @@ msgstr ""
 
 #: ../../source/install.rst:5
 msgid "Installation"
-msgstr ""
+msgstr "Установка"
 
 #: ../../source/install.rst:7
 msgid ""
 "This section is dedicated for a new installation of |SIT|. If you're "
 "looking to update SIT, click :ref:`here<updatesitm>`."
 msgstr ""
+"Этот раздел посвящен новой установке |SIT|. Если вы хотите обновить SIT, "
+"нажмите :ref:`сюда<updatesitm>`."
 
 #: ../../source/install.rst:10
 msgid "Getting started"
-msgstr ""
+msgstr "Начало работы"
 
 #: ../../source/install.rst:13
 msgid "|EFT| requirements"
-msgstr ""
+msgstr "Требования к |EFT|"
 
 #: ../../source/install.rst:16
 msgid ""
 "You need a legally purchased copy of |EFT|, `obtainable here "
 "<https://www.escapefromtarkov.com/preorder-page>`_."
 msgstr ""
+"Вам нужна законно приобретенная копия |EFT|, `которую можно получить здесь "
+"<https://www.escapefromtarkov.com/preorder-page>`_."
 
 #: ../../source/install.rst:17
 msgid "You need to install the game using the official game launcher."
-msgstr ""
+msgstr "Вы должны установить игру, используя официальный игровой запускатель."
 
 #: ../../source/install.rst:18
 msgid "You need to run the game at least once using the official game launcher."
-msgstr ""
+msgstr "Вы должны запустить игру хотя бы один раз, используя официальный игровой запускатель."
 
 #: ../../source/install.rst:21
 msgid "**DON'T** move your original EFT game folder following the installation."
-msgstr ""
+msgstr "**НЕ** перемещайте папку с вашей оригинальной игрой EFT после установки."
 
 #: ../../source/install.rst:22
 msgid "**DON'T** change any of the files in your original EFT game folder."
-msgstr ""
+msgstr "**НЕ** изменяйте ни один из файлов в вашей оригинальной папке с игрой EFT."
 
 #: ../../source/install.rst:23
 msgid ""
 "**YOU MUST** run **LIVE** Tarkov at least once. If you don't, you forfeit"
 " all of you're mortal possessions to my dog."
 msgstr ""
+"**ВЫ ОБЯЗАНЫ** хотя бы один раз запустить **LIVE** Тарков. Если вы этого не сделаете, вы лишаете себя всех своих смертных вещей в пользу моей собаки."
 
 #: ../../source/install.rst:24
 msgid ""
 "**DON'T** install SIT in your original EFT game folder. **YOU HAVE BEEN "
 "WARNED!**"
 msgstr ""
+"**НЕ** устанавливайте SIT в вашу оригинальную папку с игрой EFT. **ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ!**"
 
 #: ../../source/install.rst:25
 msgid ""
 "**ALWAYS** make sure you are able to run the game using the official game"
 " launcher before using SIT."
 msgstr ""
+"**ВСЕГДА** убедитесь, что вы можете запустить игру с помощью официального игрового запускателя, прежде чем использовать SIT."
 
 #: ../../source/install.rst:26
 msgid ""
 "**DON'T** take shortcuts. Follow this step by step. If you haven't, you "
 "will be **MOCKED**"
 msgstr ""
+"**НЕ** используйте ярлыки. Поступайте шаг за шагом. Если вы этого не сделаете, вы будете **ОСМЕЯНЫ**"
 
 #: ../../source/install.rst:31
 msgid "Preparing the folder structure"
-msgstr ""
+msgstr "Подготовка структуры папок"
 
 #: ../../source/install.rst:33
 msgid ""
@@ -95,6 +103,9 @@ msgid ""
 "long as it has enough space for |EFT|. The drive should have at least "
 "``60GB`` free space."
 msgstr ""
+"Создайте следующую структуру папок на выбранном вами диске, если только "
+"на нем достаточно места для |EFT|. На диске должно быть свободно не менее "
+"чем ``60 ГБ``."
 
 #: ../../source/install.rst:36
 msgid ""
@@ -102,18 +113,24 @@ msgid ""
 "``system32``, ``Program Files``, and ``Program Files (x86)``, If you do I"
 " will steal your Hard Drive platters and sell them for Freddos"
 msgstr ""
+"**НЕ УСТАНАВЛИВАЙТЕ** менеджер в защищенный каталог, такой как "
+"``system32``, ``Program Files`` и ``Program Files (x86)``, если вы сделаете "
+"это, я украду ваши магнитные пластины жесткого диска и продам их за "
+"Фреддо."
 
 #: ../../source/install.rst:56 ../../source/install.rst:89
 #: ../../source/install.rst:106 ../../source/install.rst:129
 #: ../../source/install.rst:153 ../../source/install.rst:199
 msgid "|brs|"
-msgstr ""
+msgstr "|brs|"
 
 #: ../../source/install.rst:59
 msgid ""
 "It is recommended to use this folder structure for a SIT installation. "
 "Note that the rest of the documentation will refer to that structure."
 msgstr ""
+"Рекомендуется использовать эту структуру папок для установки SIT. Обратите "
+"внимание, что остальная часть документации будет ссылаться на эту структуру."
 
 #: ../../source/install.rst:62
 msgid ""
@@ -121,10 +138,13 @@ msgid ""
 "``2.0.8856.37884`` can automagically copy your Live |EFT| folder into a "
 "folder of your choice **REMEMBER THE** :ref:`FILE STRUCTURE<filestruct>`"
 msgstr ""
+"Ниже приведены шаги по установке Менеджера SIT, который начиная с версии "
+"``2.0.8856.37884`` может автоматически копировать вашу папку Live |EFT| в "
+"папку на ваш выбор **ПОМНИТЕ** :ref:`СТРУКТУРУ ФАЙЛОВ<filestruct>`"
 
 #: ../../source/install.rst:66
 msgid "Installing |SITM|"
-msgstr ""
+msgstr "Установка |SITM|"
 
 #: ../../source/install.rst:69
 msgid ""
@@ -134,48 +154,59 @@ msgid ""
 " help us solve issues you may encounter as well. Manual intall "
 "intructions are provided but should be **AVOIDED** wherever possible"
 msgstr ""
+"**Настоятельно рекомендуется** использовать |SITM| для установки |SIT|, "
+"поскольку это **значительно** упрощает процесс и почти полностью "
+"автоматизировано. Он также предоставляет нам ценные файлы журнала, "
+":strike:`они вкусные`, они также помогают нам решать проблемы, с которыми "
+"вы можете столкнуться. Предоставляются инструкции по ручной установке, но "
+"их следует **ИЗБЕГАТЬ** всякий раз, когда это возможно"
 
 #: ../../source/install.rst:74
 msgid ""
 "Download the latest |SITM| from `Github "
 "<https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/tag/2.0.8856.37884>`_"
 msgstr ""
+"Скачайте последнюю версию |SITM| с `Github "
+"<https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/tag/2.0.8856.37884>`_"
 
 #: ../../source/install.rst:75
 msgid "Extract the files from the ``.zip`` into |LDIR|"
-msgstr ""
+msgstr "Распакуйте файлы из ``.zip`` в |LDIR|"
 
 #: ../../source/install.rst:91
 msgid ""
 "For sake of convinience, you can make a Shortcut to the manager on your "
 "desktop, since you need this **EVERY** time you join a server"
 msgstr ""
+"Для удобства вы можете создать ярлык менеджера на рабочем столе, так как "
+"вам это **НУЖНО** каждый раз, когда вы присоединяетесь к серверу"
 
 #: ../../source/install.rst:108
 msgid "Now open the manager and Navigate to \"Install\" page"
-msgstr ""
+msgstr "Теперь откройте менеджер и перейдите на страницу \"Установка\""
 
 #: ../../source/install.rst:109
 msgid "Press \"Install SIT\""
-msgstr ""
+msgstr "Нажмите \"Установить SIT\""
 
 #: ../../source/install.rst:110
 msgid "Select the latest version (Should be Auto-Selected)"
-msgstr ""
+msgstr "Выберите последнюю версию (должна быть автоматически выбрана)"
 
 #: ../../source/install.rst:111
 msgid ""
 "Press \"Change\" on EFT Install path, which right now is pointing to your"
 " **LIVE** install, and change it to |GDIR|"
 msgstr ""
+"Нажмите \"Изменить\" на пути установки EFT, который в данный момент указывает на вашу **LIVE** установку, и измените его на |GDIR|"
 
 #: ../../source/install.rst:112
 msgid "Press \"Start Install\""
-msgstr ""
+msgstr "Нажмите \"Начать установку\""
 
 #: ../../source/install.rst:113
 msgid "Wait a bit for the Manager to copy your game files and install the SIT mod"
-msgstr ""
+msgstr "Подождите немного, пока менеджер скопирует ваши игровые файлы и установит мод SIT"
 
 #: ../../source/install.rst:114
 msgid ""
@@ -184,10 +215,14 @@ msgid ""
 "process, or to :ref:`Server Install<serverinst>` if you plan on hosting a"
 " server"
 msgstr ""
+"После завершения этого процесса SIT успешно установлен на вашем "
+"клиентском устройстве. Перейдите к :ref:`Завершение<finishingup>` для "
+"завершения процесса установки или к :ref:`Установка сервера<serverinst>`, "
+"если вы планируете запустить сервер"
 
 #: ../../source/install.rst:134
 msgid "Updating |SITM|"
-msgstr ""
+msgstr "Обновление |SITM|"
 
 #: ../../source/install.rst:137
 msgid ""
@@ -196,14 +231,18 @@ msgid ""
 "automatically check for a new version on boot and offer to update if it "
 "is out of date. A small example can be found below"
 msgstr ""
+"|SITM| обновляет вас, все, что вам нужно сделать, это нажать \"Обновить\" "
+"в верхней части менеджера при его запуске. Он автоматически проверит на "
+"наличие новой версии при запуске и предложит обновить, если версия устарела. "
+"Небольшой пример можно найти ниже"
 
 #: ../../source/install.rst:158
 msgid "Installing |SIT| Server"
-msgstr ""
+msgstr "Установка сервера |SIT|"
 
 #: ../../source/install.rst:161
 msgid "Local Install"
-msgstr ""
+msgstr "Локальная установка"
 
 #: ../../source/install.rst:164
 msgid ""
@@ -211,6 +250,9 @@ msgid ""
 "PC. If you would like to install this as a Docker instance follow the "
 "steps outlined in :ref:`Installing Server With Docker <dockerinstall>`"
 msgstr ""
+"Приведенные ниже шаги предназначены для установки сервера локально на вашем "
+"ПК. Если вы хотите установить это в виде экземпляра Docker, следуйте "
+"шагам, описанным в :ref:`Установка сервера с Docker <dockerinstall>`"
 
 #: ../../source/install.rst:167
 msgid ""
@@ -218,40 +260,45 @@ msgid ""
 "their local machine, is the one with the most powerful PC and best "
 "Network otherwise performance may be Sub-optimal."
 msgstr ""
+"Убедитесь, что человек, устанавливающий сервер, если он устанавливается на "
+"его локальной машине, является человеком с самым мощным ПК и лучшей "
+"сетью, в противном случае производительность может быть субоптимальной."
 
 #: ../../source/install.rst:170
 msgid ""
 "This applies to both hosting the AKI server, and Hosting the raid, more "
 "on that later in the guide."
 msgstr ""
+"Это относится как к хостингу сервера AKI, так и к хостингу рейда, о чем "
+"будет сказано позже в руководстве."
 
 #: ../../source/install.rst:172
 msgid "Open the |SITM|"
-msgstr ""
+msgstr "Откройте |SITM|"
 
 #: ../../source/install.rst:173
 msgid "Go to \"Install\""
-msgstr ""
+msgstr "Перейдите в \"Установка\""
 
 #: ../../source/install.rst:174
 msgid "Click \"Install Server + SIT Mod\""
-msgstr ""
+msgstr "Нажмите \"Установить сервер + мод SIT\""
 
 #: ../../source/install.rst:175
 msgid "Change the path to your |SDIR| path"
-msgstr ""
+msgstr "Измените путь на ваш путь |SDIR|"
 
 #: ../../source/install.rst:176
 msgid "Click \"Start Install\""
-msgstr ""
+msgstr "Нажмите \"Начать установку\""
 
 #: ../../source/install.rst:177
 msgid "Once that completes, Navigate to \"Server\""
-msgstr ""
+msgstr "После завершения этого перейдите в \"Сервер\""
 
 #: ../../source/install.rst:178
 msgid "Start the server and wait for the \"Server started!\" message"
-msgstr ""
+msgstr "Запустите сервер и дождитесь сообщения \"Сервер запущен!\""
 
 #: ../../source/install.rst:180
 msgid ""
@@ -260,32 +307,41 @@ msgid ""
 "\"Allow Access\" this will allow the server through your local firewall "
 "and make our lives a bit easier, a short clip is exampled below the image"
 msgstr ""
-
+"Если вы получите всплывающее окно от \"Брандмауэра Windows\" с запросом "
+"сервера о разрешении прохода, как :ref:`это <firewall>`, пожалуйста, нажмите "
+"\"Разрешить доступ\". Это позволит серверу проходить через ваш локальный "
+"брандмауэр и упростит нашу жизнь, короткий клип приведен ниже изображения"
 #: ../../source/install.rst:183
 msgid "Stop the server, this allows it to generate all relevant configs"
-msgstr ""
+msgstr "Остановите сервер, это позволяет ему сгенерировать все необходимые конфигурационные файлы"
 
 #: ../../source/install.rst:184
 msgid ""
 "Once you have done that, head over to :ref:`Finishing Up<finishingup>` to"
 " continue"
 msgstr ""
+"После того как вы это сделаете, перейдите к разделу :ref:`Завершение<finishingup>`, чтобы"
+" продолжить"
 
 #: ../../source/install.rst:204
 msgid "Installing Server With Docker"
-msgstr ""
+msgstr "Установка сервера с помощью Docker"
 
 #: ../../source/install.rst:207
 msgid ""
 "These steps are for if you want to run the server in a docker instance. "
 "**IF YOU DON'T KNOW WHAT DOCKER IS THIS ISN'T FOR YOU**"
 msgstr ""
+"Эти шаги предназначены для тех, кто хочет запустить сервер в экземпляре Docker. "
+"**ЕСЛИ ВЫ НЕ ЗНАЕТЕ, ЧТО ТАКОЕ DOCKER, ЭТО НЕ ДЛЯ ВАС**"
 
 #: ../../source/install.rst:209
 msgid ""
 "We provide a pre-made Linux Docker instance of the |SIT| server, found at"
 " this `Docker Hub <https://hub.docker.com/r/stayintarkov/stayintarkov>`_"
 msgstr ""
+"Мы предоставляем заранее подготовленный экземпляр сервера |SIT| в Docker для Linux, доступный"
+" на `Docker Hub <https://hub.docker.com/r/stayintarkov/stayintarkov>`_"
 
 #: ../../source/install.rst:211
 msgid ""
@@ -293,14 +349,16 @@ msgid ""
 " them at some point, but for now the Docker hub has all the info you'll "
 "need"
 msgstr ""
+"Инструкции по установке также можно найти там, мы можем обновить здесь, чтобы добавить их в "
+"какой-то момент, но на данный момент в Docker Hub есть всю информацию, которая вам понадобится"
 
 #: ../../source/install.rst:213
 msgid "Install Video will be here soon`:tm:`"
-msgstr ""
+msgstr "Видеоинструкция будет здесь скоро`:tm:`"
 
 #: ../../source/install.rst:218
 msgid "Finishing Up"
-msgstr ""
+msgstr "Завершение"
 
 #: ../../source/install.rst:220
 msgid ""
@@ -308,14 +366,16 @@ msgid ""
 "head :ref:`here<clientinst>`, if you want to host then head "
 ":ref:`here<netconfigure>`."
 msgstr ""
+"После завершения установки, если вы планируете присоединиться к другим игрокам, перейдите "
+":ref:`сюда<clientinst>`, если вы хотите быть хостом, перейдите :ref:`сюда<netconfigure>`."
 
 #: ../../source/install.rst:223
 msgid "Installing manually"
-msgstr ""
+msgstr "Ручная установка"
 
 #: ../../source/install.rst:226
 msgid "It is **strongly** recommended to use |SITM| to install |SIT|."
-msgstr ""
+msgstr "**Настоятельно** рекомендуется использовать |SITM| для установки |SIT|."
 
 #: ../../source/install.rst:227
 msgid ""
@@ -323,38 +383,46 @@ msgid ""
 "|SITM| to connect to servers so this should only be done as a last "
 "resort."
 msgstr ""
+"Даже если |SIT| устанавливается вручную, вам все равно придется использовать |SITM| для "
+"подключения к серверам, поэтому это должно делаться только в крайнем случае."
 
 #: ../../source/install.rst:229
 msgid "**COPY** your Live |EFT| files into the |GDir| folder"
-msgstr ""
+msgstr "**СКОПИРУЙТЕ** ваши файлы Live |EFT| в папку |GDir|"
 
 #: ../../source/install.rst:230
 msgid ""
 "Download `BepInEx "
 "<https://github.com/BepInEx/BepInEx/releases/download/v5.4.22/BepInEx_x64_5.4.22.0.zip>`_."
 msgstr ""
+"Загрузите `BepInEx "
+"<https://github.com/BepInEx/BepInEx/releases/download/v5.4.22/BepInEx_x64_5.4.22.0.zip>`_."
 
 #: ../../source/install.rst:231
 msgid "Extract BepInEx to your ``\\SIT\\Game\\`` folder."
-msgstr ""
+msgstr "Распакуйте BepInEx в вашу папку ``\\SIT\\Game\\``."
 
 #: ../../source/install.rst:232
 msgid ""
 "Create a new folder at the path ``\\SIT\\Game\\BepInEx\\`` called "
 "``plugins``."
 msgstr ""
+"Создайте новую папку по пути ``\\SIT\\Game\\BepInEx\\``, назвав ее ``plugins``."
 
 #: ../../source/install.rst:233
 msgid ""
 "Download the latest `Stay In Tarkov release "
 "<https://github.com/stayintarkov/StayInTarkov.Client/releases/latest>`_."
 msgstr ""
+"Загрузите последний выпуск `Stay In Tarkov "
+"<https://github.com/stayintarkov/StayInTarkov.Client/releases/latest>`_."
 
 #: ../../source/install.rst:234
 msgid ""
 "Extract the ``StayInTarkov.dll`` file to your "
 "``\\SIT\\Game\\BepInEx/plugins`` folder."
 msgstr ""
+"Распакуйте файл ``StayInTarkov.dll`` в папку ``\\SIT\\Game\\BepInEx/plugins``."
 
 #: ../../source/install.rst:235
 msgid ""
@@ -362,4 +430,5 @@ msgid ""
 "``\\SIT\\Game\\EscapeFromTarkov_Data\\Managed`` and replace the file when"
 " prompted."
 msgstr ""
-
+"Распакуйте файл ``Assembly-CSharp.dll`` в ``\\SIT\\Game\\EscapeFromTarkov_Data\\Managed`` и "
+"замените файл по запросу."

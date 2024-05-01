@@ -23,17 +23,19 @@ msgstr ""
 
 #: ../../source/faq.rst:6
 msgid "Frequently Asked Questions (FAQ)"
-msgstr ""
+msgstr "Часто задаваемые вопросы (FAQ)"
 
 #: ../../source/faq.rst:8
 msgid ""
 "This page contains common questions we get all the time, if their answer "
 "is simple enough it will appear here."
 msgstr ""
+"Эта страница содержит часто задаваемые нами вопросы, если их ответ "
+"достаточно прост, он будет здесь."
 
 #: ../../source/faq.rst:11
 msgid "My |SIT| isn't working."
-msgstr ""
+msgstr "Моя |SIT| не работает."
 
 #: ../../source/faq.rst:13
 #, python-format
@@ -42,30 +44,39 @@ msgid ""
 "issue is because you haven't read this guide, the **ENTIRE** support team"
 " will steal 47% of your Socks"
 msgstr ""
+"Для получения поддержки вы можете присоединиться к нашему :ref:`Discord "
+"<discord>`, однако, если ваша проблема заключается в том, что вы не "
+"прочитали этот руководство, **ВСЯ** команда поддержки украдет 47% ваших "
+"носков."
 
 #: ../../source/faq.rst:17
 msgid "How do I turn on Nametags."
-msgstr ""
+msgstr "Как включить теги с именами."
 
 #: ../../source/faq.rst:19
 msgid ""
 "See :ref:`Server Configuration <serverconf>` in the Configuration page "
 "for details on that."
 msgstr ""
+"Для получения дополнительной информации обратитесь к :ref:`Настройке "
+"сервера <serverconf>` на странице Настройка."
 
 #: ../../source/faq.rst:24
 msgid "What is the Difference between Relay and a Peer-To-Peer connection?"
 msgstr ""
+"В чем разница между реле и соединением пир-к-пиру?"
 
 #: ../../source/faq.rst:26
 msgid ""
 "These are both connection options that the Host can pick, and each have "
 "some advantages and disadvantages"
 msgstr ""
+"Это оба варианты подключения, которые может выбрать хост, и у каждого "
+"есть свои преимущества и недостатки"
 
 #: ../../source/faq.rst:29
 msgid "Relay"
-msgstr ""
+msgstr "Реле"
 
 #: ../../source/faq.rst:31
 msgid ""
@@ -74,10 +85,14 @@ msgid ""
 "the User send data to the Aki Server, then the Server sends that to the "
 "other Users:"
 msgstr ""
+"Реле - это система, которую |SIT| начал использовать для соединений с "
+"момента перехода с HTTP на WebSockets. Это система, основанная на TCP, "
+"в которой пользователь отправляет данные на сервер Aki, а затем сервер "
+"передает их другим пользователям:"
 
 #: ../../source/faq.rst:34
 msgid "User ------> Server ------> All Users"
-msgstr ""
+msgstr "Пользователь ------> Сервер ------> Все пользователи"
 
 #: ../../source/faq.rst:36
 msgid ""
@@ -87,10 +102,15 @@ msgid ""
 "higher latency as the packets have to go to from the user, to the server,"
 " back to the users."
 msgstr ""
+"Использование этого метода позволяет пользователям с ограниченными типами "
+"NAT все еще подключаться к серверу, поскольку они общаются с сервером, "
+"а не с клиентами, однако в некоторых ситуациях это может привести к "
+"большей задержке, так как пакеты должны идти от пользователя, к серверу, "
+"обратно к пользователям."
 
 #: ../../source/faq.rst:41
 msgid "Peer-To-Peer"
-msgstr ""
+msgstr "Пир-к-пиру"
 
 #: ../../source/faq.rst:43
 msgid ""
@@ -99,10 +119,14 @@ msgid ""
 "communicate instead, this does mean all clients will need to be able to "
 "connect directly to each other:"
 msgstr ""
+"Пир-к-пиру - новый метод, добавленный в обновлении 0.14, он использует "
+"протокол UDP и вместо общения с сервером, все клиенты просто общаются "
+"между собой, это означает, что все клиенты должны иметь возможность "
+"подключаться друг к другу напрямую:"
 
 #: ../../source/faq.rst:46
 msgid "User ------> Raid Host ------> User"
-msgstr ""
+msgstr "Пользователь ------> Хост рейда ------> Пользователь"
 
 #: ../../source/faq.rst:48
 msgid ""
@@ -113,10 +137,17 @@ msgid ""
 "correctly, this method will allow for lower ping and faster responses "
 "from Clients to raid events."
 msgstr ""
+"Это позволит в теории добиться более низкой задержки, если у всех есть "
+"тип NAT, который позволяет это сделать, однако, если обращаться с этим "
+"неправильно, это может привести к потере пакетов, что приведет к резкому "
+"возрастанию задержки и массовой десинхронизации. (Так что это настоящий "
+"опыт игры в Живой Тарков). Но если обращаться к этому методу правильно, "
+"он позволит добиться более низкого пинга и более быстрого ответа от "
+"клиентов на события рейда."
 
 #: ../../source/faq.rst:53
 msgid "So what should I use?"
-msgstr ""
+msgstr "Итак, что мне использовать?"
 
 #: ../../source/faq.rst:55
 msgid ""
@@ -124,10 +155,13 @@ msgid ""
 "NAT type, you may need to use Relay, and if you have issues with one "
 "method, give the other a shot."
 msgstr ""
+"Вы можете использовать любой из вышеуказанных методов, однако, если у "
+"вас строгий тип NAT, вам может потребоваться использовать Реле, и если у "
+"вас возникли проблемы с одним методом, попробуйте другой."
 
 #: ../../source/faq.rst:59
 msgid "How do I submit a Bug Report?"
-msgstr ""
+msgstr "Как мне отправить отчет об ошибке?"
 
 #: ../../source/faq.rst:62
 msgid ""
@@ -135,44 +169,55 @@ msgid ""
 "submited properly it may cause :strike:`our souls to exit our bodies` us "
 "to not be able to properly help you."
 msgstr ""
+"Предоставление правильного отчета об ошибке крайне важно для того, чтобы "
+"мы могли вам помочь, если он не представлен должным образом, это может "
+"привести к тому, что :strike:`наши души выйдут из наших тел`, и мы не "
+"сможем оказать вам должную помощь."
 
 #: ../../source/faq.rst:65
 msgid ""
 "There are 2 kinds of bug report, a Standard Bug Report, which will be any"
 " issues while playing SIT."
 msgstr ""
+"Существует два вида отчетов об ошибках: стандартный отчет об ошибках, "
+"который будет любые проблемы при игре в SIT."
 
 #: ../../source/faq.rst:67
 msgid "And a |SITM| Bug Report, for issues involving the |SIT| Manager Program."
 msgstr ""
+"И отчет об ошибках |SITM|, для проблем, связанных с программой |SIT|."
 
 #: ../../source/faq.rst:72
 msgid "Standard Bug Report"
-msgstr ""
+msgstr "Стандартный отчет об ошибке"
 
 #: ../../source/faq.rst:74
 msgid "Go to the |SIT| :ref:`Discord<discord>`"
-msgstr ""
+msgstr "Перейдите в |SIT| :ref:`Discord<discord>`"
 
 #: ../../source/faq.rst:75
 msgid ""
 "Scroll to the bottom of the channels to find the \"bug-reports\" fourm, "
 "click on that"
 msgstr ""
+"Прокрутите каналы вниз, чтобы найти раздел \"bug-reports\", щелкните на "
+"него"
 
 #: ../../source/faq.rst:76
 msgid "Click \"New Post\" and give it a Title related to your"
-msgstr ""
+msgstr "Нажмите \"Новый пост\" и дайте ему заголовок, относящийся к вашему"
 
 #: ../../source/faq.rst:77
 msgid "Select the relevant tags for the post"
-msgstr ""
+msgstr "Выберите соответствующие теги для сообщения"
 
 #: ../../source/faq.rst:78
 msgid ""
 "The message should contain a description of your issue and steps we can "
 "use to replicate it **THIS IS VERY IMPORTANT**"
 msgstr ""
+"Сообщение должно содержать описание вашей проблемы и шаги, которые мы "
+"можем использовать для ее воспроизведения **ЭТО ОЧЕНЬ ВАЖНО**"
 
 #: ../../source/faq.rst:79
 msgid ""
@@ -180,18 +225,21 @@ msgid ""
 "it's a manager issue, or if we request it, see :ref:`here<manbug>` for "
 "steps on how to obtain it"
 msgstr ""
+"Прикрепите все соответствующие изображения, которые могут помочь, или "
+"``diagnostics.zip``, если это проблема менеджера, или если мы попросим "
+"это, см. :ref:`здесь<manbug>` инструкции по его получению"
 
 #: ../../source/faq.rst:80
 msgid "Create the post, and you're done"
-msgstr ""
+msgstr "Создайте сообщение, и вы закончили"
 
 #: ../../source/faq.rst:94 ../../source/faq.rst:124
 msgid "|brs|"
-msgstr ""
+msgstr "|brs|"
 
 #: ../../source/faq.rst:99
 msgid "|SITM| Bug Report"
-msgstr ""
+msgstr "|SITM| Отчет об ошибке"
 
 #: ../../source/faq.rst:102
 msgid ""
@@ -199,28 +247,35 @@ msgid ""
 " the ``diagnostics.zip`` file, and then do the steps outlines "
 ":ref:`here<standbug>` to submit the bug report on our Discord"
 msgstr ""
+"При создании отчета об ошибке менеджера SIT, следуйте этим шагам, чтобы "
+"получить файл ``diagnostics.zip``, а затем выполните шаги, "
+"представленные здесь :ref:`here<standbug>`, чтобы отправить отчет об "
+"ошибке на нашем Discord"
 
 #: ../../source/faq.rst:105
 msgid "Go to the \"Tools\" tab of the manager"
-msgstr ""
+msgstr "Перейдите на вкладку \"Инструменты\" менеджера"
 
 #: ../../source/faq.rst:106
 msgid "Click Generate logs"
-msgstr ""
+msgstr "Нажмите \"Сгенерировать журналы\""
 
 #: ../../source/faq.rst:107
 msgid "Make sure everything is ticked, unless you've been told otherwise"
 msgstr ""
+"Убедитесь, что все отмечено, если вам не сообщено обратное"
 
 #: ../../source/faq.rst:108
 msgid "Click \"Generate Log Bundle\""
-msgstr ""
+msgstr "Нажмите \"Сгенерировать пакет журналов\""
 
 #: ../../source/faq.rst:109
 msgid ""
 "Chose a location to save the ``diagnostics.zip``, somewhere you can "
 "access later"
 msgstr ""
+"Выберите место для сохранения файла ``diagnostics.zip``, где вы сможете "
+"обратиться к нему позднее"
 
 #: ../../source/faq.rst:110
 msgid ""
@@ -228,4 +283,6 @@ msgid ""
 " our discord. **MAKE SURE TO SELECT THE SIT MANAGER TAG AND INCLUDE "
 "YOUR** ``diagnostics.zip``"
 msgstr ""
-
+"Следуйте инструкциям, представленным здесь :ref:`here<standbug>`, чтобы "
+"создать отчет об ошибке на нашем Discord. **УБЕДИТЕСЬ, ЧТО ВЫБРАН ТЕГ "
+"МЕНЕДЖЕРА SIT И ВКЛЮЧЕН** ``diagnostics.zip``"

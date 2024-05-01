@@ -21,11 +21,11 @@ msgstr ""
 
 #: ../../source/index.rst:29
 msgid "Home"
-msgstr "Home away from sanity"
+msgstr "首页"
 
 #: ../../source/index.rst:4
 msgid "Welcome to Stay In Tarkov!"
-msgstr "Welcome to Stay In Tarkov! - But in Chinese"
+msgstr "欢迎来到逗留在塔科夫！"
 
 #: ../../source/index.rst:6
 msgid ""
@@ -34,6 +34,9 @@ msgid ""
 "<https://github.com/BepInEx/BepInEx/>`_ and `SPT-AKI <https://www.sp-"
 "tarkov.com/>`_ to achieve its goal."
 msgstr ""
+"**Stay In Tarkov (SIT)** 是专为合作游玩而设计的《逃离塔科夫》模组。SIT使用 "
+"诸如 `BepInEx <https://github.com/BepInEx/BepInEx/>`_ 和 `SPT-AKI "
+"<https://www.sp-tarkov.com/>`_ 等模组框架来实现其目标。"
 
 #: ../../source/index.rst:10
 msgid ""
@@ -42,6 +45,8 @@ msgid ""
 "and performance issues during gameplay. Escape From Tarkov and SPT-AKI "
 "updates frequently and oftentimes, your progress must be reset."
 msgstr ""
+"逗留在塔科夫目前由一小队开发人员进行开发。虽然SIT可以游玩，但在游戏过程中会出现"
+"许多错误、同步和性能问题。《逃离塔科夫》和SPT-AKI经常更新，往往需要重置进度。"
 
 #: ../../source/index.rst:14
 msgid ""
@@ -49,6 +54,8 @@ msgid ""
 "**always keep in mind that game breaking bugs and progression issues will"
 " occur and there are no way around it.**"
 msgstr ""
+"换句话说，SIT并不是现实体验的完美替代品：**始终要记住游戏中会出现严重的错误和进"
+"度问题，而且没有办法绕过这些问题。**"
 
 #: ../../source/index.rst:19
 msgid ""
@@ -56,6 +63,8 @@ msgid ""
 "which you can use to talk about the mod in general or advise us of any "
 "issues you've encountered."
 msgstr ""
+"我们的 Discord 服务器位于 `这里 <https://discord.gg/f4CN4n3nP2>`_，您可"
+"以在此讨论有关模组的一般问题，或向我们报告您遇到的任何问题。"
 
 #: ../../source/index.rst:23
 msgid ""
@@ -63,6 +72,8 @@ msgid ""
 "experience of Escape From Tarkov. The primary goal is to enable playing "
 "Escape From Tarkov with friends against enemy AI (bots)."
 msgstr ""
+"SIT并不是试图提供《逃离塔科夫》现实体验的一对一替代方案。其主要目标是允许与朋友"
+"一起对抗敌人人工智能（机器人）来游玩《逃离塔科夫》。"
 
 #: ../../source/index.rst:26
 msgid ""
@@ -70,4 +81,5 @@ msgid ""
 "dedicated server, and it is highly unlikely that such efforts will ever "
 "be made."
 msgstr ""
-
+"因此，我们不打算将SIT打造成一个无头的专用服务器，而且很有可能永远不会采取这样的努"
+"力。"

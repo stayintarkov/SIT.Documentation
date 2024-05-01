@@ -23,49 +23,55 @@ msgstr ""
 
 #: ../../source/issues.rst:5
 msgid "Common Issues"
-msgstr ""
+msgstr "Загальні проблеми"
 
 #: ../../source/issues.rst:10
 msgid "Flea Market Issue"
-msgstr ""
+msgstr "Проблема з Блошиним Ринком"
 
 #: ../../source/issues.rst:13
 msgid "Follow these steps to correct the issue:"
-msgstr ""
+msgstr "Дотримуйтесь цих кроків, щоб виправити проблему:"
 
 #: ../../source/issues.rst:15
 msgid "**Stop the AKI Server**."
-msgstr ""
+msgstr "**Зупиніть сервер AKI**."
 
 #: ../../source/issues.rst:17
 msgid ""
 "Navigate to the ``coopConfig.json`` file located in "
 "``SIT\\Server\\user\\mods\\SITCoop\\config\\``."
 msgstr ""
+"Перейдіть до файлу ``coopConfig.json``, розташованого в "
+"``SIT\\Server\\user\\mods\\SITCoop\\config\\``."
 
 #: ../../source/issues.rst:19
 msgid ""
 "Modify the ``messageWSUrlOverride`` field to include your local IP with "
 "the port ``:6969`` appended at the end (e.g., ``192.168.X.X:6969``)."
 msgstr ""
+"Змініть поле ``messageWSUrlOverride``, щоб воно містило ваш локальний IP-адрес "
+"з портом ``:6969`` в кінці (наприклад, ``192.168.X.X:6969``)."
 
 #: ../../source/issues.rst:21
 msgid "You can get your Local IP by opening ``cmd`` and typing ``ipconfig``"
-msgstr ""
+msgstr "Ви можете дізнатися свій локальний IP, відкривши ``cmd`` та ввівши ``ipconfig``"
 
 #: ../../source/issues.rst:23
 msgid ""
 "Change ``useMessageWSUrlOverride`` to ``true``. Ensure the value ``true``"
 " is in lowercase."
 msgstr ""
+"Змініть ``useMessageWSUrlOverride`` на ``true``. Переконайтеся, що значення ``true`` "
+"написано малими літерами."
 
 #: ../../source/issues.rst:25
 msgid "Save the changes to the ``coopConfig.json`` file."
-msgstr ""
+msgstr "Збережіть зміни у файлі ``coopConfig.json``."
 
 #: ../../source/issues.rst:27
 msgid "Reboot the server and verify that it is functioning correctly."
-msgstr ""
+msgstr "Перезавантажте сервер і переконайтеся, що він працює правильно."
 
 #: ../../source/issues.rst:30
 msgid ""
@@ -73,26 +79,31 @@ msgid ""
 "(VPS), you'll need to set the ``messageWSUrlOverride`` to your VPS's "
 "external IP address."
 msgstr ""
+"Якщо ви запускаєте сервер AKI в Docker або на віртуальному приватному сервері "
+"(VPS), вам потрібно задати ``messageWSUrlOverride`` на зовнішній IP-адресі вашого VPS."
 
 #: ../../source/issues.rst:33
 msgid ""
 "If you're using Docker, follow these commands to update your IP "
 "configuration:"
 msgstr ""
+"Якщо ви використовуєте Docker, дотримуйтесь цих команд для оновлення конфігурації IP:"
 
 #: ../../source/issues.rst:35
 msgid "Stop the SITCoop container using ``docker stop sitcoop``"
-msgstr ""
+msgstr "Зупиніть контейнер SITCoop, використовуючи ``docker stop sitcoop``"
 
 #: ../../source/issues.rst:37
 msgid "Retrieve your external IP address using ``curl -4 icanhazip.com``"
-msgstr ""
+msgstr "Отримайте ваш зовнішній IP-адрес, використовуючи ``curl -4 icanhazip.com``"
 
 #: ../../source/issues.rst:39
 msgid ""
 "Edit the ``coopConfig.json`` file, using the command ``nano "
 "server/user/mods/SITCoop/config/coopConfig.json``"
 msgstr ""
+"Редагуйте файл ``coopConfig.json``, використовуючи команду ``nano "
+"server/user/mods/SITCoop/config/coopConfig.json``"
 
 #: ../../source/issues.rst:41
 msgid ""
@@ -100,10 +111,12 @@ msgid ""
 "``messageWSUrlOverride`` with the IP you got from Step 2, and set "
 "``useMessageWSUrlOverride`` to **TRUE**"
 msgstr ""
+"Оновіть файл наступною конфігурацією, замінивши ``messageWSUrlOverride`` на IP, "
+"який ви отримали на кроці 2, і встановіть ``useMessageWSUrlOverride`` на **TRUE**"
 
 #: ../../source/issues.rst:53
 msgid "Start the SITCoop container using ``docker start sitcoop``"
-msgstr ""
+msgstr "Запустіть контейнер SITCoop, використовуючи ``docker start sitcoop``"
 
 #: ../../source/issues.rst:55
 msgid ""
@@ -111,12 +124,15 @@ msgid ""
 "the flea market not displaying new offers or trades in your AKI Server "
 "environment."
 msgstr ""
+"Дотримуючись цих кроків, ви повинні змогти вирішити проблему з тим, що блошиний "
+"ринок не відображає нові пропозиції або угоди в вашому середовищі сервера AKI."
 
 #: ../../source/issues.rst:59
 msgid ""
 "I'm getting an ``ERROR: listen EADDRNOTAVAIL: address not avalible`` "
 "error."
 msgstr ""
+"Я отримую помилку ``ERROR: listen EADDRNOTAVAIL: address not avalible``."
 
 #: ../../source/issues.rst:62
 msgid ""
@@ -125,38 +141,45 @@ msgid ""
 " quick command line method to find what is currently holding the port and"
 " close it"
 msgstr ""
+"Це стається через те, що вже запущений процес, який використовує цей порт, і декілька "
+"програм не можуть отримати доступ до того самого порту. Нижче наведено швидкий спосіб "
+"закрити процес, який використовує цей порт, з командного рядка:"
 
 #: ../../source/issues.rst:65
 msgid "Press ``Win + R`` and enter \"cmd\""
-msgstr ""
+msgstr "Натисніть ``Win + R`` і введіть \"cmd\""
 
 #: ../../source/issues.rst:66
 msgid ""
 "Press ``CTRL + Shift + Enter`` to open cmd as an admin, click \"Yes\" to "
 "allow"
 msgstr ""
+"Натисніть ``CTRL + Shift + Enter``, щоб відкрити cmd в якості адміністратора, клацніть "
+"\"Так\", щоб дозволити"
 
 #: ../../source/issues.rst:67
 msgid "Type ``netstat -ano | findstr : 6969``"
-msgstr ""
+msgstr "Введіть ``netstat -ano | findstr : 6969``"
 
 #: ../../source/issues.rst:68
 msgid "There should be a set of numbers at the end of the process, like ``17720``"
-msgstr ""
+msgstr "В кінці процесу повинен бути набір цифр, наприклад, ``17720``"
 
 #: ../../source/issues.rst:69
 msgid ""
 "Type ``taskkill /PID (NUMBER) /F``, replace (NUMBER) with the number you "
 "got from above and hit enter"
 msgstr ""
+"Введіть ``taskkill /PID (NUMBER) /F``, замініть (NUMBER) номером, який ви отримали вище, "
+"і натисніть Enter"
 
 #: ../../source/issues.rst:70
 msgid "Try booting your server again"
-msgstr ""
+msgstr "Спробуйте знову запустити свій сервер"
 
 #: ../../source/issues.rst:73
 msgid "Infinite loading screen"
-msgstr ""
+msgstr "Нескінченний екран завантаження"
 
 #: ../../source/issues.rst:76
 msgid ""
@@ -164,26 +187,33 @@ msgid ""
 "mods that aren't compatible with the current version of |SIT|, try "
 "remvoing all your mods and launching the game and server again."
 msgstr ""
+"Якщо ви отримуєте нескінченний екран завантаження, це зазвичай викликано "
+"модами, які не сумісні з поточною версією |SIT|, спробуйте видалити всі "
+"ваші моди і знову запустити гру та сервер."
 
 #: ../../source/issues.rst:80
 msgid "SIT Manager \"A task was cancelled\""
-msgstr ""
+msgstr "Менеджер SIT \"Завдання скасоване\""
 
 #: ../../source/issues.rst:83
 msgid ""
 "This is most often caused by a firewall issue, however it can also be "
 "caused by an incorrect IP address"
 msgstr ""
+"Це найчастіше виникає через проблеми з брандмауером, проте це також може бути "
+"спричинено неправильною IP-адресою"
 
 #: ../../source/issues.rst:85
 msgid ""
 "Make sure you have entered the hosts IPv4 address correctly, and if using"
 " a VPN that there isn't any connection issues between you and the host."
 msgstr ""
+"Переконайтеся, що ви правильно ввели IPv4-адресу хоста, і якщо використовуєте "
+"VPN, що між вами та хостом немає проблем з підключенням."
 
 #: ../../source/issues.rst:88
 msgid "Aki.Server.exe Has Deleted itself"
-msgstr ""
+msgstr "Aki.Server.exe видалив сам себе"
 
 #: ../../source/issues.rst:91
 msgid ""
@@ -193,64 +223,52 @@ msgid ""
 "in the meantime, add the server directory as an exeption to Windows "
 "Defender, like below:"
 msgstr ""
+"З якоїсь невідомої причини Windows Defender виявляє сервер Aki як шкідливе "
+"програмне забезпечення, це неправильний позитивний результат, Aki вимагає, щоб "
+"його не відзначали як шкідливе програмне забезпечення, проте цей процес може "
+"зайняти більше місяця на вирішення, тому на даний час додайте каталог сервера в "
+"винятки від Windows Defender, як нижче:"
 
 #: ../../source/issues.rst:94
 msgid "(You will read Click 9 times, and you **WILL** enjoy it)"
-msgstr ""
+msgstr "(Ви прочитаєте Клацніть 9 разів, і ви **ПОДОБАЄТЬСЯ** це)"
 
 #: ../../source/issues.rst:96
 msgid "Open windows settings"
-msgstr ""
+msgstr "Відкрийте налаштування Windows"
 
 #: ../../source/issues.rst:97
 msgid "Click \"Update and Security\""
-msgstr ""
+msgstr "Клацніть \"Оновлення і безпека\""
 
 #: ../../source/issues.rst:98
 msgid "Click \"Windows Security\""
-msgstr ""
+msgstr "Клацніть \"Безпека Windows\""
 
 #: ../../source/issues.rst:99
 msgid "Click \"Open Windows Security\""
-msgstr ""
+msgstr "Клацніть \"Відкрити безпеку Windows\""
 
 #: ../../source/issues.rst:100
 msgid "Click \"Virus and Threat Protection\""
-msgstr ""
+msgstr "Клацніть \"Захист від вірусів і загроз\""
 
 #: ../../source/issues.rst:101
 msgid "Under \"Virus & Threat protection settings\" click \"Manage Settings\""
 msgstr ""
+"У розділі \"Параметри захисту від вірусів та загроз\" клацніть \"Керувати "
+"налаштуваннями\""
 
 #: ../../source/issues.rst:102
 msgid "Scroll down to \"Exclusions\" and click \"Add or Remove exclusions\""
 msgstr ""
+"Прокрутіть вниз до \"Виключення\" та клацніть \"Додати або видалити "
+"виключення\""
 
 #: ../../source/issues.rst:103
 msgid "Click \"Add an Exclusion\" and click \"Folder\""
-msgstr ""
+msgstr "Клацніть \"Додати виключення\" та клацніть \"Папка\""
 
 #: ../../source/issues.rst:104
 msgid "Navigate to your |SDIR| and click \"Select Folder\""
-msgstr ""
-
-#: ../../source/issues.rst:119
-msgid "|brs|"
-msgstr ""
-
-#: ../../source/issues.rst:124
-msgid "I'm getting \"Illegal Game Found\""
-msgstr ""
-
-#: ../../source/issues.rst:127
-msgid ""
-"In order to fix this issue you **MUST** follow every install step, "
-"properly, without skipping **anything**. I mean it, **ANYTHING**."
-msgstr ""
-
-#: ../../source/issues.rst:129
-msgid ""
-"If you are still getting the error, go `here. "
-"<https://www.escapefromtarkov.com/preorder-page>`_"
-msgstr ""
-
+msgstr "Перейдіть до вашого |SDIR| і клацніть \"Вибрати папку\""

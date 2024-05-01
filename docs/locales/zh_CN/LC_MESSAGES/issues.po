@@ -21,49 +21,52 @@ msgstr ""
 
 #: ../../source/issues.rst:5
 msgid "Common Issues"
-msgstr ""
+msgstr "常见问题"
 
 #: ../../source/issues.rst:10
 msgid "Flea Market Issue"
-msgstr ""
+msgstr "跳蚤市场问题"
 
 #: ../../source/issues.rst:13
 msgid "Follow these steps to correct the issue:"
-msgstr ""
+msgstr "请按照以下步骤纠正此问题："
 
 #: ../../source/issues.rst:15
 msgid "**Stop the AKI Server**."
-msgstr ""
+msgstr "**停止 AKI 服务器**。"
 
 #: ../../source/issues.rst:17
 msgid ""
 "Navigate to the ``coopConfig.json`` file located in "
 "``SIT\\Server\\user\\mods\\SITCoop\\config\\``."
 msgstr ""
+"导航到位于 ``SIT\\Server\\user\\mods\\SITCoop\\config\\`` 的 ``coopConfig.json`` 文件。"
 
 #: ../../source/issues.rst:19
 msgid ""
 "Modify the ``messageWSUrlOverride`` field to include your local IP with "
 "the port ``:6969`` appended at the end (e.g., ``192.168.X.X:6969``)."
 msgstr ""
+"将 ``messageWSUrlOverride`` 字段修改为包含您的本地 IP 地址以及在末尾附加的端口 ``:6969`` （例如，``192.168.X.X:6969``）。"
 
 #: ../../source/issues.rst:21
 msgid "You can get your Local IP by opening ``cmd`` and typing ``ipconfig``"
-msgstr ""
+msgstr "您可以通过打开 ``cmd`` 并键入 ``ipconfig`` 来获取您的本地 IP 地址"
 
 #: ../../source/issues.rst:23
 msgid ""
 "Change ``useMessageWSUrlOverride`` to ``true``. Ensure the value ``true``"
 " is in lowercase."
 msgstr ""
+"将 ``useMessageWSUrlOverride`` 更改为 ``true``。确保值 ``true`` 使用小写。"
 
 #: ../../source/issues.rst:25
 msgid "Save the changes to the ``coopConfig.json`` file."
-msgstr ""
+msgstr "保存对 ``coopConfig.json`` 文件的更改。"
 
 #: ../../source/issues.rst:27
 msgid "Reboot the server and verify that it is functioning correctly."
-msgstr ""
+msgstr "重新启动服务器并验证其是否正常运行。"
 
 #: ../../source/issues.rst:30
 msgid ""
@@ -71,26 +74,29 @@ msgid ""
 "(VPS), you'll need to set the ``messageWSUrlOverride`` to your VPS's "
 "external IP address."
 msgstr ""
+"如果您正在 Docker 或虚拟专用服务器 (VPS) 上运行 AKI 服务器，则需要将 ``messageWSUrlOverride`` 设置为您的 VPS 的外部 IP 地址。"
 
 #: ../../source/issues.rst:33
 msgid ""
 "If you're using Docker, follow these commands to update your IP "
 "configuration:"
 msgstr ""
+"如果您使用 Docker，请按照以下命令更新您的 IP 配置："
 
 #: ../../source/issues.rst:35
 msgid "Stop the SITCoop container using ``docker stop sitcoop``"
-msgstr ""
+msgstr "使用 ``docker stop sitcoop`` 命令停止 SITCoop 容器"
 
 #: ../../source/issues.rst:37
 msgid "Retrieve your external IP address using ``curl -4 icanhazip.com``"
-msgstr ""
+msgstr "使用 ``curl -4 icanhazip.com`` 命令检索您的外部 IP 地址"
 
 #: ../../source/issues.rst:39
 msgid ""
 "Edit the ``coopConfig.json`` file, using the command ``nano "
 "server/user/mods/SITCoop/config/coopConfig.json``"
 msgstr ""
+"使用命令 ``nano server/user/mods/SITCoop/config/coopConfig.json`` 编辑 ``coopConfig.json`` 文件"
 
 #: ../../source/issues.rst:41
 msgid ""
@@ -98,10 +104,11 @@ msgid ""
 "``messageWSUrlOverride`` with the IP you got from Step 2, and set "
 "``useMessageWSUrlOverride`` to **TRUE**"
 msgstr ""
+"使用以下配置更新文件，将 ``messageWSUrlOverride`` 替换为您从步骤 2 中获取的 IP，并将 ``useMessageWSUrlOverride`` 设置为 **TRUE**"
 
 #: ../../source/issues.rst:53
 msgid "Start the SITCoop container using ``docker start sitcoop``"
-msgstr ""
+msgstr "使用 ``docker start sitcoop`` 命令启动 SITCoop 容器"
 
 #: ../../source/issues.rst:55
 msgid ""
@@ -109,12 +116,14 @@ msgid ""
 "the flea market not displaying new offers or trades in your AKI Server "
 "environment."
 msgstr ""
+"通过按照这些步骤，您应该能够解决跳蚤市场在您的 AKI 服务器环境中不显示新报价或交易的问题。"
 
 #: ../../source/issues.rst:59
 msgid ""
 "I'm getting an ``ERROR: listen EADDRNOTAVAIL: address not avalible`` "
 "error."
 msgstr ""
+"我遇到了一个 ``ERROR: listen EADDRNOTAVAIL: address not avalible`` 错误。"
 
 #: ../../source/issues.rst:62
 msgid ""
@@ -123,38 +132,41 @@ msgid ""
 " quick command line method to find what is currently holding the port and"
 " close it"
 msgstr ""
+"这是因为已经有一个正在运行的进程占用了目标端口，多个应用程序无法访问同一端口。以下是一种快速的命令行方法，可以查找当前正在占用该端口的进程并关闭它"
 
 #: ../../source/issues.rst:65
 msgid "Press ``Win + R`` and enter \"cmd\""
-msgstr ""
+msgstr "按 ``Win + R`` 并输入 \"cmd\""
 
 #: ../../source/issues.rst:66
 msgid ""
 "Press ``CTRL + Shift + Enter`` to open cmd as an admin, click \"Yes\" to "
 "allow"
 msgstr ""
+"按 ``CTRL + Shift + Enter`` 以管理员身份打开 cmd，单击 \"Yes\" 以允许"
 
 #: ../../source/issues.rst:67
 msgid "Type ``netstat -ano | findstr : 6969``"
-msgstr ""
+msgstr "键入 ``netstat -ano | findstr : 6969``"
 
 #: ../../source/issues.rst:68
 msgid "There should be a set of numbers at the end of the process, like ``17720``"
-msgstr ""
+msgstr "在进程的末尾应该有一组数字，如 ``17720``"
 
 #: ../../source/issues.rst:69
 msgid ""
 "Type ``taskkill /PID (NUMBER) /F``, replace (NUMBER) with the number you "
 "got from above and hit enter"
 msgstr ""
+"键入 ``taskkill /PID (NUMBER) /F``，将 (NUMBER) 替换为您从上面获得的数字，然后按 Enter"
 
 #: ../../source/issues.rst:70
 msgid "Try booting your server again"
-msgstr ""
+msgstr "尝试重新启动您的服务器"
 
 #: ../../source/issues.rst:73
 msgid "Infinite loading screen"
-msgstr ""
+msgstr "无限加载屏幕"
 
 #: ../../source/issues.rst:76
 msgid ""
@@ -162,26 +174,29 @@ msgid ""
 "mods that aren't compatible with the current version of |SIT|, try "
 "remvoing all your mods and launching the game and server again."
 msgstr ""
+"如果您遇到无限加载屏幕，通常是由于不兼容当前版本的 |SIT| 的模组造成的，请尝试删除所有模组，然后重新启动游戏和服务器。"
 
 #: ../../source/issues.rst:80
 msgid "SIT Manager \"A task was cancelled\""
-msgstr ""
+msgstr "SIT 管理器 \"任务被取消\""
 
 #: ../../source/issues.rst:83
 msgid ""
 "This is most often caused by a firewall issue, however it can also be "
 "caused by an incorrect IP address"
 msgstr ""
+"这通常是由防火墙问题引起的，但也可能是由于错误的 IP 地址引起的"
 
 #: ../../source/issues.rst:85
 msgid ""
 "Make sure you have entered the hosts IPv4 address correctly, and if using"
 " a VPN that there isn't any connection issues between you and the host."
 msgstr ""
+"确保您已正确输入主机的 IPv4 地址，并且如果使用 VPN，请确保您和主机之间没有任何连接问题。"
 
 #: ../../source/issues.rst:88
 msgid "Aki.Server.exe Has Deleted itself"
-msgstr ""
+msgstr "Aki.Server.exe 已删除自身"
 
 #: ../../source/issues.rst:91
 msgid ""
@@ -191,89 +206,67 @@ msgid ""
 "in the meantime, add the server directory as an exeption to Windows "
 "Defender, like below:"
 msgstr ""
+"由于某种原因，Windows Defender 将 Aki 服务器检测为恶意软件，这是一个错误的阳性结果，Aki 请求不要将其标记为恶意软件，但是这个过程可能需要一个月以上的时间来解决，因此在此期间，请将服务器目录添加为 Windows Defender 的例外，如下所示："
 
 #: ../../source/issues.rst:94
 msgid "(You will read Click 9 times, and you **WILL** enjoy it)"
-msgstr ""
+msgstr "(您将读到点击 9 次，而且您 **一定会** 喜欢它)"
 
 #: ../../source/issues.rst:96
 msgid "Open windows settings"
-msgstr ""
+msgstr "打开 Windows 设置"
 
 #: ../../source/issues.rst:97
 msgid "Click \"Update and Security\""
-msgstr ""
+msgstr "单击 \"更新和安全性\""
 
 #: ../../source/issues.rst:98
 msgid "Click \"Windows Security\""
-msgstr ""
+msgstr "单击 \"Windows 安全性\""
 
 #: ../../source/issues.rst:99
 msgid "Click \"Open Windows Security\""
-msgstr ""
+msgstr "单击 \"打开 Windows 安全性\""
 
 #: ../../source/issues.rst:100
 msgid "Click \"Virus and Threat Protection\""
-msgstr ""
+msgstr "单击 \"病毒和威胁防护\""
 
 #: ../../source/issues.rst:101
 msgid "Under \"Virus & Threat protection settings\" click \"Manage Settings\""
-msgstr ""
+msgstr "在 \"病毒和威胁防护设置\" 下单击 \"管理设置\""
 
 #: ../../source/issues.rst:102
 msgid "Scroll down to \"Exclusions\" and click \"Add or Remove exclusions\""
-msgstr ""
+msgstr "向下滚动到 \"排除\" 并单击 \"添加或删除排除\""
 
 #: ../../source/issues.rst:103
 msgid "Click \"Add an Exclusion\" and click \"Folder\""
-msgstr ""
+msgstr "单击 \"添加排除\"，然后单击 \"文件夹\""
 
 #: ../../source/issues.rst:104
 msgid "Navigate to your |SDIR| and click \"Select Folder\""
-msgstr ""
+msgstr "导航到您的 |SDIR| 并单击 \"选择文件夹\""
 
 #: ../../source/issues.rst:119
 msgid "|brs|"
-msgstr ""
+msgstr "|brs|"
 
 #: ../../source/issues.rst:124
 msgid "I'm getting \"Illegal Game Found\""
-msgstr ""
+msgstr "我遇到了 \"Illegal Game Found\""
 
 #: ../../source/issues.rst:127
 msgid ""
 "In order to fix this issue you **MUST** follow every install step, "
 "properly, without skipping **anything**. I mean it, **ANYTHING**."
 msgstr ""
+"为了解决此问题，您 **必须** 严格遵循每个安装步骤，不得跳过 **任何内容**。我的意思是，**任何内容**。"
 
 #: ../../source/issues.rst:129
 msgid ""
 "If you are still getting the error, go `here. "
 "<https://www.escapefromtarkov.com/preorder-page>`_"
 msgstr ""
-
-#~ msgid "My Flea market doesn't have new offeres or trades?"
-#~ msgstr ""
-
-#~ msgid "Stop the SITCoop container:"
-#~ msgstr ""
-
-#~ msgid "Retrieve your external IP address:"
-#~ msgstr ""
-
-#~ msgid "Edit the ``coopConfig.json`` file:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Update the file with the following "
-#~ "configuration, replacing ``IP YOU GET "
-#~ "FROM icanhazip.com`` with the IP address"
-#~ " you obtained from the previous step:"
-#~ msgstr ""
-
-#~ msgid "Start the SITCoop container:"
-#~ msgstr ""
-
-#~ msgid "(You will read Click 10 times, and you **WILL** enjoy it)"
-#~ msgstr ""
-
+"如果您仍然遇到错误，请访问 `这里。"
+"<https://www.escapefromtarkov.com/preorder-page>`_"

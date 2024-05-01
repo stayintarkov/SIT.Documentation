@@ -21,17 +21,18 @@ msgstr ""
 
 #: ../../source/configure.rst:5
 msgid "Configuration"
-msgstr ""
+msgstr "配置"
 
 #: ../../source/configure.rst:8
 msgid ""
 "This section is dedicated to the configuration of Stay In Tarkov. If you "
 "haven't installed Stay In Tarkov yet, click :ref:`here <install>`."
 msgstr ""
+"本节专门用于 Stay In Tarkov 的配置。如果您还没有安装 Stay In Tarkov，请点击：:ref:`这里 <install>`。"
 
 #: ../../source/configure.rst:11
 msgid "Network Configuration"
-msgstr ""
+msgstr "网络配置"
 
 #: ../../source/configure.rst:13
 msgid ""
@@ -41,10 +42,11 @@ msgid ""
 " performance should be the host for a better experience. Don't let the "
 "lad with 10kbps internet host please."
 msgstr ""
+"如果您计划成为合作游戏主机（服务器），请按照本节进行操作。您的团队中至少有一人需要按照此流程操作，以便能够一起玩合作游戏。性能最好的人应该成为主机，以获得更好的体验。请不要让带着 10kbps 网络的小伙伴成为主机。"
 
 #: ../../source/configure.rst:18
 msgid "UPnP"
-msgstr ""
+msgstr "UPnP"
 
 #: ../../source/configure.rst:21
 msgid ""
@@ -55,16 +57,18 @@ msgid ""
 ":ref:`Port Forwarding<portforward>` guide below for manually opening the "
 "required ports for |SIT|."
 msgstr ""
+"UPnP（通用即插即用）是服务器托管的**首选**方法，因为它支持在需要时自动打开 SIT 所需的端口。但是，这仅适用于能干的路由器（看着你，美国）。如果您遇到问题，请按照下面的 :ref:`端口转发<portforward>` 指南手动打开 |SIT| 所需的端口。"
 
 #: ../../source/configure.rst:25
 msgid ""
 "If you are using UPnP, skip to :ref:`HTTP JSON Configuration <httpjson>` "
 "to prep the server"
 msgstr ""
+"如果您正在使用 UPnP，请跳转到 :ref:`HTTP JSON 配置 <httpjson>` 准备服务器"
 
 #: ../../source/configure.rst:29
 msgid "Port forwarding"
-msgstr ""
+msgstr "端口转发"
 
 #: ../../source/configure.rst:32
 msgid ""
@@ -73,12 +77,14 @@ msgid ""
 "different for all router models. Therefore, we cannot provide a step-by-"
 "step tutorial for port forwarding."
 msgstr ""
+"端口转发是将外部 IP 地址上的端口打开并将流量重定向到特定设备的过程。每个路由器型号的过程都不同。因此，我们无法为端口转发提供逐步教程。"
 
 #: ../../source/configure.rst:36
 msgid ""
 "If you are unsure how to port forward, google \"YOUR_ROUTER_MODEL port "
 "forward\" or contact your Internet Service Provider."
 msgstr ""
+"如果您不确定如何进行端口转发，请搜索“YOUR_ROUTER_MODEL 端口转发”或联系您的互联网服务提供商。"
 
 #: ../../source/configure.rst:38
 msgid ""
@@ -86,53 +92,60 @@ msgid ""
 "because every router is wildly different so please try to find "
 "instructions for your specific router.**"
 msgstr ""
+"**下面提供了一个示例，但我们无法为您提供支持，因为每个路由器都非常不同，所以请尝试找到适用于您特定路由器的说明。**"
 
 #: ../../source/configure.rst:41
 msgid ""
 "Here is a quick example on how to port forward with a Virgin Media "
 "Superhub 3 (UK)"
 msgstr ""
+"以下是如何使用 Virgin Media Superhub 3（英国）进行端口转发的快速示例"
 
 #: ../../source/configure.rst:43
 msgid "Open ``cmd`` and type ``ipconfig``"
-msgstr ""
+msgstr "打开“cmd”并键入“ipconfig”"
 
 #: ../../source/configure.rst:44
 msgid ""
 "Find ``Default Gateway:`` it should have an IP similar to "
 "``192.168.0.1``. Also note down your local IP ``IPv4 Address``"
 msgstr ""
+"找到“默认网关：”，它的 IP 应该类似于“192.168.0.1”。还记下您的本地 IP“IPv4 地址”"
 
 #: ../../source/configure.rst:45
 msgid ""
 "Open your web browser and type the ``Default Gateway`` IP into the URL "
 "bar (Not the search bar)"
 msgstr ""
+"打开您的网络浏览器，将“默认网关” IP 输入到 URL 栏中（不是搜索栏）"
 
 #: ../../source/configure.rst:46
 msgid ""
 "There may be a login page there, put in the login details so you can get "
 "to the main dashboard"
 msgstr ""
+"可能会有一个登录页面，在那里输入登录详细信息，以便您进入主要仪表板"
 
 #: ../../source/configure.rst:47
 msgid ""
 "You will need to look for a tab called \"Port Forwarding\". It may be "
 "under some advanced settings or security tab"
 msgstr ""
+"您需要查找一个名为“端口转发”的选项卡。它可能位于一些高级设置或安全选项卡下面"
 
 #: ../../source/configure.rst:61 ../../source/configure.rst:81
 #: ../../source/configure.rst:132 ../../source/configure.rst:153
 #: ../../source/configure.rst:192 ../../source/configure.rst:215
 #: ../../source/configure.rst:253
 msgid "|brs|"
-msgstr ""
+msgstr "|brs|"
 
 #: ../../source/configure.rst:63
 msgid ""
 "Once in there you should be able to open certain ports to certain IPs. "
 "This is where the ``IPv4 Address`` comes in"
 msgstr ""
+"一旦进入那里，您应该能够将某些端口打开到某些 IP。这就是“IPv4 地址”的用处"
 
 #: ../../source/configure.rst:64
 msgid ""
@@ -140,24 +153,29 @@ msgid ""
 "total ports. Some routers can port a range, if you can't you'll have to "
 "do them 1 by 1"
 msgstr ""
+"打开端口 6969 到 6972，确保也包括这两个，所以一共有 4 个端口。一些路由器可以端口范围，如果您不能这样做，您将不得不逐个执行它们"
 
 #: ../../source/configure.rst:83
 msgid ""
 "Make sure to use the \"Both\" option for Protocal if you can, otherwise "
 "you will need to do it twice, for both UDP and TCP"
 msgstr ""
+"如果可以，请确保使用“两者都”选项的协议，否则您需要执行两次，分别为 UDP 和 TCP"
 
 #: ../../source/configure.rst:84
 msgid ""
 "Once you save that those ports should now be open, and pointing traffic "
 "to your PC"
 msgstr ""
+"保存后，这些端口现在应该是打开的，并将流量指向您的 PC"
 
 #: ../../source/configure.rst:85
 msgid ""
 "Once you have completed these steps go :ref:`here <httpjson>` to "
 "configure the server to use these ports"
 msgstr ""
+"完成这些步骤后，转到 :ref:`这里 <httpjson>` 配置服务器以使用这些端口"
+
 
 #: ../../source/configure.rst:88
 msgid ""
@@ -166,6 +184,7 @@ msgid ""
 "any case, the person able to port forward should be the host, provided "
 "their computer and network is capable."
 msgstr ""
+"并非所有的互联网服务提供商都允许进行端口转发。有时端口转发会在提供者级别或路由器级别被阻止。在任何情况下，能够进行端口转发的人应该是主机，前提是他们的计算机和网络是可以的。"
 
 #: ../../source/configure.rst:92
 msgid ""
@@ -174,10 +193,11 @@ msgid ""
 " may come with performance hits to players ping due to how they work. "
 "Port fowarding is the prefered method."
 msgstr ""
+"如果是这种情况，您可能需要使用 VPN（虚拟专用网络），如 Hamachi、Radmin 或 ZeroTier，以允许人们连接，但是这些可能会因为工作方式而对玩家的延迟造成性能损失。端口转发是首选方法。"
 
 #: ../../source/configure.rst:97
 msgid "Virtual Private Network (VPN)"
-msgstr ""
+msgstr "虚拟专用网络（VPN）"
 
 #: ../../source/configure.rst:100
 msgid ""
@@ -188,6 +208,7 @@ msgid ""
 " unable to port forward. However, performance is not as good as port "
 "forwarding because traffic must go through a third party service."
 msgstr ""
+"虚拟专用网络（VPN）如 Hamachi、Radmin 或 ZeroTier 允许创建基于互联网的“本地”网络。所有流量将通过互联网传输，并重定向到充当本地网络的虚拟网络适配器。这对于无法进行端口转发的人非常有用。但是，性能不如端口转发好，因为流量必须经过第三方服务。"
 
 #: ../../source/configure.rst:105
 msgid ""
@@ -195,6 +216,7 @@ msgid ""
 "we cannot help with issues coming from using these, so it may be best to "
 "look up a guide on how to use them beforehand."
 msgstr ""
+"如果您需要帮助设置这些，我们将提供一个基本指南，但是我们无法帮助解决使用这些工具时出现的问题，因此最好事先查找如何使用它们的指南。"
 
 #: ../../source/configure.rst:109
 msgid ""
@@ -203,68 +225,80 @@ msgid ""
 "stability. SIT is not well optimized and transmit a lot of data to "
 "synchronize information between players."
 msgstr ""
+"我们不建议使用 VPN 进行游玩《逃离塔科夫》因为它们被知道会有速率限制，并且会影响网络性能和稳定性。《逃离塔科夫》并没有很好地进行优化，并且在玩家之间同步信息时会传输大量数据。"
 
 #: ../../source/configure.rst:112
 msgid "**Use at your own risk.**"
-msgstr ""
+msgstr "**自行承担风险。**"
 
 #: ../../source/configure.rst:118
 msgid "Install hamachi from their offical site here `Hamachi <https://vpn.net/>`_"
 msgstr ""
+"从官方网站安装 Hamachi，链接在此 `Hamachi <https://vpn.net/>`_"
 
 #: ../../source/configure.rst:119
 msgid ""
 "Click the power button, it should ask you to log in, either log in or "
 "register an account to continue"
 msgstr ""
+"点击电源按钮，它应该会要求您登录，要么登录，要么注册一个账户以继续"
 
 #: ../../source/configure.rst:120
 msgid ""
 "If you are joining a server, join the hosts Hamachi network by pressing "
 "\"Join an Existing Network\" and enter the ID and Password"
 msgstr ""
+"如果您要加入一个服务器，请通过按下“加入现有网络”并输入 ID 和密码来加入主机的 Hamachi 网络"
 
 #: ../../source/configure.rst:122
 msgid ""
 "If you are hosting the server, press \"Create a New Network\", then give "
 "it a name and password, give this to everyone you are playing with"
 msgstr ""
+"如果您是服务器的主机，请按“创建新网络”，然后给它一个名称和密码，并把这个给与您一起游玩的每个人"
 
 #: ../../source/configure.rst:124
 msgid ""
 "Once you are all in the network, make sure everyones light is green, if "
 "not, look up a guide to fix it, we **CANNOT** help with this."
 msgstr ""
+"一旦您都在网络中，请确保每个人的灯都是绿色的，如果不是，查找一个指南来解决问题，我们**无法**提供帮助。"
 
 #: ../../source/configure.rst:125
 msgid ""
 "If everyone is connected and with green light, go :ref:`HTTP JSON "
 "Config<httpjson>` to setup the server to use the VPN"
 msgstr ""
+"如果每个人都连接并且灯是绿色的，请转到 :ref:`HTTP JSON "
+"Config<httpjson>` 来设置服务器使用 VPN。"
 
 #: ../../source/configure.rst:139
 msgid ""
 "Install Radmin from their offical site here `Radmin <https://www.radmin-"
 "vpn.com/>`_"
 msgstr ""
+"从官方网站安装 Radmin，链接在此 `Radmin <https://www.radmin-vpn.com/>`_"
 
 #: ../../source/configure.rst:140
 msgid ""
 "Once installed, make sure the power button icon says \"On\" and has an IP"
 " below your Computer Name. We cannot help with errors on this"
 msgstr ""
+"安装完成后，请确保电源按钮图标显示为“On”，并且在计算机名称下方有一个 IP。我们不能帮助解决此问题的错误"
 
 #: ../../source/configure.rst:141
 msgid ""
 "If you are joining a server, join the hosts Radmin network by pressing "
 "\"Join Network\" and enter the ID and Password"
 msgstr ""
+"如果您要加入一个服务器，请通过按下“加入网络”并输入 ID 和密码来加入主机的 Radmin 网络"
 
 #: ../../source/configure.rst:143
 msgid ""
 "If you are hosting the server, press \"Create Network\", then give it a "
 "name and password, give this to everyone you are playing with"
 msgstr ""
+"如果您是服务器的主机，请按“创建网络”，然后给它一个名称和密码，并把这个给与您一起游玩的每个人"
 
 #: ../../source/configure.rst:145
 msgid ""
@@ -272,48 +306,54 @@ msgid ""
 "to continue, if not, then you'll need to look up your issue as we can't "
 "help"
 msgstr ""
+"如果条是绿色的，连接成功，您可以继续，如果不是，那么您需要查找您的问题，因为我们无法提供帮助"
 
 #: ../../source/configure.rst:146
 msgid ""
 "Once this has been done, head to :ref:`HTTP JSON Config<httpjson>` to "
 "setup the server to use the VPN"
 msgstr ""
+"一旦完成，转到 :ref:`HTTP JSON Config<httpjson>` 来设置服务器使用 VPN"
 
 #: ../../source/configure.rst:158
 msgid "HTTP JSON file configuration"
-msgstr ""
+msgstr "HTTP JSON 文件配置"
 
 #: ../../source/configure.rst:160
 msgid ""
 "Open ``SIT\\Server\\Aki_Data\\Server\\configs\\http.json`` with your "
 "preferred text text editor."
 msgstr ""
+"用您喜欢的文本编辑器打开 ``SIT\\Server\\Aki_Data\\Server\\configs\\http.json``。"
 
 #: ../../source/configure.rst:161
 msgid ""
 "Locate the \"ip\" parameter. You should see a default value of "
 "\"127.0.0.1\"."
 msgstr ""
+"找到“ip”参数。您应该看到一个默认值为“127.0.0.1”。"
 
 #: ../../source/configure.rst:162
 msgid ""
 "Change \"127.0.0.1\" with ``0.0.0.0``. (Only change from ``0.0.0.0`` if "
 "you know what you're doing)"
 msgstr ""
+"将“127.0.0.1”更改为 ``0.0.0.0``。（如果知道自己在做什么，请从 ``0.0.0.0`` 更改）"
 
 #: ../../source/configure.rst:163
 msgid "Save your changes and close the text editor."
-msgstr ""
+msgstr "保存更改并关闭文本编辑器。"
 
 #: ../../source/configure.rst:164
 msgid ""
 "Once you have done this, head :ref:`here <serverplay>` and follow the "
 "Server steps to see how to launch and join the server"
 msgstr ""
+"完成此操作后，请转到 :ref:`此处 <serverplay>` 并按照服务器步骤了解如何启动和加入服务器"
 
 #: ../../source/configure.rst:169
 msgid "Firewall Configuration"
-msgstr ""
+msgstr "防火墙配置"
 
 #: ../../source/configure.rst:172
 msgid ""
@@ -324,42 +364,45 @@ msgid ""
 "detail how to do that if the server hasn't already asked to be allowed "
 "through"
 msgstr ""
+"本节是关于配置您的 Windows 防火墙，以允许客户端通过您的 PC 连接到服务器，尽管您已经转发了端口，但您的 PC 本身可能仍会拒绝连接，因为它尚未被配置为允许连接，下面的部分将详细介绍如何处理，如果服务器尚未请求允许通过。"
 
 #: ../../source/configure.rst:194
 msgid ""
 "Open windows search and type \"Allow an app\", this should show you the "
 "\"Allow an app through Windows Firewall\", click it"
 msgstr ""
+"打开 Windows 搜索并键入“允许应用程序”，这应该会显示“通过 Windows 防火墙允许应用程序”，单击它"
 
 #: ../../source/configure.rst:195
 msgid "Click \"Change Settings\""
-msgstr ""
+msgstr "点击“更改设置”"
 
 #: ../../source/configure.rst:196
 msgid "Click \"Allow Antother App\""
-msgstr ""
+msgstr "点击“允许其他应用程序”"
 
 #: ../../source/configure.rst:197
 msgid "Click \"Browse\" and navigate to where your ``Aki.Server.exe`` is"
-msgstr ""
+msgstr "点击“浏览”并导航到您的 ``Aki.Server.exe`` 所在的位置"
 
 #: ../../source/configure.rst:198
 msgid "Select it and click \"Add\""
-msgstr ""
+msgstr "选择它然后点击“添加”"
 
 #: ../../source/configure.rst:199
 msgid "Make sure both public and private are ticked"
-msgstr ""
+msgstr "确保公共和私有都被选中"
 
 #: ../../source/configure.rst:200
 msgid ""
 "That should be Aki allowed through your windows firewall, and your server"
 " set-up should now be finished"
 msgstr ""
+"这样 Aki 就被允许通过您的 Windows 防火墙了，您的服务器设置现在应该已经完成"
 
 #: ../../source/configure.rst:219
 msgid "General Configuration"
-msgstr ""
+msgstr "常规配置"
 
 #: ../../source/configure.rst:221
 msgid ""
@@ -367,10 +410,11 @@ msgid ""
 "Server, this have been split into catagories for your :strike:`pleasure` "
 "convience."
 msgstr ""
+"以下是配置 |SIT| 客户端和 |SIT| 服务器的步骤，这已经被分成了类别以方便您："
 
 #: ../../source/configure.rst:226
 msgid "Client Side Config"
-msgstr ""
+msgstr "客户端配置"
 
 #: ../../source/configure.rst:229
 msgid ""
@@ -379,6 +423,7 @@ msgid ""
 " a text editor that isn't the built in notepad, something like VSCode, or"
 " at least Notepad++"
 msgstr ""
+"客户端的配置位于 ``SIT\\Game\\BepInEx\\config\\com.stayintarkov.cfg`` 中。您可能希望使用不是内置记事本的文本编辑器，例如 VSCode，或至少是 Notepad++"
 
 #: ../../source/configure.rst:232
 msgid ""
@@ -386,120 +431,126 @@ msgid ""
 " is hosting the raid, so settings like ``EnableAISpawnWaveSystem`` will "
 "only take effect if the person that modified them hosts."
 msgstr ""
+"这些设置仅在修改它们的人托管了突袭时才会生效，因此像 ``EnableAISpawnWaveSystem`` 这样的设置只有在修改它们的人托管了突袭时才会生效。"
 
 #: ../../source/configure.rst:236
 msgid ""
 "**DO NOT** edit any of the ``Enabled`` options as they are for debug "
 "purposes and **SHOULD NOT** be modified in any way."
 msgstr ""
+"**不要** 编辑任何 ``Enabled`` 选项，因为它们仅用于调试目的，**不应** 以任何方式修改。"
 
 #: ../../source/configure.rst:238
 msgid "Client Config Options"
-msgstr ""
+msgstr "客户端配置选项"
 
 #: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
 msgid "**Config Option**"
-msgstr ""
+msgstr "**配置选项**"
 
 #: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
 msgid "**Values**"
-msgstr ""
+msgstr "**值**"
 
 #: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
 msgid "**Default**"
-msgstr ""
+msgstr "**默认值**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "*(Description**"
-msgstr ""
+msgstr "*(描述**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "PlayerStateTickRateInMS"
-msgstr ""
+msgstr "PlayerStateTickRateInMS"
 
 #: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
 msgid "true/false"
-msgstr ""
+msgstr "是/否"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "333"
-msgstr ""
+msgstr "333"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "For setting the client drones to spawn on the server, for **debugging** "
 "use *only*"
 msgstr ""
+"用于在服务器上生成客户端无人机的设置，仅用于**调试**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ShowDronesOnServer"
-msgstr ""
+msgstr "在服务器上显示无人机"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "150-666"
-msgstr ""
+msgstr "150-666"
 
 #: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
 msgid "false"
-msgstr ""
+msgstr "否"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "TCP Only: The rate at which Player States will attempt to be "
 "synchronized. **ONLY MODIFY IF YOU KNOW WHAT YOU ARE DOING**"
 msgstr ""
+"仅限 TCP：玩家状态尝试同步的速率。**仅在您知道自己在做什么时才修改**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "HeadshotsAlwaysKill"
-msgstr ""
+msgstr "头部爆头总是致命"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Enable to make headshots actually work, no more tanking definite kills!"
-msgstr ""
+msgstr "启用以使头部爆头实际生效，不再容忍绝对击杀！"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ShowFeed"
-msgstr ""
+msgstr "显示反馈"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "true"
-msgstr ""
+msgstr "是"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "Enable the feed on the bottom right of the screen which shows player/bot "
 "spawns, kills, etc. **DOES NOT WORK RIGHT NOW, WAS CAUSING ISSUES**"
 msgstr ""
+"在屏幕右下角启用反馈，显示玩家/机器人生成、击杀等信息。**当前无法使用，会引起问题**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "AllPlayersSpawnTogether"
-msgstr ""
+msgstr "所有玩家一起生成"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Will decide if all players spawn at the same spawn point or not"
-msgstr ""
+msgstr "决定所有玩家是否在同一生成点生成"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ArenaMode"
-msgstr ""
+msgstr "竞技场模式"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Currently a **DEBUG** option. **DO NOT TOUCH**"
-msgstr ""
+msgstr "目前是**调试**选项。**请勿触摸**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "EnableAISpawnWaveSystem"
-msgstr ""
+msgstr "启用 AI 生成波系统"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "Toggles the AI spawn wave system, if false, no AI will spawn, useful for "
 "testing PvP aspects"
 msgstr ""
+"切换 AI 生成波系统，如果为假，则不会生成 AI，用于测试 PvP 方面"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ForceHighPingMode"
-msgstr ""
+msgstr "强制高延迟模式"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
@@ -507,124 +558,128 @@ msgid ""
 "This may be useful if you have large input lag **ONLY MODIFY IF YOU KNOW "
 "WHAT YOU ARE DOING**"
 msgstr ""
+"强制启用高延迟模式，允许某些操作不需要往返。如果您有较大的输入延迟，这可能很有用。**仅在您知道自己在做什么时修改**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "WaitingTimeBeforeStart"
-msgstr ""
+msgstr "开始前等待时间"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "0-600"
-msgstr ""
+msgstr "0-600"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "120"
-msgstr ""
+msgstr "120"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Time in seconds to wait for players before starting the game automatically"
-msgstr ""
+msgstr "等待玩家启动游戏的时间（秒）"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ShowSITStatistics"
-msgstr ""
+msgstr "显示 SIT 统计信息"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "Enable the SIT statistics on the top left of the screen which shows ping,"
 " player count, etc."
 msgstr ""
+"在屏幕左上角启用 SIT 统计信息，显示 ping、玩家计数等。"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ShowPing"
-msgstr ""
+msgstr "显示 ping"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Enables the ping display in the top left"
-msgstr ""
+msgstr "在屏幕左上角启用 ping 显示"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ShowPlayerList"
-msgstr ""
+msgstr "显示玩家列表"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Enable to show player list - **For Debugging**"
-msgstr ""
+msgstr "启用以显示玩家列表 - **用于调试**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "SITPort"
-msgstr ""
+msgstr "SIT 端口"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "0-65535"
-msgstr ""
+msgstr "0-65535"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "6970"
-msgstr ""
+msgstr "6970"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "SIT TCP/Websocket Port **ONLY MODIFY IF YOU KNOW WHAT YOU ARE DOING**"
-msgstr ""
+msgstr "SIT TCP/Websocket 端口 **仅在您知道自己在做什么时修改**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "SITNatHelperPort"
-msgstr ""
+msgstr "SIT NAT 辅助端口"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "6971"
-msgstr ""
+msgstr "6971"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "SIT Nat Helper Port **ONLY MODIFY IF YOU KNOW WHAT YOU ARE DOING**"
-msgstr ""
+msgstr "SIT NAT 辅助端口 **仅在您知道自己在做什么时修改**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Language"
-msgstr ""
+msgstr "语言"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Language Option"
-msgstr ""
+msgstr "语言选项"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "English"
-msgstr ""
+msgstr "英语"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Changes SIT Localisation languages"
-msgstr ""
+msgstr "更改 SIT 本地化语言"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "EnableSITVersionLabel"
-msgstr ""
+msgstr "启用 SIT 版本标签"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "Enables the SIT version in the bottom right, please leave this on, makes "
 "our life 10x Easier"
 msgstr ""
+"在屏幕右下角启用 SIT 版本标签，请保持此项打开，让我们的生活轻松十倍"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "EnableHealthPatches"
-msgstr ""
+msgstr "启用生命补丁"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Not completley surem of the purpose for this one, do not touch please"
-msgstr ""
+msgstr "对于这个的目的不是完全确定，请不要触摸"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "EnableAdditionalAmmoUIDescriptions"
-msgstr ""
+msgstr "启用额外的弹药 UI 描述"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "Enables the extra info about ammo in the information tab, only disable if"
 " you **enjoy** spreadsheets."
 msgstr ""
+"在信息标签中启用有关弹药的额外信息，仅在您**喜欢**电子表格时禁用。"
 
 #: ../../source/configure.rst:258
 msgid "Server Side Config"
-msgstr ""
+msgstr "服务器端配置"
 
 #: ../../source/configure.rst:261
 msgid ""
@@ -633,54 +688,56 @@ msgid ""
 "want to use a text editor that isn't the built in notepad, something like"
 " VSCode, or at least Notepad++"
 msgstr ""
+"客户端的配置位于 ``SIT\\Server\\user\\mods\\SITCoop\\config\\SITConfig.json`` 中。您可能希望使用不是内置记事本的文本编辑器，例如 VSCode，或至少是 Notepad++"
 
 #: ../../source/configure.rst:264
 msgid ""
 "These settings are changed on the Aki server config, so they affect every"
 " player on the server, wether they host the raid or are just a client."
 msgstr ""
+"这些设置是在 Aki 服务器配置上更改的，因此它们会影响服务器上的每个玩家，无论他们是托管突袭还是只是客户端。"
 
 #: ../../source/configure.rst:267
 msgid "Server Config Options"
-msgstr ""
+msgstr "服务器配置选项"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "**Description**"
-msgstr ""
+msgstr "**描述**"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "runAzureWebAppHelper"
-msgstr ""
+msgstr "runAzureWebAppHelper"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "**IDK**"
-msgstr ""
+msgstr "**IDK**"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "openAllExfils"
-msgstr ""
+msgstr "openAllExfils"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "This setting will enable or disable all Exfils being avalible for use"
-msgstr ""
+msgstr "此设置将启用或禁用所有可用的出口"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "showPlayerNameTags"
-msgstr ""
+msgstr "showPlayerNameTags"
 
 #: ../../source/csv/serversettings.csv:1
 msgid ""
 "This will enable the players name tags above their head, will make "
 "Friendly Fire Harder (Coward)"
-msgstr ""
+msgstr "这将在玩家头顶显示名称标签，使友军火力更难（懦夫）"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "showPlayerNameTagsOnlyWhenVisible"
-msgstr ""
+msgstr "showPlayerNameTagsOnlyWhenVisible"
 
 #: ../../source/csv/serversettings.csv:1
 msgid ""
 "Setting this to true will make name tags show up all the time, instead of"
 " just when the player is in view"
-msgstr ""
+msgstr "将此设置为 true 将使名称标签始终显示，而不仅在玩家可见时"
 

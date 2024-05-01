@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../source/index.rst:29
 msgid "Home"
-msgstr ""
+msgstr "Главная"
 
 #: ../../source/index.rst:4
 msgid "Welcome to Stay In Tarkov!"
-msgstr ""
+msgstr "Добро пожаловать в Stay In Tarkov!"
 
 #: ../../source/index.rst:6
 msgid ""
@@ -36,6 +36,10 @@ msgid ""
 "<https://github.com/BepInEx/BepInEx/>`_ and `SPT-AKI <https://www.sp-"
 "tarkov.com/>`_ to achieve its goal."
 msgstr ""
+"**Stay In Tarkov (SIT)** - это мод для Escape From Tarkov, разработанный "
+"для совместной игры. SIT использует моддинговые фреймворки, такие как `BepInEx "
+"<https://github.com/BepInEx/BepInEx/>`_ и `SPT-AKI <https://www.sp-"
+"tarkov.com/>`_, чтобы достичь своей цели."
 
 #: ../../source/index.rst:10
 msgid ""
@@ -44,6 +48,11 @@ msgid ""
 "and performance issues during gameplay. Escape From Tarkov and SPT-AKI "
 "updates frequently and oftentimes, your progress must be reset."
 msgstr ""
+"Stay In Tarkov в настоящее время находится в стадии разработки небольшой "
+"командой разработчиков. Хотя SIT можно играть, во время игры возникает "
+"множество ошибок, проблем с синхронизацией и производительностью. Escape "
+"From Tarkov и обновления SPT-AKI часто происходят, и часто ваш прогресс "
+"должен быть сброшен."
 
 #: ../../source/index.rst:14
 msgid ""
@@ -51,6 +60,9 @@ msgid ""
 "**always keep in mind that game breaking bugs and progression issues will"
 " occur and there are no way around it.**"
 msgstr ""
+"Другими словами, SIT не является идеальной заменой реального опыта игры: "
+"**всегда помните, что могут возникать разрушающие игровой процесс ошибки "
+"и проблемы с прогрессией, и нет способов их обойти.**"
 
 #: ../../source/index.rst:19
 msgid ""
@@ -58,6 +70,9 @@ msgid ""
 "which you can use to talk about the mod in general or advise us of any "
 "issues you've encountered."
 msgstr ""
+"Наш сервер Discord расположен `здесь <https://discord.gg/f4CN4n3nP2>`_, "
+"где вы можете обсудить мод в целом или сообщить нам о любых проблемах, с "
+"которыми вы столкнулись."
 
 #: ../../source/index.rst:23
 msgid ""
@@ -65,6 +80,9 @@ msgid ""
 "experience of Escape From Tarkov. The primary goal is to enable playing "
 "Escape From Tarkov with friends against enemy AI (bots)."
 msgstr ""
+"SIT НЕ является попыткой предоставить альтернативу реальному опыту игры "
+"в Escape From Tarkov. Основная цель - позволить играть в Escape From Tarkov "
+"с друзьями против искусственного интеллекта врагов (ботов)."
 
 #: ../../source/index.rst:26
 msgid ""
@@ -72,4 +90,5 @@ msgid ""
 "dedicated server, and it is highly unlikely that such efforts will ever "
 "be made."
 msgstr ""
-
+"Следовательно, не планируется сделать SIT безголовый выделенный сервер, и "
+"весьма маловероятно, что такие усилия когда-либо будут предприняты."
