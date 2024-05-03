@@ -22,9 +22,6 @@ us of any issues you've encountered.
 .. note::
    SIT is NOT an attempt to provide an one-to-one alternative to the live experience of Escape From Tarkov. The primary 
    goal is to enable playing Escape From Tarkov with friends against enemy AI (bots).
-   
-   Consequently, no efforts are planned to make SIT into a headless dedicated server, and it is highly unlikely that 
-   such efforts will ever be made.
 
 .. toctree::
    :hidden:
