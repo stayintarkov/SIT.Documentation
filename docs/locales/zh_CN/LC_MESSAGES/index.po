@@ -74,12 +74,3 @@ msgid ""
 msgstr ""
 "SIT并不是试图提供《逃离塔科夫》现实体验的一对一替代方案。其主要目标是允许与朋友"
 "一起对抗敌人人工智能（机器人）来游玩《逃离塔科夫》。"
-
-#: ../../source/index.rst:26
-msgid ""
-"Consequently, no efforts are planned to make SIT into a headless "
-"dedicated server, and it is highly unlikely that such efforts will ever "
-"be made."
-msgstr ""
-"因此，我们不打算将SIT打造成一个无头的专用服务器，而且很有可能永远不会采取这样的努"
-"力。"

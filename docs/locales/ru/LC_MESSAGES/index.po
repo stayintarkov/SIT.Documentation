@@ -83,12 +83,3 @@ msgstr ""
 "SIT НЕ является попыткой предоставить альтернативу реальному опыту игры "
 "в Escape From Tarkov. Основная цель - позволить играть в Escape From Tarkov "
 "с друзьями против искусственного интеллекта врагов (ботов)."
-
-#: ../../source/index.rst:26
-msgid ""
-"Consequently, no efforts are planned to make SIT into a headless "
-"dedicated server, and it is highly unlikely that such efforts will ever "
-"be made."
-msgstr ""
-"Следовательно, не планируется сделать SIT безголовый выделенный сервер, и "
-"весьма маловероятно, что такие усилия когда-либо будут предприняты."

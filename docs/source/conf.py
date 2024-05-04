@@ -36,7 +36,7 @@ langs += os.listdir("../locales")
 
 # get the environment variable build_all_docs and pages_root
 build_all_docs = os.environ.get("build_all_docs", str(True))
-pages_root = os.environ.get("pages_root", "https://cyrogon.github.io/TestLocaleSIT")
+pages_root = os.environ.get("pages_root", "https://docs.stayintarkov.com")
 
 # Get the current language and version from the OS enviroment variables set in the build_docs.py
 current_language = os.environ.get("current_language", "en")
