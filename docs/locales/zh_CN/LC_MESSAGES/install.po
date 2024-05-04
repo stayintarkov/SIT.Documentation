@@ -18,74 +18,76 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
-
 #: ../../source/install.rst:5
 msgid "Installation"
-msgstr ""
+msgstr "安装"
 
 #: ../../source/install.rst:7
 msgid ""
 "This section is dedicated for a new installation of |SIT|. If you're "
 "looking to update SIT, click :ref:`here<updatesitm>`."
 msgstr ""
+"本节专门介绍 |SIT| 的新安装。如果您想要更新 SIT，请点击 :ref:`此处<updatesitm>`。"
 
 #: ../../source/install.rst:10
 msgid "Getting started"
-msgstr ""
+msgstr "入门指南"
 
 #: ../../source/install.rst:13
 msgid "|EFT| requirements"
-msgstr ""
+msgstr "|EFT| 要求"
 
 #: ../../source/install.rst:16
 msgid ""
 "You need a legally purchased copy of |EFT|, `obtainable here "
 "<https://www.escapefromtarkov.com/preorder-page>`_."
 msgstr ""
+"您需要合法购买的 |EFT| 副本，可以在 `这里获取 <https://www.escapefromtarkov.com/preorder-page>`_。"
 
 #: ../../source/install.rst:17
 msgid "You need to install the game using the official game launcher."
-msgstr ""
+msgstr "您需要使用官方游戏启动器安装游戏。"
 
 #: ../../source/install.rst:18
 msgid "You need to run the game at least once using the official game launcher."
-msgstr ""
+msgstr "您需要使用官方游戏启动器至少运行游戏一次。"
 
 #: ../../source/install.rst:21
 msgid "**DON'T** move your original EFT game folder following the installation."
-msgstr ""
+msgstr "安装完成后 **不要** 移动原始的 EFT 游戏文件夹。"
 
 #: ../../source/install.rst:22
 msgid "**DON'T** change any of the files in your original EFT game folder."
-msgstr ""
+msgstr "不要更改原始的 EFT 游戏文件夹中的任何文件。"
 
 #: ../../source/install.rst:23
 msgid ""
 "**YOU MUST** run **LIVE** Tarkov at least once. If you don't, you forfeit"
 " all of you're mortal possessions to my dog."
 msgstr ""
+"**必须** 至少运行 **实况** Tarkov 一次。如果不运行，您的所有财产将归我的狗所有。"
 
 #: ../../source/install.rst:24
 msgid ""
 "**DON'T** install SIT in your original EFT game folder. **YOU HAVE BEEN "
 "WARNED!**"
-msgstr ""
+msgstr "不要将 SIT 安装在原始的 EFT 游戏文件夹中。**已经警告过你了！**"
 
 #: ../../source/install.rst:25
 msgid ""
 "**ALWAYS** make sure you are able to run the game using the official game"
 " launcher before using SIT."
-msgstr ""
+msgstr "使用 SIT 之前，**始终** 确保能够使用官方游戏启动器运行游戏。"
 
 #: ../../source/install.rst:26
 msgid ""
 "**DON'T** take shortcuts. Follow this step by step. If you haven't, you "
 "will be **MOCKED**"
-msgstr ""
+msgstr "不要走捷径。一步一步地按照流程来。如果你没有，你将会被 **嘲笑**"
 
 #: ../../source/install.rst:31
 msgid "Preparing the folder structure"
-msgstr ""
+msgstr "准备文件夹结构"
 
 #: ../../source/install.rst:33
 msgid ""
@@ -93,6 +95,7 @@ msgid ""
 "long as it has enough space for |EFT|. The drive should have at least "
 "``60GB`` free space."
 msgstr ""
+"在您选择的驱动器上创建以下文件夹结构，只要它有足够的空间容纳 |EFT|。驱动器应至少有 ``60GB`` 的可用空间。"
 
 #: ../../source/install.rst:36
 msgid ""
@@ -100,6 +103,7 @@ msgid ""
 "``system32``, ``Program Files``, and ``Program Files (x86)``, If you do I"
 " will steal your Hard Drive platters and sell them for Freddos"
 msgstr ""
+"**不要** 将管理器安装在受保护的目录中，例如 ``system32``、``Program Files`` 和 ``Program Files (x86)``，如果这样做，我会偷走你的硬盘盘片，并把它们卖给弗雷多（Freddos）。"
 
 #: ../../source/install.rst:56 ../../source/install.rst:89
 #: ../../source/install.rst:106 ../../source/install.rst:129
@@ -112,6 +116,7 @@ msgid ""
 "It is recommended to use this folder structure for a SIT installation. "
 "Note that the rest of the documentation will refer to that structure."
 msgstr ""
+"建议使用此文件夹结构进行 SIT 安装。请注意，文档的其余部分将引用该结构。"
 
 #: ../../source/install.rst:62
 msgid ""
@@ -119,10 +124,11 @@ msgid ""
 "``2.0.8856.37884`` can automagically copy your Live |EFT| folder into a "
 "folder of your choice **REMEMBER THE** :ref:`FILE STRUCTURE<filestruct>`"
 msgstr ""
+"以下是安装 SIT 管理器的步骤，截至版本 ``2.0.8856.37884``，它可以自动将您的 Live |EFT| 文件夹复制到您选择的文件夹中 **请记住** :ref:`文件结构<filestruct>`"
 
 #: ../../source/install.rst:66
 msgid "Installing |SITM|"
-msgstr ""
+msgstr "安装 |SITM|"
 
 #: ../../source/install.rst:69
 msgid ""
@@ -132,48 +138,50 @@ msgid ""
 " help us solve issues you may encounter as well. Manual intall "
 "intructions are provided but should be **AVOIDED** wherever possible"
 msgstr ""
+"强烈建议使用 |SITM| 安装 |SIT|，因为它极大地简化了流程，几乎完全自动化。它还为我们提供了宝贵的日志文件，:strike:`它们尝起来很好吃`，它们还帮助我们解决您可能遇到的问题。提供了手动安装说明，但应尽可能 **避免** 使用"
 
 #: ../../source/install.rst:74
 msgid ""
 "Download the latest |SITM| from `Github "
 "<https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/tag/2.0.8856.37884>`_"
 msgstr ""
+"从 `Github <https://github.com/stayintarkov/SIT.Manager.Avalonia/releases/tag/2.0.8856.37884>`_ 下载最新的 |SITM|"
 
 #: ../../source/install.rst:75
 msgid "Extract the files from the ``.zip`` into |LDIR|"
-msgstr ""
+msgstr "将 ``.zip`` 文件中的文件提取到 |LDIR|"
 
 #: ../../source/install.rst:91
 msgid ""
 "For sake of convinience, you can make a Shortcut to the manager on your "
 "desktop, since you need this **EVERY** time you join a server"
-msgstr ""
+msgstr "为了方便起见，您可以在桌面上创建管理器的快捷方式，因为您每次加入服务器都需要使用它"
 
 #: ../../source/install.rst:108
 msgid "Now open the manager and Navigate to \"Install\" page"
-msgstr ""
+msgstr "现在打开管理器，导航到 \"安装\" 页面"
 
 #: ../../source/install.rst:109
 msgid "Press \"Install SIT\""
-msgstr ""
+msgstr "点击 \"安装 SIT\""
 
 #: ../../source/install.rst:110
 msgid "Select the latest version (Should be Auto-Selected)"
-msgstr ""
+msgstr "选择最新版本（应自动选择）"
 
 #: ../../source/install.rst:111
 msgid ""
 "Press \"Change\" on EFT Install path, which right now is pointing to your"
 " **LIVE** install, and change it to |GDIR|"
-msgstr ""
+msgstr "按 EFT 安装路径上的 “更改” 按钮，该按钮现在指向您的 **实况** 安装，并将其更改为 |GDIR|"
 
 #: ../../source/install.rst:112
 msgid "Press \"Start Install\""
-msgstr ""
+msgstr "点击 \"开始安装\""
 
 #: ../../source/install.rst:113
 msgid "Wait a bit for the Manager to copy your game files and install the SIT mod"
-msgstr ""
+msgstr "等待片刻，让管理器复制您的游戏文件并安装 SIT 模组"
 
 #: ../../source/install.rst:114
 msgid ""
@@ -182,10 +190,11 @@ msgid ""
 "process, or to :ref:`Server Install<serverinst>` if you plan on hosting a"
 " server"
 msgstr ""
+"安装完成后，SIT 已成功安装到您的客户端。前往 :ref:`完成<finishingup>` 完成安装过程，或者前往 :ref:`服务器安装<serverinst>` 如果您计划托管服务器"
 
 #: ../../source/install.rst:134
 msgid "Updating |SITM|"
-msgstr ""
+msgstr "|SITM| 更新"
 
 #: ../../source/install.rst:137
 msgid ""
@@ -194,14 +203,15 @@ msgid ""
 "automatically check for a new version on boot and offer to update if it "
 "is out of date. A small example can be found below"
 msgstr ""
+"|SITM| 会为您处理更新，您只需在启动管理器时按 \"更新\" 即可。它将在启动时自动检查新版本，并在需要更新时提供更新。下面是一个小例子"
 
 #: ../../source/install.rst:158
 msgid "Installing |SIT| Server"
-msgstr ""
+msgstr "安装 |SIT| 服务器"
 
 #: ../../source/install.rst:161
 msgid "Local Install"
-msgstr ""
+msgstr "本地安装"
 
 #: ../../source/install.rst:164
 msgid ""
@@ -209,6 +219,7 @@ msgid ""
 "PC. If you would like to install this as a Docker instance follow the "
 "steps outlined in :ref:`Installing Server With Docker <dockerinstall>`"
 msgstr ""
+"以下步骤是在您的 PC 上本地安装服务器的步骤。如果您想将其安装为 Docker 实例，请按照 :ref:`使用 Docker 安装服务器 <dockerinstall>` 中的步骤进行操作"
 
 #: ../../source/install.rst:167
 msgid ""
@@ -216,40 +227,42 @@ msgid ""
 "their local machine, is the one with the most powerful PC and best "
 "Network otherwise performance may be Sub-optimal."
 msgstr ""
+"确保安装服务器的人，如果他们将其安装在他们的本地计算机上，则是具有最强大 PC 和最佳网络的人，否则性能可能会亚优化。"
 
 #: ../../source/install.rst:170
 msgid ""
 "This applies to both hosting the AKI server, and Hosting the raid, more "
 "on that later in the guide."
 msgstr ""
+"这适用于托管 AKI 服务器和托管突袭，后续指南将详细介绍。"
 
 #: ../../source/install.rst:172
 msgid "Open the |SITM|"
-msgstr ""
+msgstr "打开 |SITM|"
 
 #: ../../source/install.rst:173
 msgid "Go to \"Install\""
-msgstr ""
+msgstr "转到 \"安装\""
 
 #: ../../source/install.rst:174
 msgid "Click \"Install Server + SIT Mod\""
-msgstr ""
+msgstr "点击 \"安装服务器 + SIT 模组\""
 
 #: ../../source/install.rst:175
 msgid "Change the path to your |SDIR| path"
-msgstr ""
+msgstr "将路径更改为您的 |SDIR| 路径"
 
 #: ../../source/install.rst:176
 msgid "Click \"Start Install\""
-msgstr ""
+msgstr "点击 \"开始安装\""
 
 #: ../../source/install.rst:177
 msgid "Once that completes, Navigate to \"Server\""
-msgstr ""
+msgstr "安装完成后，导航到 \"服务器\""
 
 #: ../../source/install.rst:178
 msgid "Start the server and wait for the \"Server started!\" message"
-msgstr ""
+msgstr "启动服务器并等待 “服务器已启动！” 消息"
 
 #: ../../source/install.rst:180
 msgid ""
@@ -258,32 +271,36 @@ msgid ""
 "\"Allow Access\" this will allow the server through your local firewall "
 "and make our lives a bit easier, a short clip is exampled below the image"
 msgstr ""
+"如果您从服务器上弹出的 “Windows 防火墙” 中得到请求，要求允许通过，例如 :ref:`此处 <firewall>`，那么请点击 “允许访问”，这将允许服务器通过您的本地防火墙，并且会让我们的生活变得更轻松，下面是一个示例短片"
 
 #: ../../source/install.rst:183
 msgid "Stop the server, this allows it to generate all relevant configs"
-msgstr ""
+msgstr "停止服务器，这样可以生成所有相关的配置文件"
 
 #: ../../source/install.rst:184
 msgid ""
 "Once you have done that, head over to :ref:`Finishing Up<finishingup>` to"
 " continue"
 msgstr ""
+"完成后，转到 :ref:`完成<finishingup>` 继续进行"
 
 #: ../../source/install.rst:204
 msgid "Installing Server With Docker"
-msgstr ""
+msgstr "使用 Docker 安装服务器"
 
 #: ../../source/install.rst:207
 msgid ""
 "These steps are for if you want to run the server in a docker instance. "
 "**IF YOU DON'T KNOW WHAT DOCKER IS THIS ISN'T FOR YOU**"
 msgstr ""
+"如果您想在 Docker 实例中运行服务器，请按照以下步骤操作。**如果您不知道 Docker 是什么，这不适合您**"
 
 #: ../../source/install.rst:209
 msgid ""
 "We provide a pre-made Linux Docker instance of the |SIT| server, found at"
 " this `Docker Hub <https://hub.docker.com/r/stayintarkov/stayintarkov>`_"
 msgstr ""
+"我们提供了一个预制的 Linux Docker 实例，其中包含了 |SIT| 服务器，可以在 `Docker Hub <https://hub.docker.com/r/stayintarkov/stayintarkov>`_ 上找到"
 
 #: ../../source/install.rst:211
 msgid ""
@@ -291,14 +308,15 @@ msgid ""
 " them at some point, but for now the Docker hub has all the info you'll "
 "need"
 msgstr ""
+"安装说明也可以在那里找到，我们可能会在此处进行更新以添加它们，但目前 Docker Hub 已经包含了您需要的所有信息"
 
 #: ../../source/install.rst:213
 msgid "Install Video will be here soon`:tm:`"
-msgstr ""
+msgstr "安装视频即将发布 `:tm:`"
 
 #: ../../source/install.rst:218
 msgid "Finishing Up"
-msgstr ""
+msgstr "完成"
 
 #: ../../source/install.rst:220
 msgid ""
@@ -306,14 +324,15 @@ msgid ""
 "head :ref:`here<clientinst>`, if you want to host then head "
 ":ref:`here<netconfigure>`."
 msgstr ""
+"安装完成后，如果您计划加入其他玩家，请转到 :ref:`此处<clientinst>`，如果您想托管服务器，请转到 :ref:`此处<netconfigure>`。"
 
 #: ../../source/install.rst:223
 msgid "Installing manually"
-msgstr ""
+msgstr "手动安装"
 
 #: ../../source/install.rst:226
 msgid "It is **strongly** recommended to use |SITM| to install |SIT|."
-msgstr ""
+msgstr "强烈建议使用 |SITM| 安装 |SIT|。"
 
 #: ../../source/install.rst:227
 msgid ""
@@ -321,38 +340,43 @@ msgid ""
 "|SITM| to connect to servers so this should only be done as a last "
 "resort."
 msgstr ""
+"即使手动安装了 |SIT|，您仍然需要使用 |SITM| 连接服务器，因此这只能是最后的选择。"
 
 #: ../../source/install.rst:229
 msgid "**COPY** your Live |EFT| files into the |GDir| folder"
-msgstr ""
+msgstr "**复制** 您的实况 |EFT| 文件到 |GDir| 文件夹中"
 
 #: ../../source/install.rst:230
 msgid ""
 "Download `BepInEx "
 "<https://github.com/BepInEx/BepInEx/releases/download/v5.4.22/BepInEx_x64_5.4.22.0.zip>`_."
 msgstr ""
+"下载 `BepInEx <https://github.com/BepInEx/BepInEx/releases/download/v5.4.22/BepInEx_x64_5.4.22.0.zip>`_。"
 
 #: ../../source/install.rst:231
 msgid "Extract BepInEx to your ``\\SIT\\Game\\`` folder."
-msgstr ""
+msgstr "将 BepInEx 提取到您的 ``\\SIT\\Game\\`` 文件夹中。"
 
 #: ../../source/install.rst:232
 msgid ""
 "Create a new folder at the path ``\\SIT\\Game\\BepInEx\\`` called "
 "``plugins``."
 msgstr ""
+"在路径 ``\\SIT\\Game\\BepInEx\\`` 下创建一个名为 ``plugins`` 的新文件夹。"
 
 #: ../../source/install.rst:233
 msgid ""
 "Download the latest `Stay In Tarkov release "
 "<https://github.com/stayintarkov/StayInTarkov.Client/releases/latest>`_."
 msgstr ""
+"下载最新的 `Stay In Tarkov 发行版 <https://github.com/stayintarkov/StayInTarkov.Client/releases/latest>`_。"
 
 #: ../../source/install.rst:234
 msgid ""
 "Extract the ``StayInTarkov.dll`` file to your "
 "``\\SIT\\Game\\BepInEx/plugins`` folder."
 msgstr ""
+"将 ``StayInTarkov.dll`` 文件提取到您的 ``\\SIT\\Game\\BepInEx/plugins`` 文件夹中。"
 
 #: ../../source/install.rst:235
 msgid ""
@@ -360,4 +384,4 @@ msgid ""
 "``\\SIT\\Game\\EscapeFromTarkov_Data\\Managed`` and replace the file when"
 " prompted."
 msgstr ""
-
+"将 ``Assembly-CSharp.dll`` 文件提取到 ``\\SIT\\Game\\EscapeFromTarkov_Data\\Managed`` 中，并在提示时替换文件。"

@@ -23,17 +23,18 @@ msgstr ""
 
 #: ../../source/terminology.rst:6
 msgid "Terminology"
-msgstr ""
+msgstr "Термінологія"
 
 #: ../../source/terminology.rst:8
 msgid ""
 "This page contains all the common Terminology used to describe this "
 "project, please familiarise yourself with these."
 msgstr ""
-
+"Ця сторінка містить всю загальну термінологію, яка використовується для опису цього "
+"проекту, будь ласка, ознайомтеся з нею."
 #: ../../source/terminology.rst:11
 msgid "Acronyms"
-msgstr ""
+msgstr "Акроніми"
 
 #: ../../source/terminology.rst:14
 msgid "SIT - |SIT|"
@@ -45,7 +46,7 @@ msgstr ""
 
 #: ../../source/terminology.rst:22
 msgid "SPT - Single Player Tarkov, can also be refered to as AKI"
-msgstr ""
+msgstr "SPT - Single Player Tarkov, також може називатися AKI"
 
 #: ../../source/terminology.rst:26
 msgid "VPN - Virtual Private Network"
@@ -53,13 +54,13 @@ msgstr ""
 
 #: ../../source/terminology.rst:29
 msgid "Terms"
-msgstr ""
+msgstr "Умови"
 
 #: ../../source/terminology.rst:30
 msgid ""
 "AKI - This is the **SERVER** that SIT connects to, this may also be "
 "refered to just as Server"
-msgstr ""
+msgstr "AKI - Це **СЕРВЕР**, до якого підключається SIT, також може бути згаданий просто як Сервер"
 
 #: ../../source/terminology.rst:32 ../../source/terminology.rst:36
 msgid "|brs|"
@@ -71,11 +72,13 @@ msgid ""
 "and game processing will occour on their PC, so they should be the one "
 "with the best PC and Network."
 msgstr ""
+"Хост - це особа, яка ПОЧАЛА рейд, всі боти "
+"і обробка гри відбуватимуться на їхньому ПК, тому вони мають мати кращий ПК та мережу."
 
 #: ../../source/terminology.rst:38
 msgid ""
 "Client - This can mean the people connected to the **SERVER**, but when "
 "discussing raid issues, this will mean everyone in the raid **EXCEPT** "
 "the host."
-msgstr ""
+msgstr "Клієнт - Це може означати людей, підключених до **СЕРВЕРА**, але коли мова йде про проблеми з рейдами, це буде означати всіх у рейді, **КРІМ** хоста."
 

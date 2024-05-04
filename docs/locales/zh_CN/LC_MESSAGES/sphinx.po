@@ -21,9 +21,9 @@ msgstr ""
 
 #: ../../templates/versions.html:9
 msgid "Languages"
-msgstr ""
+msgstr "语言"
 
 #: ../../templates/versions.html:17
 msgid "Versions"
-msgstr ""
+msgstr "版本"
 

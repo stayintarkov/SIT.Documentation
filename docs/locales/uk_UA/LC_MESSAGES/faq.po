@@ -1,39 +1,18 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2024, Stay In Tarkov Team
-# This file is distributed under the same license as the SIT.Documentation
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
-msgid ""
-msgstr ""
-"Project-Id-Version: SIT.Documentation \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-14 00:20+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: uk_UA\n"
-"Language-Team: uk_UA <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
-
 #: ../../source/faq.rst:6
 msgid "Frequently Asked Questions (FAQ)"
-msgstr ""
+msgstr "Часті питання (FAQ)"
 
 #: ../../source/faq.rst:8
 msgid ""
 "This page contains common questions we get all the time, if their answer "
 "is simple enough it will appear here."
 msgstr ""
+"Ця сторінка містить загальні питання, які ми часто отримуємо, якщо їх "
+"відповідь достатньо проста, вони з'являться тут."
 
 #: ../../source/faq.rst:11
 msgid "My |SIT| isn't working."
-msgstr ""
+msgstr "Моя |SIT| не працює."
 
 #: ../../source/faq.rst:13
 #, python-format
@@ -42,30 +21,37 @@ msgid ""
 "issue is because you haven't read this guide, the **ENTIRE** support team"
 " will steal 47% of your Socks"
 msgstr ""
+"Для отримання підтримки ви можете приєднатися до нашого :ref:`Discord "
+"<discord>`, проте, якщо ваша проблема полягає в тому, що ви не прочитали"
+" цей посібник, **УВЕСЬ** команду підтримки украде 47% ваших шкарпеток"
 
 #: ../../source/faq.rst:17
 msgid "How do I turn on Nametags."
-msgstr ""
+msgstr "Як увімкнути наметеги?"
 
 #: ../../source/faq.rst:19
 msgid ""
 "See :ref:`Server Configuration <serverconf>` in the Configuration page "
 "for details on that."
 msgstr ""
+"Дивіться :ref:`Налаштування сервера <serverconf>` на сторінці конфігурації"
+" для отримання деталей з цього."
 
 #: ../../source/faq.rst:24
 msgid "What is the Difference between Relay and a Peer-To-Peer connection?"
-msgstr ""
+msgstr "В чому різниця між ретрансляцією та з'єднанням точка-точка?"
 
 #: ../../source/faq.rst:26
 msgid ""
 "These are both connection options that the Host can pick, and each have "
 "some advantages and disadvantages"
 msgstr ""
+"Це обидва варіанти підключення, які може вибрати господар, і кожен має "
+"свої переваги та недоліки"
 
 #: ../../source/faq.rst:29
 msgid "Relay"
-msgstr ""
+msgstr "Ретрансляція"
 
 #: ../../source/faq.rst:31
 msgid ""
@@ -74,10 +60,14 @@ msgid ""
 "the User send data to the Aki Server, then the Server sends that to the "
 "other Users:"
 msgstr ""
+"Ретрансляція - це система, на яку |SIT| перейшов для підключень з моменту"
+" переходу від HTTP до WebSockets. Це система на основі TCP, у якій "
+"користувач відправляє дані на сервер Aki, після чого сервер відправляє їх"
+" іншим користувачам:"
 
 #: ../../source/faq.rst:34
 msgid "User ------> Server ------> All Users"
-msgstr ""
+msgstr "Користувач ------> Сервер ------> Всі користувачі"
 
 #: ../../source/faq.rst:36
 msgid ""
@@ -87,10 +77,15 @@ msgid ""
 "higher latency as the packets have to go to from the user, to the server,"
 " back to the users."
 msgstr ""
+"Використання цього методу дозволяє користувачам з обмеженими типами NAT "
+"продовжувати підключення до сервера, оскільки вони спілкуються з сервером "
+"замість клієнтів, проте, у деяких ситуаціях це може призвести до більшої "
+"затримки, оскільки пакети повинні йти від користувача, до сервера, назад "
+"до користувачів."
 
 #: ../../source/faq.rst:41
 msgid "Peer-To-Peer"
-msgstr ""
+msgstr "Точка-точка"
 
 #: ../../source/faq.rst:43
 msgid ""
@@ -99,10 +94,14 @@ msgid ""
 "communicate instead, this does mean all clients will need to be able to "
 "connect directly to each other:"
 msgstr ""
+"Точка-точка - це новий метод, доданий у версії 0.14, він використовує UDP і "
+"замість спілкування з сервером, клієнти просто хрестово спілкуються між "
+"собою, це означає, що всі клієнти повинні мати можливість підключатися "
+"прямо один до одного:"
 
 #: ../../source/faq.rst:46
 msgid "User ------> Raid Host ------> User"
-msgstr ""
+msgstr "Користувач ------> Господар Рейду ------> Користувач"
 
 #: ../../source/faq.rst:48
 msgid ""
@@ -113,10 +112,16 @@ msgid ""
 "correctly, this method will allow for lower ping and faster responses "
 "from Clients to raid events."
 msgstr ""
+"Це дозволить теоретично знизити затримку, якщо у всіх є тип NAT, який це "
+"дозволяє, проте, якщо його неправильно використовувати, це може призвести "
+"до того, що пакети \"Зникнуть\", що призведе до стрибків латентності і "
+"масової десинхронізації. (Такий справжній досвід з Таркова). Але при "
+"правильному використанні, цей метод дозволить знизити пінг і швидше "
+"реагувати клієнтам на події рейду."
 
 #: ../../source/faq.rst:53
 msgid "So what should I use?"
-msgstr ""
+msgstr "Так що ж мені використовувати?"
 
 #: ../../source/faq.rst:55
 msgid ""
@@ -124,10 +129,13 @@ msgid ""
 "NAT type, you may need to use Relay, and if you have issues with one "
 "method, give the other a shot."
 msgstr ""
-
+"Ви можете використовувати будь-який з методів, описаних вище, проте, якщо "
+"у вас строгий тип NAT, вам може знадобитися використовувати ретрансляцію, "
+"і якщо у вас є проблеми з одним методом, спробуйте інший."
+  
 #: ../../source/faq.rst:59
 msgid "How do I submit a Bug Report?"
-msgstr ""
+msgstr "Як я можу подати звіт про помилку?"
 
 #: ../../source/faq.rst:62
 msgid ""
@@ -135,44 +143,55 @@ msgid ""
 "submited properly it may cause :strike:`our souls to exit our bodies` us "
 "to not be able to properly help you."
 msgstr ""
+"Подання правильного звіту про помилку має важливе значення для того, щоб ми"
+" могли вам допомогти, якщо це не буде зроблено належним чином, це може "
+"призвести до того, що :strike:`наші душі вийдуть з наших тіл`, ми не зможемо"
+" вам належним чином допомогти."
 
 #: ../../source/faq.rst:65
 msgid ""
 "There are 2 kinds of bug report, a Standard Bug Report, which will be any"
 " issues while playing SIT."
 msgstr ""
+"Є 2 типи звітів про помилки, стандартний звіт про помилку, який буде "
+"будь-якими проблемами під час гри у SIT."
 
 #: ../../source/faq.rst:67
 msgid "And a |SITM| Bug Report, for issues involving the |SIT| Manager Program."
 msgstr ""
+"І звіт про помилку |SITM|, щодо проблем, пов'язаних з програмою керування |SIT|."
 
 #: ../../source/faq.rst:72
 msgid "Standard Bug Report"
-msgstr ""
+msgstr "Стандартний звіт про помилку"
 
 #: ../../source/faq.rst:74
 msgid "Go to the |SIT| :ref:`Discord<discord>`"
-msgstr ""
+msgstr "Перейдіть на |SIT| :ref:`Discord<discord>`"
 
 #: ../../source/faq.rst:75
 msgid ""
 "Scroll to the bottom of the channels to find the \"bug-reports\" fourm, "
 "click on that"
 msgstr ""
+"Прокрутіть до нижньої частини каналів, щоб знайти форум \"звітів про помилки\", "
+"клікніть на нього"
 
 #: ../../source/faq.rst:76
 msgid "Click \"New Post\" and give it a Title related to your"
-msgstr ""
+msgstr "Клікніть \"Новий допис\" і дайте йому назву, пов'язану з вашим"
 
 #: ../../source/faq.rst:77
 msgid "Select the relevant tags for the post"
-msgstr ""
+msgstr "Виберіть відповідні теги для допису"
 
 #: ../../source/faq.rst:78
 msgid ""
 "The message should contain a description of your issue and steps we can "
 "use to replicate it **THIS IS VERY IMPORTANT**"
 msgstr ""
+"Повідомлення повинно містити опис вашої проблеми та кроки, які ми можемо "
+"використовувати для відтворення її **ЦЕ ДУЖЕ ВАЖЛИВО**"
 
 #: ../../source/faq.rst:79
 msgid ""
@@ -180,10 +199,13 @@ msgid ""
 "it's a manager issue, or if we request it, see :ref:`here<manbug>` for "
 "steps on how to obtain it"
 msgstr ""
+"Додайте всі відповідні зображення, які можуть допомогти, або ``diagnostics.zip``, "
+"якщо це проблема менеджера, або якщо ми це попросимо, див. :ref:`тут<manbug>` "
+"для кроків, як отримати його"
 
 #: ../../source/faq.rst:80
 msgid "Create the post, and you're done"
-msgstr ""
+msgstr "Створіть повідомлення, і ви готові"
 
 #: ../../source/faq.rst:94 ../../source/faq.rst:124
 msgid "|brs|"
@@ -191,7 +213,7 @@ msgstr ""
 
 #: ../../source/faq.rst:99
 msgid "|SITM| Bug Report"
-msgstr ""
+msgstr "Звіт про помилку |SITM|"
 
 #: ../../source/faq.rst:102
 msgid ""
@@ -199,28 +221,34 @@ msgid ""
 " the ``diagnostics.zip`` file, and then do the steps outlines "
 ":ref:`here<standbug>` to submit the bug report on our Discord"
 msgstr ""
+"При створенні звіту про помилку менеджера SIT, будь ласка, слідуйте цим "
+"крокам, щоб отримати файл ``diagnostics.zip``, а потім виконайте кроки, "
+"зазначені :ref:`тут<standbug>`, щоб надіслати звіт про помилку на нашому "
+"Discord"
 
 #: ../../source/faq.rst:105
 msgid "Go to the \"Tools\" tab of the manager"
-msgstr ""
+msgstr "Перейдіть на вкладку \"Інструменти\" менеджера"
 
 #: ../../source/faq.rst:106
 msgid "Click Generate logs"
-msgstr ""
+msgstr "Клацніть \"Згенерувати журнали\""
 
 #: ../../source/faq.rst:107
 msgid "Make sure everything is ticked, unless you've been told otherwise"
-msgstr ""
+msgstr "Переконайтеся, що всі пункти відмічені, якщо вам не сказали інше"
 
 #: ../../source/faq.rst:108
 msgid "Click \"Generate Log Bundle\""
-msgstr ""
+msgstr "Клацніть \"Згенерувати пакет журналів\""
 
 #: ../../source/faq.rst:109
 msgid ""
 "Chose a location to save the ``diagnostics.zip``, somewhere you can "
 "access later"
 msgstr ""
+"Виберіть місце для збереження файлу ``diagnostics.zip``, куди ви зможете "
+"звернутися пізніше"
 
 #: ../../source/faq.rst:110
 msgid ""
@@ -228,4 +256,6 @@ msgid ""
 " our discord. **MAKE SURE TO SELECT THE SIT MANAGER TAG AND INCLUDE "
 "YOUR** ``diagnostics.zip``"
 msgstr ""
-
+"Дотримуйтесь кроків, описаних :ref:`тут<standbug>`, щоб створити звіт про "
+"помилку на нашому Discord. **ОБОВ'ЯЗКОВО ВИБЕРІТЬ МІТКУ МЕНЕДЖЕРА SIT "
+"І ДОДАЙТЕ СВІЙ** ``diagnostics.zip``"

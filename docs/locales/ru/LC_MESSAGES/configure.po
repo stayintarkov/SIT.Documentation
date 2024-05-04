@@ -21,19 +21,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: ../../source/configure.rst:5
+#: ../../so#: ../../source/configure.rst:5
 msgid "Configuration"
-msgstr ""
+msgstr "Конфигурация"
 
 #: ../../source/configure.rst:8
 msgid ""
 "This section is dedicated to the configuration of Stay In Tarkov. If you "
 "haven't installed Stay In Tarkov yet, click :ref:`here <install>`."
 msgstr ""
+"Этот раздел посвящен настройке Stay In Tarkov. Если вы еще не установили "
+"Stay In Tarkov, нажмите :ref:`здесь <install>`."
 
 #: ../../source/configure.rst:11
 msgid "Network Configuration"
-msgstr ""
+msgstr "Конфигурация сети"
 
 #: ../../source/configure.rst:13
 msgid ""
@@ -43,10 +45,15 @@ msgid ""
 " performance should be the host for a better experience. Don't let the "
 "lad with 10kbps internet host please."
 msgstr ""
+"Следуйте этому разделу, если вы планируете быть хостом игры кооператива "
+"(сервер). По крайней мере, один человек в вашей группе должен выполнить "
+"этот процесс, чтобы иметь возможность играть в кооперативе вместе. Человек "
+"с лучшей производительностью компьютера и сети должен быть хостом для "
+"лучшего опыта. Пожалуйста, не давайте хостить парню с интернетом 10 кб/с."
 
 #: ../../source/configure.rst:18
 msgid "UPnP"
-msgstr ""
+msgstr "UPnP"
 
 #: ../../source/configure.rst:21
 msgid ""
@@ -57,16 +64,24 @@ msgid ""
 ":ref:`Port Forwarding<portforward>` guide below for manually opening the "
 "required ports for |SIT|."
 msgstr ""
+"UPnP (Универсальная включаемость и воспроизводимость) - **предпочтительный** "
+"метод хостинга сервера, поскольку он поддерживает автоматическое открытие "
+"портов, необходимых SIT, когда они нужны. Однако это работает только для "
+"компетентных маршрутизаторов (глядя на вас, США). Если у вас возникли "
+"проблемы с этим, следуйте указаниям в :ref:`руководстве по пробросу портов "
+"<portforward>` ниже, чтобы вручную открыть необходимые порты для |SIT|."
 
 #: ../../source/configure.rst:25
 msgid ""
 "If you are using UPnP, skip to :ref:`HTTP JSON Configuration <httpjson>` "
 "to prep the server"
 msgstr ""
+"Если вы используете UPnP, перейдите к :ref:`Настройке HTTP JSON <httpjson>` "
+"для подготовки сервера"
 
 #: ../../source/configure.rst:29
 msgid "Port forwarding"
-msgstr ""
+msgstr "Проброс портов"
 
 #: ../../source/configure.rst:32
 msgid ""
@@ -75,12 +90,15 @@ msgid ""
 "different for all router models. Therefore, we cannot provide a step-by-"
 "step tutorial for port forwarding."
 msgstr ""
-
-#: ../../source/configure.rst:36
+"Проброс портов - это процесс открытия порта на вашем внешнем IP-адресе и "
+"перенаправления трафика на определенное устройство. Процесс отличается для "
+"всех моделей маршрутизаторов. Поэтому мы не можем предоставить пошаговое "
+"руководство по пробросу портов."#: ../../source/configure.rst:36
 msgid ""
 "If you are unsure how to port forward, google \"YOUR_ROUTER_MODEL port "
 "forward\" or contact your Internet Service Provider."
 msgstr ""
+"Если вы не уверены, как настроить проброс портов, выполните поиск в Google по запросу \"модель вашего роутера настройка проброса портов\" или свяжитесь с вашим поставщиком интернет-услуг."
 
 #: ../../source/configure.rst:38
 msgid ""
@@ -88,53 +106,61 @@ msgid ""
 "because every router is wildly different so please try to find "
 "instructions for your specific router.**"
 msgstr ""
+"**Приведен пример ниже, но мы не можем поддержать вас в этом, потому что каждый роутер сильно отличается, поэтому попробуйте найти инструкции для вашего конкретного роутера.**"
 
 #: ../../source/configure.rst:41
 msgid ""
 "Here is a quick example on how to port forward with a Virgin Media "
 "Superhub 3 (UK)"
 msgstr ""
+"Вот быстрый пример того, как настроить проброс портов с помощью Virgin Media Superhub 3 (UK)"
 
 #: ../../source/configure.rst:43
 msgid "Open ``cmd`` and type ``ipconfig``"
-msgstr ""
+msgstr "Откройте ``cmd`` и введите ``ipconfig``"
 
 #: ../../source/configure.rst:44
 msgid ""
 "Find ``Default Gateway:`` it should have an IP similar to "
 "``192.168.0.1``. Also note down your local IP ``IPv4 Address``"
 msgstr ""
+"Найдите ``Default Gateway:``, он должен иметь IP-адрес, аналогичный "
+"``192.168.0.1``. Также запишите ваш локальный IP-адрес ``IPv4 Address``"
 
 #: ../../source/configure.rst:45
 msgid ""
 "Open your web browser and type the ``Default Gateway`` IP into the URL "
 "bar (Not the search bar)"
 msgstr ""
+"Откройте ваш веб-браузер и введите IP-адрес ``Default Gateway`` в адресную строку URL (не в строку поиска)"
 
 #: ../../source/configure.rst:46
 msgid ""
 "There may be a login page there, put in the login details so you can get "
 "to the main dashboard"
 msgstr ""
+"Возможно, там будет страница входа, введите данные для входа, чтобы попасть на главную панель управления"
 
 #: ../../source/configure.rst:47
 msgid ""
 "You will need to look for a tab called \"Port Forwarding\". It may be "
 "under some advanced settings or security tab"
 msgstr ""
+"Вам нужно будет найти вкладку с названием \"Port Forwarding\". Она может быть в разделе расширенных настроек или на вкладке безопасности"
 
 #: ../../source/configure.rst:61 ../../source/configure.rst:81
 #: ../../source/configure.rst:132 ../../source/configure.rst:153
 #: ../../source/configure.rst:192 ../../source/configure.rst:215
 #: ../../source/configure.rst:253
 msgid "|brs|"
-msgstr ""
+msgstr "|brs|"
 
 #: ../../source/configure.rst:63
 msgid ""
 "Once in there you should be able to open certain ports to certain IPs. "
 "This is where the ``IPv4 Address`` comes in"
 msgstr ""
+"Когда вы там, вы сможете открыть определенные порты для определенных IP-адресов. Здесь важен ваш локальный IP-адрес ``IPv4 Address``"
 
 #: ../../source/configure.rst:64
 msgid ""
@@ -142,24 +168,28 @@ msgid ""
 "total ports. Some routers can port a range, if you can't you'll have to "
 "do them 1 by 1"
 msgstr ""
+"Откройте порты с 6969 по 6972, убедившись, что включены все четыре, то есть 4 порта в общей сложности. Некоторые роутеры могут настроить диапазон портов, если вы этого не можете, придется делать их поочередно"
 
 #: ../../source/configure.rst:83
 msgid ""
 "Make sure to use the \"Both\" option for Protocal if you can, otherwise "
 "you will need to do it twice, for both UDP and TCP"
 msgstr ""
+"Убедитесь, что вы используете опцию \"Both\" для протокола, если можете, в противном случае вам придется делать это дважды, как для UDP, так и для TCP"
 
 #: ../../source/configure.rst:84
 msgid ""
 "Once you save that those ports should now be open, and pointing traffic "
 "to your PC"
 msgstr ""
+"После сохранения этих настроек порты теперь должны быть открыты и перенаправлять трафик на ваш ПК"
 
 #: ../../source/configure.rst:85
 msgid ""
 "Once you have completed these steps go :ref:`here <httpjson>` to "
 "configure the server to use these ports"
 msgstr ""
+"После завершения этих шагов перейдите :ref:`сюда <httpjson>`, чтобы настроить сервер на использование этих портов"
 
 #: ../../source/configure.rst:88
 msgid ""
@@ -168,6 +198,7 @@ msgid ""
 "any case, the person able to port forward should be the host, provided "
 "their computer and network is capable."
 msgstr ""
+"Не все поставщики интернет-услуг разрешают проброс портов. Иногда проброс портов блокируется на уровне поставщика услуг или на уровне роутера. В любом случае, человек, способный настроить проброс портов, должен быть хостом, если его компьютер и сеть способны к этому."
 
 #: ../../source/configure.rst:92
 msgid ""
@@ -177,9 +208,18 @@ msgid ""
 "Port fowarding is the prefered method."
 msgstr ""
 
+#: ../../source/configure.rst:92
+msgid ""
+"If that is the case, you may have to use a VPN (Virtual Private Network) "
+"like Hamachi, Radmin or ZeroTier to allow people to connect however these"
+" may come with performance hits to players ping due to how they work. "
+"Port fowarding is the prefered method."
+msgstr ""
+"Если это так, вам может потребоваться использовать VPN (виртуальная частная сеть) такие как Hamachi, Radmin или ZeroTier, чтобы позволить людям подключаться, однако это может повлиять на производительность пинга игроков из-за того, как они работают. Проброс портов - предпочтительный метод."
+
 #: ../../source/configure.rst:97
 msgid "Virtual Private Network (VPN)"
-msgstr ""
+msgstr "Виртуальная частная сеть (VPN)"
 
 #: ../../source/configure.rst:100
 msgid ""
@@ -190,6 +230,7 @@ msgid ""
 " unable to port forward. However, performance is not as good as port "
 "forwarding because traffic must go through a third party service."
 msgstr ""
+"Виртуальная частная сеть, такая как Hamachi, Radmin или ZeroTier, позволяет создавать интернет-основанную \"локальную\" сеть. Весь трафик будет передаваться через интернет и перенаправляться на виртуальный сетевой адаптер, который действует как локальная сеть. Это полезно для тех, кто не может настроить проброс портов. Однако производительность не так хороша, как при пробросе портов, потому что трафик должен проходить через сторонний сервис."
 
 #: ../../source/configure.rst:105
 msgid ""
@@ -197,6 +238,7 @@ msgid ""
 "we cannot help with issues coming from using these, so it may be best to "
 "look up a guide on how to use them beforehand."
 msgstr ""
+"Если вам нужна помощь в настройке этих сервисов, будет предоставлено базовое руководство, однако мы не можем помочь с проблемами, возникающими при их использовании, поэтому лучше заранее найти руководство о том, как их использовать."
 
 #: ../../source/configure.rst:109
 msgid ""
@@ -205,68 +247,80 @@ msgid ""
 "stability. SIT is not well optimized and transmit a lot of data to "
 "synchronize information between players."
 msgstr ""
+"Мы не рекомендуем использовать VPN для игры в Stay In Tarkov, так как известно, что они имеют ограничения по скорости и мешают производительности и стабильности сети. SIT плохо оптимизирована и передает большой объем данных для синхронизации информации между игроками."
 
 #: ../../source/configure.rst:112
 msgid "**Use at your own risk.**"
-msgstr ""
+msgstr "**Используйте на свой страх и риск.**"
 
 #: ../../source/configure.rst:118
 msgid "Install hamachi from their offical site here `Hamachi <https://vpn.net/>`_"
-msgstr ""
+msgstr "Установите Hamachi с их официального сайта по ссылке `Hamachi <https://vpn.net/>`_"
 
 #: ../../source/configure.rst:119
 msgid ""
 "Click the power button, it should ask you to log in, either log in or "
 "register an account to continue"
 msgstr ""
+"Нажмите кнопку питания, она должна запросить вход в систему, войдите или зарегистрируйте учетную запись для продолжения"
 
 #: ../../source/configure.rst:120
 msgid ""
 "If you are joining a server, join the hosts Hamachi network by pressing "
 "\"Join an Existing Network\" and enter the ID and Password"
 msgstr ""
+"Если вы присоединяетесь к серверу, присоединитесь к сети Hamachi хоста, нажав \"Присоединиться к существующей сети\" и введите идентификатор и пароль"
 
 #: ../../source/configure.rst:122
 msgid ""
 "If you are hosting the server, press \"Create a New Network\", then give "
 "it a name and password, give this to everyone you are playing with"
 msgstr ""
+"Если вы хостите сервер, нажмите \"Создать новую сеть\", затем дайте ей имя и пароль, передайте это всем, с кем вы играете"
 
 #: ../../source/configure.rst:124
 msgid ""
 "Once you are all in the network, make sure everyones light is green, if "
 "not, look up a guide to fix it, we **CANNOT** help with this."
 msgstr ""
+"Как только все будут в сети, убедитесь, что у всех зеленый свет, если нет, найдите руководство по исправлению этой проблемы, мы **НЕ МОЖЕМ** помочь с этим."
 
 #: ../../source/configure.rst:125
 msgid ""
 "If everyone is connected and with green light, go :ref:`HTTP JSON "
 "Config<httpjson>` to setup the server to use the VPN"
 msgstr ""
+"Если все подключены и с зеленым светом, перейдите к :ref:`HTTP JSON "
+"Config<httpjson>`, чтобы настроить сервер для использования VPN"
 
 #: ../../source/configure.rst:139
 msgid ""
 "Install Radmin from their offical site here `Radmin <https://www.radmin-"
 "vpn.com/>`_"
 msgstr ""
+"Установите Radmin с их официального сайта по ссылке `Radmin <https://www.radmin-"
+"vpn.com/>`_"
 
 #: ../../source/configure.rst:140
 msgid ""
 "Once installed, make sure the power button icon says \"On\" and has an IP"
 " below your Computer Name. We cannot help with errors on this"
 msgstr ""
+"После установки убедитесь, что иконка кнопки питания говорит \"Включено\" и имеет IP-адрес ниже вашего имени компьютера. Мы не можем помочь с ошибками по этому поводу"
 
 #: ../../source/configure.rst:141
 msgid ""
 "If you are joining a server, join the hosts Radmin network by pressing "
 "\"Join Network\" and enter the ID and Password"
 msgstr ""
+"Если вы присоединяетесь к серверу, присоединитесь к сети Radmin хоста, нажав \"Присоединиться к сети\" и введите идентификатор и пароль"
 
 #: ../../source/configure.rst:143
 msgid ""
 "If you are hosting the server, press \"Create Network\", then give it a "
 "name and password, give this to everyone you are playing with"
 msgstr ""
+"Если вы хостите сервер, нажмите \"Создать сеть\", затем дайте ей имя и пароль, передайте это всем, с кем вы играете"
 
 #: ../../source/configure.rst:145
 msgid ""
@@ -274,48 +328,54 @@ msgid ""
 "to continue, if not, then you'll need to look up your issue as we can't "
 "help"
 msgstr ""
+"Если полоса зеленая, соединение прошло успешно, и вы готовы продолжить, если нет, вам нужно будет найти вашу проблему, так как мы не можем помочь"
 
 #: ../../source/configure.rst:146
 msgid ""
 "Once this has been done, head to :ref:`HTTP JSON Config<httpjson>` to "
 "setup the server to use the VPN"
 msgstr ""
+"После того, как это будет сделано, перейдите к :ref:`HTTP JSON Config<httpjson>`, чтобы настроить сервер для использования VPN"
 
 #: ../../source/configure.rst:158
 msgid "HTTP JSON file configuration"
-msgstr ""
+msgstr "Конфигурация файла HTTP JSON"
 
 #: ../../source/configure.rst:160
 msgid ""
 "Open ``SIT\\Server\\Aki_Data\\Server\\configs\\http.json`` with your "
 "preferred text text editor."
 msgstr ""
+"Откройте ``SIT\\Server\\Aki_Data\\Server\\configs\\http.json`` с помощью вашего предпочтительного текстового редактора."
 
 #: ../../source/configure.rst:161
 msgid ""
 "Locate the \"ip\" parameter. You should see a default value of "
 "\"127.0.0.1\"."
 msgstr ""
+"Найдите параметр \"ip\". Вы должны увидеть значение по умолчанию \"127.0.0.1\"."
 
 #: ../../source/configure.rst:162
 msgid ""
 "Change \"127.0.0.1\" with ``0.0.0.0``. (Only change from ``0.0.0.0`` if "
 "you know what you're doing)"
 msgstr ""
+"Измените \"127.0.0.1\" на ``0.0.0.0``. (Измените только с ``0.0.0.0``, если вы знаете, что делаете)"
 
 #: ../../source/configure.rst:163
 msgid "Save your changes and close the text editor."
-msgstr ""
+msgstr "Сохраните ваши изменения и закройте текстовый редактор."
 
 #: ../../source/configure.rst:164
 msgid ""
 "Once you have done this, head :ref:`here <serverplay>` and follow the "
 "Server steps to see how to launch and join the server"
 msgstr ""
+"После того, как вы это сделали, перейдите :ref:`сюда <serverplay>` и следуйте инструкциям сервера, чтобы узнать, как запустить и присоединиться к серверу"
 
 #: ../../source/configure.rst:169
 msgid "Firewall Configuration"
-msgstr ""
+msgstr "Конфигурация брандмауэра"
 
 #: ../../source/configure.rst:172
 msgid ""
@@ -326,42 +386,45 @@ msgid ""
 "detail how to do that if the server hasn't already asked to be allowed "
 "through"
 msgstr ""
+"Этот раздел посвящен настройке брандмауэра Windows для разрешения клиентам подключаться к серверу через ваш компьютер. Хотя вы уже перенаправили порты, ваш компьютер все равно может отклонять подключения, потому что он не настроен на разрешение их, ниже приведены инструкции о том, как это сделать, если сервер еще не запросил разрешение на прохождение"
 
 #: ../../source/configure.rst:194
 msgid ""
 "Open windows search and type \"Allow an app\", this should show you the "
 "\"Allow an app through Windows Firewall\", click it"
 msgstr ""
+"Откройте поиск Windows и введите \"Разрешить приложение\", это должно показать вам \"Разрешить приложение через брандмауэр Windows\", нажмите на это"
 
 #: ../../source/configure.rst:195
 msgid "Click \"Change Settings\""
-msgstr ""
+msgstr "Нажмите \"Изменить настройки\""
 
 #: ../../source/configure.rst:196
 msgid "Click \"Allow Antother App\""
-msgstr ""
+msgstr "Нажмите \"Разрешить другое приложение\""
 
 #: ../../source/configure.rst:197
 msgid "Click \"Browse\" and navigate to where your ``Aki.Server.exe`` is"
-msgstr ""
+msgstr "Нажмите \"Обзор\" и перейдите туда, где находится ваш ``Aki.Server.exe``"
 
 #: ../../source/configure.rst:198
 msgid "Select it and click \"Add\""
-msgstr ""
+msgstr "Выберите его и нажмите \"Добавить\""
 
 #: ../../source/configure.rst:199
 msgid "Make sure both public and private are ticked"
-msgstr ""
+msgstr "Убедитесь, что отмечены оба пункта \"Публичная\" и \"Приватная\""
 
 #: ../../source/configure.rst:200
 msgid ""
 "That should be Aki allowed through your windows firewall, and your server"
 " set-up should now be finished"
 msgstr ""
+"Теперь Aki должен быть разрешен через ваш брандмауэр Windows, и настройка вашего сервера должна быть завершена"
 
 #: ../../source/configure.rst:219
 msgid "General Configuration"
-msgstr ""
+msgstr "Общая конфигурация"
 
 #: ../../source/configure.rst:221
 msgid ""
@@ -369,10 +432,11 @@ msgid ""
 "Server, this have been split into catagories for your :strike:`pleasure` "
 "convience."
 msgstr ""
+"Ниже приведены шаги по настройке как клиента |SIT|, так и сервера |SIT|, они были разделены на категории для вашего удобства"
 
 #: ../../source/configure.rst:226
 msgid "Client Side Config"
-msgstr ""
+msgstr "Конфигурация на стороне клиента"
 
 #: ../../source/configure.rst:229
 msgid ""
@@ -381,6 +445,10 @@ msgid ""
 " a text editor that isn't the built in notepad, something like VSCode, or"
 " at least Notepad++"
 msgstr ""
+"Конфигурационные файлы для вашего клиента находятся в "
+"``SIT\\Game\\BepInEx\\config\\com.stayintarkov.cfg``. Вам может понадобиться "
+"использовать текстовый редактор, который не является встроенным блокнотом, "
+"например, VSCode или, по крайней мере, Notepad++"
 
 #: ../../source/configure.rst:232
 msgid ""
@@ -388,120 +456,134 @@ msgid ""
 " is hosting the raid, so settings like ``EnableAISpawnWaveSystem`` will "
 "only take effect if the person that modified them hosts."
 msgstr ""
+"Эти настройки вступят в силу только в том случае, если человек, который их "
+"изменил, является хостом рейда, поэтому настройки, такие как "
+"``EnableAISpawnWaveSystem``, будут вступать в силу только в том случае, если "
+"их изменивший человек является хостом."
 
 #: ../../source/configure.rst:236
 msgid ""
 "**DO NOT** edit any of the ``Enabled`` options as they are for debug "
 "purposes and **SHOULD NOT** be modified in any way."
 msgstr ""
+"**НЕ** редактируйте никакие из параметров ``Enabled``, так как они "
+"предназначены для отладки и **НЕ ДОЛЖНЫ** быть никоим образом изменены."
 
 #: ../../source/configure.rst:238
 msgid "Client Config Options"
-msgstr ""
+msgstr "Опции конфигурации клиента"
 
 #: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
 msgid "**Config Option**"
-msgstr ""
+msgstr "**Опция конфигурации**"
 
 #: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
 msgid "**Values**"
-msgstr ""
+msgstr "**Значения**"
 
 #: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
 msgid "**Default**"
-msgstr ""
+msgstr "**По умолчанию**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "*(Description**"
-msgstr ""
+msgstr "*(Описание)**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "PlayerStateTickRateInMS"
-msgstr ""
+msgstr "PlayerStateTickRateInMS"
 
 #: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
 msgid "true/false"
-msgstr ""
+msgstr "true/false"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "333"
-msgstr ""
+msgstr "333"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "For setting the client drones to spawn on the server, for **debugging** "
 "use *only*"
 msgstr ""
+"Для установки дронов клиента на сервере используйте только для **отладки**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ShowDronesOnServer"
-msgstr ""
+msgstr "ShowDronesOnServer"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "150-666"
-msgstr ""
+msgstr "150-666"
 
 #: ../../source/csv/clientsettings.csv:1 ../../source/csv/serversettings.csv:1
 msgid "false"
-msgstr ""
+msgstr "false"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "TCP Only: The rate at which Player States will attempt to be "
 "synchronized. **ONLY MODIFY IF YOU KNOW WHAT YOU ARE DOING**"
 msgstr ""
+"Только TCP: скорость, с которой состояния игроков будут синхронизироваться. "
+"**ИЗМЕНЯЙТЕ ТОЛЬКО ЕСЛИ ВЫ ЗНАЕТЕ, ЧТО ДЕЛАЕТЕ**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "HeadshotsAlwaysKill"
-msgstr ""
+msgstr "HeadshotsAlwaysKill"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Enable to make headshots actually work, no more tanking definite kills!"
-msgstr ""
+msgstr "Включите, чтобы гарантированные убийства от головы работали!"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ShowFeed"
-msgstr ""
+msgstr "ShowFeed"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "true"
-msgstr ""
+msgstr "true"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "Enable the feed on the bottom right of the screen which shows player/bot "
 "spawns, kills, etc. **DOES NOT WORK RIGHT NOW, WAS CAUSING ISSUES**"
 msgstr ""
+"Включите ленту новостей в правом нижнем углу экрана, которая показывает "
+"появление игроков/ботов, убийства и т. д. **СЕЙЧАС НЕ РАБОТАЕТ, ВЫЗЫВАЕТ "
+"ПРОБЛЕМЫ**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "AllPlayersSpawnTogether"
-msgstr ""
+msgstr "AllPlayersSpawnTogether"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Will decide if all players spawn at the same spawn point or not"
-msgstr ""
+msgstr "Определит, появятся ли все игроки в одной точке возрождения или нет"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ArenaMode"
-msgstr ""
+msgstr "ArenaMode"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Currently a **DEBUG** option. **DO NOT TOUCH**"
-msgstr ""
+msgstr "В настоящее время **ОПЦИЯ ОТЛАДКИ**. **НЕ ТРОГАТЬ**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "EnableAISpawnWaveSystem"
-msgstr ""
+msgstr "EnableAISpawnWaveSystem"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "Toggles the AI spawn wave system, if false, no AI will spawn, useful for "
 "testing PvP aspects"
 msgstr ""
+"Включает систему волн появления ИИ, если false, ИИ не появится, полезно для "
+"тестирования PvP аспектов"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ForceHighPingMode"
-msgstr ""
+msgstr "ForceHighPingMode"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
@@ -509,124 +591,135 @@ msgid ""
 "This may be useful if you have large input lag **ONLY MODIFY IF YOU KNOW "
 "WHAT YOU ARE DOING**"
 msgstr ""
+"Принудительный режим высокого пинга, который позволяет некоторым действиям "
+"не проходить полный цикл. Это может быть полезно, если у вас большая задержка "
+"ввода **ИЗМЕНЯЙТЕ ТОЛЬКО ЕСЛИ ВЫ ЗНАЕТЕ, ЧТО ДЕЛАЕТЕ**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "WaitingTimeBeforeStart"
-msgstr ""
+msgstr "WaitingTimeBeforeStart"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "0-600"
-msgstr ""
+msgstr "0-600"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "120"
-msgstr ""
+msgstr "120"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Time in seconds to wait for players before starting the game automatically"
-msgstr ""
+msgstr "Время в секундах, ожидания игроков перед автоматическим началом игры"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ShowSITStatistics"
-msgstr ""
+msgstr "ShowSITStatistics"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "Enable the SIT statistics on the top left of the screen which shows ping,"
 " player count, etc."
 msgstr ""
+"Включите статистику SIT в левом верхнем углу экрана, которая показывает "
+"пинг, количество игроков и т. д."
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ShowPing"
-msgstr ""
+msgstr "ShowPing"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Enables the ping display in the top left"
-msgstr ""
+msgstr "Включает отображение пинга в левом верхнем углу"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "ShowPlayerList"
-msgstr ""
+msgstr "ShowPlayerList"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Enable to show player list - **For Debugging**"
-msgstr ""
+msgstr "Включите, чтобы показать список игроков - **Для отладки**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "SITPort"
-msgstr ""
+msgstr "SITPort"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "0-65535"
-msgstr ""
+msgstr "0-65535"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "6970"
-msgstr ""
+msgstr "6970"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "SIT TCP/Websocket Port **ONLY MODIFY IF YOU KNOW WHAT YOU ARE DOING**"
 msgstr ""
+"Порт TCP/Websocket SIT **ИЗМЕНЯЙТЕ ТОЛЬКО ЕСЛИ ВЫ ЗНАЕТЕ, ЧТО ДЕЛАЕТЕ**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "SITNatHelperPort"
-msgstr ""
+msgstr "SITNatHelperPort"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "6971"
-msgstr ""
+msgstr "6971"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "SIT Nat Helper Port **ONLY MODIFY IF YOU KNOW WHAT YOU ARE DOING**"
 msgstr ""
+"Порт помощника SIT Nat **ИЗМЕНЯЙТЕ ТОЛЬКО ЕСЛИ ВЫ ЗНАЕТЕ, ЧТО ДЕЛАЕТЕ**"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Language Option"
-msgstr ""
+msgstr "Опция языка"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "English"
-msgstr ""
+msgstr "Английский"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Changes SIT Localisation languages"
-msgstr ""
+msgstr "Изменяет языки локализации SIT"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "EnableSITVersionLabel"
-msgstr ""
+msgstr "EnableSITVersionLabel"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "Enables the SIT version in the bottom right, please leave this on, makes "
 "our life 10x Easier"
 msgstr ""
+"Включает версию SIT в правом нижнем углу, пожалуйста, оставьте это, "
+"облегчит нашу жизнь в 10 раз"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "EnableHealthPatches"
-msgstr ""
+msgstr "EnableHealthPatches"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "Not completley surem of the purpose for this one, do not touch please"
-msgstr ""
+msgstr "Не до конца уверен в цели этого, пожалуйста, не трогайте"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid "EnableAdditionalAmmoUIDescriptions"
-msgstr ""
+msgstr "EnableAdditionalAmmoUIDescriptions"
 
 #: ../../source/csv/clientsettings.csv:1
 msgid ""
 "Enables the extra info about ammo in the information tab, only disable if"
 " you **enjoy** spreadsheets."
 msgstr ""
+"Включает дополнительную информацию об боеприпасах на вкладке информации, "
+"отключайте только если вы **любите** таблицы."
 
 #: ../../source/configure.rst:258
 msgid "Server Side Config"
-msgstr ""
+msgstr "Конфигурация на стороне сервера"
 
 #: ../../source/configure.rst:261
 msgid ""
@@ -635,54 +728,64 @@ msgid ""
 "want to use a text editor that isn't the built in notepad, something like"
 " VSCode, or at least Notepad++"
 msgstr ""
+"Конфигурационные файлы для вашего клиента находятся в "
+"``SIT\\Server\\user\\mods\\SITCoop\\config\\SITConfig.json``. Вам может "
+"понадобиться использовать текстовый редактор, который не является встроенным "
+"блокнотом, например, VSCode, или по крайней мере, Notepad++"
 
 #: ../../source/configure.rst:264
 msgid ""
 "These settings are changed on the Aki server config, so they affect every"
 " player on the server, wether they host the raid or are just a client."
 msgstr ""
+"Эти настройки изменяются в конфигурации сервера Aki, поэтому они влияют на "
+"каждого игрока на сервере, независимо от того, являются ли они хостом рейда "
+"или просто клиентом."
 
 #: ../../source/configure.rst:267
 msgid "Server Config Options"
-msgstr ""
+msgstr "Опции конфигурации сервера"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "**Description**"
-msgstr ""
+msgstr "**Описание**"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "runAzureWebAppHelper"
-msgstr ""
+msgstr "runAzureWebAppHelper"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "**IDK**"
-msgstr ""
+msgstr "**Я НЕ ЗНАЮ**"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "openAllExfils"
-msgstr ""
+msgstr "openAllExfils"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "This setting will enable or disable all Exfils being avalible for use"
-msgstr ""
+msgstr "Эта настройка позволяет включить или отключить все точки эвакуации для использования"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "showPlayerNameTags"
-msgstr ""
+msgstr "showPlayerNameTags"
 
 #: ../../source/csv/serversettings.csv:1
 msgid ""
 "This will enable the players name tags above their head, will make "
 "Friendly Fire Harder (Coward)"
 msgstr ""
+"Это включит теги имен игроков над их головой, сделает дружественный огонь "
+"сложнее (трус)"
 
 #: ../../source/csv/serversettings.csv:1
 msgid "showPlayerNameTagsOnlyWhenVisible"
-msgstr ""
+msgstr "showPlayerNameTagsOnlyWhenVisible"
 
 #: ../../source/csv/serversettings.csv:1
 msgid ""
 "Setting this to true will make name tags show up all the time, instead of"
 " just when the player is in view"
 msgstr ""
-
+"Установка этого параметра в true будет показывать теги имен всегда, а не "
+"только когда игрок в поле зрения"
