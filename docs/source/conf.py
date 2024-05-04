@@ -34,6 +34,8 @@ html_scaled_image_link = False
 langs = ["en"]
 langs += os.listdir("../locales")
 
+html_show_sourcelink = False
+
 # get the environment variable build_all_docs and pages_root
 build_all_docs = os.environ.get("build_all_docs", str(True))
 pages_root = os.environ.get("pages_root", "https://docs.stayintarkov.com")
@@ -48,6 +50,11 @@ html_context = {
   'languages' : [],
   'current_version' : current_version,
   'versions' : [],
+  "display_github": True,
+  "github_user": "StayInTarkov",
+  "github_repo": "SIT.Documentation",
+  "conf_py_path": "/docs/source/",
+  "github_version": "main"
 }
 
 # Checks if we are currently building the latest version, and if so, appends only the lang identifier to the language redirects from all avalible locales
